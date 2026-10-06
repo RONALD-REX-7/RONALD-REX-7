@@ -1,84 +1,77 @@
 # Ronald Rex C H
 
-**B.E. Electronics and Communication Engineering**  
-*Embedded Systems • Edge AI • TinyML • Sensor Instrumentation • Industrial & Automotive Systems*
+**B.E. Electronics & Communication Engineering**  
+*Embedded Systems • Edge AI • TinyML • Sensor Systems • Intelligent Hardware*
 
 [![GitHub](https://img.shields.io/badge/GitHub-RONALD--REX--7-181717?style=flat&logo=github)](https://github.com/RONALD-REX-7)
-[![Email](https://img.shields.io/badge/Email-ronaldrex.ch%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ronaldrex.ch@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ron--rex-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/ron-rex)
+[![Credly](https://img.shields.io/badge/Credly-ron--rex-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/ron-rex)
 
 ---
 
-## Engineering Overview
+## Engineering Profile
 
-I am an Electronics and Communication Engineering undergraduate focused on the intersection of embedded hardware, physical sensor instrumentation, and edge intelligence. My work centers on building deterministic hardware simulations, mission-critical industrial monitoring systems, and TinyML-driven embedded architectures with rigorous testing, statutory compliance, and reproducible engineering baselines.
+Electronics and Communication Engineering undergraduate focused on embedded systems, edge intelligence, and physical sensor instrumentation. My work emphasizes deterministic peripheral modeling, industrial early-warning telemetry, and lightweight TinyML algorithms designed for resource-constrained microcontrollers with transparent verification boundaries.
 
 ---
 
-## Featured Systems & Engineering Work
+## Featured Engineering Projects
 
-### 1. [EmbeddedLab OS](https://github.com/RONALD-REX-7/EmbeddedLab-OS)
+### 1. [EmbeddedLab-OS](https://github.com/RONALD-REX-7/EmbeddedLab-OS)
 > **Deterministic Virtual Microcontroller Laboratory for ECE Education**  
-> *Next.js 16 • TypeScript • Zustand • Vitest (169 Tests) • Supabase • Gemini API*  
+> *Next.js 16 • TypeScript • Zustand • Vitest (169 Tests) • Supabase • Apache-2.0*  
 > **Live System**: [embeddedlab-os.vercel.app](https://embeddedlab-os.vercel.app)
 
-- Designed and built a browser-based deterministic virtual laboratory modeling STM32-style peripheral architecture without physical hardware dependencies.
-- Implemented state models for **GPIO** (pull-up/pull-down internal resistance, floating, TTL thresholds), **PWM** (period, duty cycle, frequency-scaled SVG oscilloscope), **ADC** (quantization equations, 8–16 bit resolution, LSB calculation), and **UART** (baud timing, frame construction).
-- Engineered a 12-challenge automated validation suite with 100% pure state assertions and verified by 17 test suites (169 unit and integration tests).
-- Licensed under Apache 2.0 with continuous automated testing in GitHub Actions.
+- Browser-based educational simulation modeling STM32-style peripheral registers (GPIO electrical states, PWM duty/period timing, ADC quantization equations, and UART frame transmission).
+- 12-challenge automated validation engine verified by 17 test suites (169 unit and integration tests passing).
+- Clearly delineated software behavioral simulation boundaries from physical silicon and analog SPICE emulation.
 
-### 2. [QUARTZSENTRY](https://github.com/RONALD-REX-7/QUARTZSENTRY)
-> **Multi-Precursor Early-Warning System for Li-ion Battery Thermal Runaway**  
-> *Vite • React 19 • TypeScript • Oxlint • Vercel*  
-> **Live Prototype**: [quartzsentry-prototype.vercel.app](https://quartzsentry-prototype.vercel.app)
-
-- Academic engineering proof-of-concept developed with Team METRYPHOR (S.A. Engineering College) targeting lithium-ion battery safety in automotive and energy storage modules.
-- Models multi-spectral sensor fusion: Electrochemical Impedance Spectroscopy (EIS Nyquist impedance drift), ultrasonic acoustic emissions (micro-crack cavitation), off-gas detection ($H_2$ / VOC electrolyte vaporization), and thermodynamics ($V, I, T$).
-- Features three escalation alert states (Advisory, Warning, Critical) designed to trigger low-voltage contactor isolation before irreversible thermal propagation.
-- Fully accessible interface adhering to WCAG 2.1 AA standards, licensed under Apache 2.0.
-
-### 3. [MINEGUARD (SIH26025)](https://github.com/RONALD-REX-7/sih26025)
-> **AI-Enabled Real-Time Mine Subsidence Monitoring & Early Warning System**  
-> *ESP32-S3 Firmware • TinyML • Sub-GHz LoRa (IN865) • Next.js 16 • Supabase PostgreSQL • DGMS CMR 2017*  
+### 2. [sih26025 (MineGuard)](https://github.com/RONALD-REX-7/sih26025)
+> **Industrial Edge AI & LoRa Strata Early-Warning Telemetry System**  
+> *ESP32-S3 Firmware • TinyML • Sub-GHz LoRa (IN865) • Next.js 16 • DGMS CMR 2017*  
 > **Live Deployment**: [mineguard-sih26025.vercel.app](https://mineguard-sih26025.vercel.app)
 
-- Developed for **Smart India Hackathon 2026** (Problem Statement ID: SIH26025) under the Ministry of Coal / Coal India Limited, benchmarked against Moonidih Underground Project (BCCL, Jharia Coalfield).
-- Purpose-built to satisfy mandatory requirements of **DGMS CMR 2017 Regulation 112** (Strata Control and Monitoring Plan - SCAMP) with digital shift sign-offs and immutable audit trails.
-- Complete hardware stack designed around the ESP32-S3 MCU: BNO085 2-axis digital inclinometer ($0.01^\circ$ resolution), ADS1220 24-bit Sigma-Delta ADC for vibrating wire strain gauges, Murata geophone for acoustic emission, and SX1262 LoRa (+20 dBm, 865.2 MHz).
-- On-device edge TinyML pipeline executing running MAD, EWMA, and robust Z-score rate-of-change detection to dynamically adapt reporting frequency from 300s to 10s upon strata deformation.
-- Unit fabrication engineered at ~₹4,850 (~$58 USD), delivering a 30x cost reduction compared to commercial imported strata monitoring stations.
+- Developed for Smart India Hackathon 2026 (Problem Statement ID: SIH26025) under the Ministry of Coal / Coal India Limited.
+- Hardware architecture designed around ESP32-S3: BNO085 2-axis inclinometer ($0.01^\circ$ resolution), ADS1220 24-bit strain gauge ADC, and SX1262 LoRa telemetry.
+- On-device TinyML running MAD/EWMA anomaly scoring with dynamic reporting frequency adaptation; reproducible benchmark achieving 93.00% recall on 1,000 test vectors.
+- Reconciles Moonidih geotechnical baseline thresholds with an interactive 16-node Bhowra-West Colliery demonstration scenario.
 
-### 4. [ProblemChain](https://github.com/RONALD-REX-7/RUSH_HOUR_2026)
-> **Civic Issue Aggregator & Startup Feasibility Analysis Platform**  
-> *React • Vite • Node.js / Express • AI Pipeline • MongoDB / Postman*
+### 3. [QUARTZSENTRY](https://github.com/RONALD-REX-7/QUARTZSENTRY)
+> **Multi-Modal Early-Warning System for Li-ion Battery Thermal Runaway**  
+> *Vite • React 19 • TypeScript • Oxlint • Apache-2.0*  
+> **Live Demonstrator**: [quartzsentry-prototype.vercel.app](https://quartzsentry-prototype.vercel.app)
 
-- Hackathon prototype built during Rush Hour 2026 connecting verified community pain points with structured entrepreneurial feasibility analysis.
-- Modular architecture with dedicated services for AI ingestion, document transformation, and community-driven verification.
+- Academic engineering demonstrator modeling early-precursor thermal runaway stages in 16-cell Li-ion battery modules.
+- Multi-spectral sensing simulation: Electrochemical Impedance Spectroscopy (EIS Nyquist drift), ultrasonic acoustic emissions (cavitation), off-gas detection ($H_2$ / VOCs), and thermodynamic telemetry.
+- Accessible interface adhering to WCAG 2.1 AA standards with strict disclaimers distinguishing client-side mathematical models from physical battery hardware.
+
+### 4. [RUSH_HOUR_2026 (ProblemChain)](https://github.com/RONALD-REX-7/RUSH_HOUR_2026)
+> **Civic Problem Verification & Startup Opportunity Ecosystem**  
+> *Express.js • React 19 • TypeScript • Tailwind CSS v4 • MongoDB • Apache-2.0*
+
+- Rush Hour 2026 Hackathon prototype bridging verified community civic problems with local entrepreneurship opportunities.
+- Full-stack TypeScript architecture with JWT authentication, bcrypt password hashing, and dual-mode persistence (live MongoDB with resilient in-memory fallback store).
+- Interactive SVG TopoJSON geospatial activity density mapping powered by `react-simple-maps`.
 
 ---
 
 ## Technical Competencies
 
-| Domain | Technologies & Frameworks |
+| Domain | Core Competencies |
 | :--- | :--- |
-| **Microcontrollers & Architectures** | ESP32-S3, STM32 / ARM Cortex-M (Register-level simulation), FreeRTOS |
-| **Buses & Protocols** | I2C, SPI, UART, PWM, GPIO, sub-GHz LoRa (SX1262 / IN865 band), LoRaWAN |
-| **Sensors & Instrumentation** | Inclinometers (BNO085), 24-bit Sigma-Delta ADCs (ADS1220), Geophones / Piezoelectric, EIS Impedance, Strain Gauges |
-| **Edge AI & TinyML** | Microcontroller Feature Extraction, Running MAD, EWMA, Robust Z-score, Scikit-learn (Isolation Forest), C-Array Quantized Export |
-| **Web & Distributed Systems** | TypeScript, Next.js 16 (App Router), React 19, Zustand, Supabase (PostgreSQL, RLS), WebSockets, Tailwind CSS |
-| **DevSecOps & Testing** | GitHub Actions CI/CD, Vitest, Testing Library, ESLint, Oxlint, Dependabot, Security Policy (RFC 9116) |
+| **Embedded & Microcontrollers** | ESP32-S3, STM32 / ARM Cortex-M architecture, Register-level simulation, FreeRTOS |
+| **Hardware Protocols & Buses** | UART, SPI, I2C, PWM, GPIO, Sub-GHz LoRa (SX1262 / IN865 band), LoRaWAN |
+| **Sensors & Instrumentation** | BNO085 Inclinometry, ADS1220 24-bit Sigma-Delta ADC, Geophone / Acoustic, EIS Impedance |
+| **Edge AI & Signal Analysis** | Running MAD, EWMA, Robust Z-score rate-of-change, Scikit-learn (Isolation Forest) |
+| **Software & Distributed Systems** | TypeScript, Next.js (App Router), React 19, Express.js, Zustand, Supabase (PostgreSQL, RLS) |
+| **Quality & DevSecOps** | GitHub Actions CI/CD, Vitest, Pytest, Oxlint, ESLint, WCAG 2.1 AA Accessibility |
 
 ---
 
-## Current Focus & Direction
-
-- Deepening firmware-level validation on physical STM32 / ESP32 platforms and hardware-in-the-loop (HIL) test harness design.
-- Developing ultra-low-power TinyML models capable of sub-milliwatt continuous anomalous vibration classification on edge silicon.
-- Exploring functional safety principles (ISO 26262 / IEC 61508) in safety-critical automotive BMS architectures.
-
----
-
-## Contact & Links
+## Professional Links & Contact
 
 - **GitHub**: [@RONALD-REX-7](https://github.com/RONALD-REX-7)
-- **Email**: [ronaldrex.ch@gmail.com](mailto:ronaldrex.ch@gmail.com)
+- **LinkedIn**: [linkedin.com/in/ron-rex](https://www.linkedin.com/in/ron-rex)
+- **Credly**: [credly.com/users/ron-rex](https://www.credly.com/users/ron-rex)
+- **AWS Skills**: [skillsprofile.skillbuilder.aws/user/ron](https://skillsprofile.skillbuilder.aws/user/ron)
 - **Location**: Chennai, India
