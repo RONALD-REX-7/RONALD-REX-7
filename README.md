@@ -4,6 +4,7 @@
 *Embedded Systems • Edge AI • TinyML • Sensor Systems • Intelligent Hardware*
 
 [![GitHub](https://img.shields.io/badge/GitHub-RONALD--REX--7-181717?style=flat&logo=github)](https://github.com/RONALD-REX-7)
+[![Projects Portfolio](https://img.shields.io/badge/GitHub_Projects-3_Public_Projects-238636?style=flat&logo=github)](https://github.com/RONALD-REX-7?tab=projects)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ron--rex-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/ron-rex)
 [![Credly](https://img.shields.io/badge/Credly-ron--rex-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/ron-rex)
 
@@ -17,7 +18,7 @@ Electronics and Communication Engineering undergraduate focused on embedded syst
 
 ## Featured Engineering Projects
 
-### 1. [EmbeddedLab-OS](https://github.com/RONALD-REX-7/EmbeddedLab-OS)
+### 1. [EmbeddedLab-OS](https://github.com/RONALD-REX-7/EmbeddedLab-OS) • [📋 Project Board](https://github.com/users/RONALD-REX-7/projects/4)
 > **Deterministic Virtual Microcontroller Laboratory for ECE Education**  
 > *Next.js 16 • TypeScript • Zustand • Vitest (169 Tests) • Supabase • Apache-2.0*  
 > **Live System**: [embeddedlab-os.vercel.app](https://embeddedlab-os.vercel.app)
@@ -26,7 +27,7 @@ Electronics and Communication Engineering undergraduate focused on embedded syst
 - 12-challenge automated validation engine verified by 17 test suites (169 unit and integration tests passing).
 - Clearly delineated software behavioral simulation boundaries from physical silicon and analog SPICE emulation.
 
-### 2. [sih26025 (MineGuard)](https://github.com/RONALD-REX-7/sih26025)
+### 2. [sih26025 (MineGuard)](https://github.com/RONALD-REX-7/sih26025) • [📋 Project Board](https://github.com/users/RONALD-REX-7/projects/3)
 > **Industrial Edge AI & LoRa Strata Early-Warning Telemetry System**  
 > *ESP32-S3 Firmware • TinyML • Sub-GHz LoRa (IN865) • Next.js 16 • DGMS CMR 2017*  
 > **Live Deployment**: [mineguard-sih26025.vercel.app](https://mineguard-sih26025.vercel.app)
@@ -36,7 +37,7 @@ Electronics and Communication Engineering undergraduate focused on embedded syst
 - On-device TinyML running MAD/EWMA anomaly scoring with dynamic reporting frequency adaptation; reproducible benchmark achieving 93.00% recall on 1,000 test vectors.
 - Reconciles Moonidih geotechnical baseline thresholds with an interactive 16-node Bhowra-West Colliery demonstration scenario.
 
-### 3. [QUARTZSENTRY](https://github.com/RONALD-REX-7/QUARTZSENTRY)
+### 3. [QUARTZSENTRY](https://github.com/RONALD-REX-7/QUARTZSENTRY) • [📋 Project Board](https://github.com/users/RONALD-REX-7/projects/2)
 > **Multi-Modal Early-Warning System for Li-ion Battery Thermal Runaway**  
 > *Vite • React 19 • TypeScript • Oxlint • Apache-2.0*  
 > **Live Demonstrator**: [quartzsentry-prototype.vercel.app](https://quartzsentry-prototype.vercel.app)
