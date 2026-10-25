@@ -6,7 +6,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-RONALD--REX--7-181717?style=flat&logo=github)](https://github.com/RONALD-REX-7)
 [![Projects Portfolio](https://img.shields.io/badge/GitHub_Projects-3_Public_Projects-238636?style=flat&logo=github)](https://github.com/RONALD-REX-7?tab=projects)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ron--rex-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/ron-rex)
-[![Credly](https://img.shields.io/badge/Credly-ron--rex-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/ron-rex)
+[![Credly](https://img.shields.io/badge/Credly-ron--rex-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/ronaldrex)
 
 ---
 
