@@ -1,0 +1,274 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F7FF"/>
+      <stop offset="40%" stop-color="#F2EEFE"/>
+      <stop offset="80%" stop-color="#EDE9FE"/>
+      <stop offset="100%" stop-color="#E4DCFD"/>
+    </linearGradient>
+
+    <!-- Glassmorphic Card Surface -->
+    <linearGradient id="glassSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4C1D95"/>
+      <stop offset="35%" stop-color="#6D28D9"/>
+      <stop offset="70%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <!-- Accent Cyan Gradient -->
+    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+
+    <!-- Circuit Trace Gradient -->
+    <linearGradient id="traceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <!-- Chip Silicon Gradient -->
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EDE9FE"/>
+    </linearGradient>
+
+    <!-- Badge Background -->
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EDE9FE"/>
+    </linearGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="chipShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#7C3AED" flood-opacity="0.12"/>
+    </filter>
+
+    <!-- Embedded CSS Animations -->
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.9; transform: scale(1.15); }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes dashAnim {
+        to { stroke-dashoffset: -40; }
+      }
+      .pulse-dot { animation: pulse 3s infinite ease-in-out; transform-origin: center; }
+      .float-group { animation: floatSlow 6s infinite ease-in-out; }
+      .flowing-trace { stroke-dasharray: 6 6; animation: dashAnim 4s linear infinite; }
+      .badge-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #5B21B6; }
+      .mono-text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="1200" height="380" rx="20" fill="url(#bgGrad)"/>
+  <rect width="1198" height="378" x="1" y="1" rx="19" fill="none" stroke="#D8B4FE" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- Cyber Honeycomb & Grid Overlay (Subtle) -->
+  <g opacity="0.15">
+    <pattern id="hexGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 40 11.5 L 40 34.5 L 20 46 L 0 34.5 L 0 11.5 Z" fill="none" stroke="#7C3AED" stroke-width="0.8"/>
+    </pattern>
+    <rect width="1200" height="380" fill="url(#hexGrid)"/>
+  </g>
+
+  <!-- Ambient Light Halos -->
+  <circle cx="980" cy="190" r="140" fill="#DDD6FE" opacity="0.6" filter="url(#softGlow)"/>
+  <circle cx="150" cy="80" r="100" fill="#E0E7FF" opacity="0.5" filter="url(#softGlow)"/>
+  <circle cx="850" cy="80" r="80" fill="#CFFAFE" opacity="0.4" filter="url(#softGlow)"/>
+
+  <!-- Circuit Traces & Bus Lines -->
+  <g stroke="url(#traceGrad)" fill="none" stroke-linecap="round">
+    <path d="M 680 190 L 760 190 L 800 130 L 900 130" stroke-width="2"/>
+    <path d="M 720 220 L 780 220 L 820 280 L 920 280" stroke-width="2"/>
+    <path d="M 640 160 L 740 160 L 790 90 L 940 90" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <path d="M 700 250 L 760 250 L 810 320 L 950 320" stroke-width="1.5"/>
+    <path d="M 980 60 L 980 110" stroke-width="2"/>
+    <path d="M 1060 130 L 1140 130 L 1170 160" stroke-width="2"/>
+    <path d="M 1060 250 L 1130 250 L 1160 220" stroke-width="2"/>
+    <path d="M 980 270 L 980 330" stroke-width="2"/>
+    <path d="M 800 190 L 880 190" stroke-width="3" stroke="#8B5CF6" class="flowing-trace"/>
+  </g>
+
+  <!-- Circuit Nodes & Glow Points -->
+  <g fill="#7C3AED">
+    <circle cx="900" cy="130" r="4"/>
+    <circle cx="920" cy="280" r="4"/>
+    <circle cx="940" cy="90" r="3.5" fill="#06B6D4"/>
+    <circle cx="950" cy="320" r="3.5"/>
+    <circle cx="980" cy="60" r="4" fill="#06B6D4"/>
+    <circle cx="1170" cy="160" r="4"/>
+    <circle cx="1160" cy="220" r="4"/>
+    <circle cx="980" cy="330" r="4"/>
+  </g>
+  <circle cx="900" cy="130" r="8" fill="#7C3AED" class="pulse-dot"/>
+  <circle cx="940" cy="90" r="7" fill="#06B6D4" class="pulse-dot"/>
+  <circle cx="920" cy="280" r="8" fill="#8B5CF6" class="pulse-dot"/>
+
+  <!-- Right Visual: Futuristic Microcontroller & Signal Processing Core -->
+  <g class="float-group" transform="translate(900, 110)">
+    <!-- Main IC Package Outer Shell -->
+    <rect x="0" y="0" width="160" height="160" rx="24" fill="url(#chipGrad)" stroke="#C4B5FD" stroke-width="2" filter="url(#chipShadow)"/>
+    
+    <!-- Inner Silicon Cavity -->
+    <rect x="18" y="18" width="124" height="124" rx="16" fill="#F8F7FF" stroke="#DDD6FE" stroke-width="1.5"/>
+    <rect x="28" y="28" width="104" height="104" rx="12" fill="url(#bgGrad)" stroke="#A78BFA" stroke-width="1" stroke-opacity="0.6"/>
+
+    <!-- Microprocessor Core Graphic -->
+    <rect x="44" y="44" width="72" height="72" rx="8" fill="#7C3AED" fill-opacity="0.08" stroke="#7C3AED" stroke-width="1.5"/>
+    <circle cx="80" cy="80" r="20" fill="none" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <circle cx="80" cy="80" r="8" fill="#7C3AED"/>
+    
+    <!-- Core Frequency Indicator -->
+    <text x="80" y="106" text-anchor="middle" font-size="7" font-weight="700" fill="#6D28D9" class="mono-text">16/240 MHz</text>
+    
+    <!-- IC Index Notch -->
+    <circle cx="14" cy="14" r="3.5" fill="#A78BFA"/>
+
+    <!-- Pin Headers - Top -->
+    <g fill="#A78BFA">
+      <rect x="40" y="-8" width="6" height="8" rx="1"/>
+      <rect x="60" y="-8" width="6" height="8" rx="1"/>
+      <rect x="80" y="-8" width="6" height="8" rx="1"/>
+      <rect x="100" y="-8" width="6" height="8" rx="1"/>
+      <rect x="114" y="-8" width="6" height="8" rx="1"/>
+    </g>
+    <!-- Pin Headers - Bottom -->
+    <g fill="#A78BFA">
+      <rect x="40" y="160" width="6" height="8" rx="1"/>
+      <rect x="60" y="160" width="6" height="8" rx="1"/>
+      <rect x="80" y="160" width="6" height="8" rx="1"/>
+      <rect x="100" y="160" width="6" height="8" rx="1"/>
+      <rect x="114" y="160" width="6" height="8" rx="1"/>
+    </g>
+    <!-- Pin Headers - Left -->
+    <g fill="#A78BFA">
+      <rect x="-8" y="40" width="8" height="6" rx="1"/>
+      <rect x="-8" y="60" width="8" height="6" rx="1"/>
+      <rect x="-8" y="80" width="8" height="6" rx="1"/>
+      <rect x="-8" y="100" width="8" height="6" rx="1"/>
+      <rect x="-8" y="114" width="8" height="6" rx="1"/>
+    </g>
+    <!-- Pin Headers - Right -->
+    <g fill="#A78BFA">
+      <rect x="160" y="40" width="8" height="6" rx="1"/>
+      <rect x="160" y="60" width="8" height="6" rx="1"/>
+      <rect x="160" y="80" width="8" height="6" rx="1"/>
+      <rect x="160" y="100" width="8" height="6" rx="1"/>
+      <rect x="160" y="114" width="8" height="6" rx="1"/>
+    </g>
+
+    <!-- Bus Labels Floating -->
+    <g class="mono-text" font-size="7" font-weight="700" fill="#7C3AED">
+      <text x="80" y="-12" text-anchor="middle">SPI / I2C BUS</text>
+      <text x="80" y="178" text-anchor="middle">ADC / PWM TIMERS</text>
+      <text x="-14" y="83" text-anchor="end">GPIO</text>
+      <text x="174" y="83" text-anchor="start">UART</text>
+    </g>
+  </g>
+
+  <!-- Left Content Area: Hero Typography & Engineering Badges -->
+  <g transform="translate(60, 0)">
+    
+    <!-- Top Super-Header / Discipline Tag -->
+    <g transform="translate(0, 58)">
+      <rect x="0" y="0" width="370" height="26" rx="13" fill="#EDE9FE" stroke="#DDD6FE" stroke-width="1"/>
+      <circle cx="14" cy="13" r="4.5" fill="#7C3AED"/>
+      <text x="26" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#5B21B6" letter-spacing="1">
+        ELECTRONICS &amp; COMMUNICATION ENGINEERING
+      </text>
+    </g>
+
+    <!-- Main Name Title -->
+    <text x="0" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="900" fill="url(#titleGrad)" letter-spacing="-1">
+      RONALD REX C H
+    </text>
+
+    <!-- Subtitle: Core Disciplines -->
+    <text x="0" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#4B5563" letter-spacing="-0.2">
+      Embedded Systems <tspan fill="#A78BFA">•</tspan> Microcontroller Firmware <tspan fill="#A78BFA">•</tspan> Industrial IoT <tspan fill="#A78BFA">•</tspan> Edge AI
+    </text>
+
+    <!-- Verification / Charter Pill -->
+    <g transform="translate(0, 214)">
+      <rect x="0" y="0" width="460" height="30" rx="8" fill="#FFFFFF" fill-opacity="0.8" stroke="#C4B5FD" stroke-width="1.2"/>
+      <circle cx="16" cy="15" r="4" fill="#10B981" class="pulse-dot"/>
+      <text x="28" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#374151">
+        S.A. Engineering College (Anna University) <tspan fill="#9CA3AF">|</tspan> Class of 2028 <tspan fill="#9CA3AF">|</tspan> <tspan fill="#7C3AED" font-weight="700">Zero Fabrication Charter</tspan>
+      </text>
+    </g>
+
+    <!-- Technical Hardware & Protocol Badges Grid -->
+    <g transform="translate(0, 268)">
+      
+      <!-- Badge 1: ATmega328P -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="108" height="32" rx="8" fill="url(#badgeGrad)" stroke="#DDD6FE" stroke-width="1.2"/>
+        <text x="54" y="20" text-anchor="middle" class="badge-text">ATmega328P</text>
+      </g>
+
+      <!-- Badge 2: ESP32-S3 -->
+      <g transform="translate(116, 0)">
+        <rect x="0" y="0" width="94" height="32" rx="8" fill="url(#badgeGrad)" stroke="#DDD6FE" stroke-width="1.2"/>
+        <text x="47" y="20" text-anchor="middle" class="badge-text">ESP32-S3</text>
+      </g>
+
+      <!-- Badge 3: PlatformIO -->
+      <g transform="translate(218, 0)">
+        <rect x="0" y="0" width="102" height="32" rx="8" fill="url(#badgeGrad)" stroke="#DDD6FE" stroke-width="1.2"/>
+        <text x="51" y="20" text-anchor="middle" class="badge-text">PlatformIO</text>
+      </g>
+
+      <!-- Badge 4: LoRaWAN -->
+      <g transform="translate(328, 0)">
+        <rect x="0" y="0" width="94" height="32" rx="8" fill="url(#badgeGrad)" stroke="#DDD6FE" stroke-width="1.2"/>
+        <text x="47" y="20" text-anchor="middle" class="badge-text">LoRaWAN</text>
+      </g>
+
+      <!-- Badge 5: TinyML / Edge AI -->
+      <g transform="translate(430, 0)">
+        <rect x="0" y="0" width="100" height="32" rx="8" fill="url(#badgeGrad)" stroke="#DDD6FE" stroke-width="1.2"/>
+        <text x="50" y="20" text-anchor="middle" class="badge-text">TinyML / MAD</text>
+      </g>
+
+      <!-- Badge 6: 3x AWS Certified -->
+      <g transform="translate(538, 0)">
+        <rect x="0" y="0" width="128" height="32" rx="8" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.4"/>
+        <circle cx="16" cy="16" r="4" fill="#F59E0B"/>
+        <text x="70" y="20" text-anchor="middle" class="badge-text" fill="#4C1D95">3x AWS Certified</text>
+      </g>
+
+    </g>
+
+    <!-- Bottom Metric Chips -->
+    <g transform="translate(0, 318)" class="mono-text" font-size="10" font-weight="600" fill="#6B7280">
+      <text x="0" y="16">
+        <tspan fill="#7C3AED">▶</tspan> 8 Public Repositories <tspan fill="#D1D5DB">•</tspan> 
+        <tspan fill="#7C3AED">▶</tspan> 3 GitHub Project Boards <tspan fill="#D1D5DB">•</tspan> 
+        <tspan fill="#7C3AED">▶</tspan> 100% CI Workflow Green Pass
+      </text>
+    </g>
+
+  </g>
+
+</svg>
+
