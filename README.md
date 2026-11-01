@@ -1,155 +1,179 @@
 # Ronald Rex C H
 
-**B.E. Electronics & Communication Engineering**  
-*Embedded Systems • Microcontroller Firmware • Edge AI & TinyML • Sensor Telemetry • Verification & Simulation*
+<p align="center">
+  <img src="assets/profile-banner.svg" alt="Ronald Rex C H — Electronics & Communication Engineering Portfolio" width="100%"/>
+</p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-RONALD--REX--7-181717?style=flat&logo=github)](https://github.com/RONALD-REX-7)
-[![Projects Portfolio](https://img.shields.io/badge/GitHub_Projects-3_Public_Boards-238636?style=flat&logo=github)](https://github.com/RONALD-REX-7?tab=projects)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ron--rex-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/ron-rex)
-[![Credly](https://img.shields.io/badge/Credly-ronaldrex-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/ronaldrex)
-[![AWS Skill Builder](https://img.shields.io/badge/AWS-Skill_Profile-232F3E?style=flat&logo=amazon-aws)](https://skillsprofile.skillbuilder.aws/user/ron)
-[![SkillRack](https://img.shields.io/badge/SkillRack-540874-blue?style=flat)](https://www.skillrack.com/profile/540874/)
-
----
-
-## About Me
-
-I am an Electronics and Communication Engineering undergraduate at S.A. Engineering College (Anna University), Chennai. My core engineering focus lies at the intersection of embedded hardware, firmware design, sensor telemetry, and deterministic software systems.
-
-I believe in rigorous engineering hygiene:
-- **Transparent Verification**: Explicitly distinguishing physical silicon execution from software behavioral simulations and mock environments.
-- **Deterministic Testing**: Relying on reproducible test suites, static analysis, and automated CI pipelines over unsubstantiated claims.
-- **Fail-Safe Design**: Accounting for hardware watchdog timers, volatile registers, interrupt safety, and bounded loops in low-level firmware.
+<p align="center">
+  <a href="https://www.linkedin.com/in/ron-rex"><img src="https://img.shields.io/badge/LinkedIn-ron--rex-0A66C2?style=flat&logo=linkedin" alt="LinkedIn"/></a>
+  <a href="https://www.credly.com/users/ronaldrex"><img src="https://img.shields.io/badge/Credly-ronaldrex-FF6B00?style=flat&logo=credly&logoColor=white" alt="Credly Profile"/></a>
+  <a href="https://skillsprofile.skillbuilder.aws/user/ron"><img src="https://img.shields.io/badge/AWS-Skill_Profile-232F3E?style=flat&logo=amazon-aws" alt="AWS Skill Profile"/></a>
+  <a href="https://github.com/users/RONALD-REX-7/projects"><img src="https://img.shields.io/badge/GitHub_Projects-3_Public_Boards-238636?style=flat&logo=github" alt="Projects Portfolio"/></a>
+  <a href="https://github.com/RONALD-REX-7"><img src="https://img.shields.io/badge/GitHub-RONALD--REX--7-181717?style=flat&logo=github" alt="GitHub"/></a>
+</p>
 
 ---
 
-## 🧭 Public GitHub Projects Boards
+## 1. Engineering Profile
 
-Track live milestones, architectural backlogs, and hardware validation stages across three curated boards:
+I am an **Electronics and Communication Engineering (ECE)** undergraduate at **S.A. Engineering College (Anna University), Chennai** (Expected Graduation: **2028**). My engineering focus centers on **Embedded Systems, Microcontroller Firmware, and Industrial IoT**, with secondary focus on **Edge AI and Intelligent Hardware**.
 
-1. **[Board 4: Embedded Systems, Firmware & Hardware Integration](https://github.com/users/RONALD-REX-7/projects/4)** — Microcontroller firmware (ATmega328P, ESP32-S3), PlatformIO builds, peripheral bus protocols, and physical bench testing.
-2. **[Board 3: Full-Stack Applications, Systems & Developer Platforms](https://github.com/users/RONALD-REX-7/projects/3)** — Next.js 16 applications, state machines, Supabase RLS policies, and academic cutoff evaluation engines.
-3. **[Board 2: Hackathons, Academic Demonstrators & Edge Research](https://github.com/users/RONALD-REX-7/projects/2)** — Smart India Hackathon mine telemetry (SIH26025), battery runaway demonstrators, and civic problem-tracking prototypes.
+### Core Engineering Discipline
+- **Primary**: Microcontroller firmware (ATmega328P, ESP32-S3), PlatformIO, low-level register configuration, sensor arbitration, and communication bus protocols (I2C, SPI, UART, LoRa).
+- **Secondary**: Edge AI and TinyML algorithms (running MAD, EWMA, robust rate-of-change) optimized for constrained microcontroller architectures.
+- **Supporting**: C/C++, Python, deterministic full-stack web platforms, and cloud infrastructure.
+
+### Zero-Fabrication Verification Guarantee
+I uphold strict engineering integrity in all public work:
+- Physical silicon execution on hardware test benches is explicitly differentiated from software behavioral simulations and synthetic telemetry.
+- All technical benchmarks cite reproducible test harnesses and verifiable evidence tiers.
 
 ---
 
-## 🏆 Featured Engineering Repositories
+## 2. Featured Engineering Projects
 
 ### 1. [LumaGuard](https://github.com/RONALD-REX-7/LumaGuard)
 > **Context-Aware Micro-Workspace Hazard & Proximity Guard**  
-> *Arduino Nano (ATmega328P) • PlatformIO • SSD1306 OLED (I2C) • HC-SR04 • IR Flame (HW-084) • MIT*  
-> **Lifecycle Status**: `Stage 4: Hardware Bench Tested (Physical Breadboard Prototype)`
+> **Target:** Arduino Nano (ATmega328P @ 16 MHz, 5V) • PlatformIO • Embedded C/C++  
+> **Maturity Lifecycle:** `Stage 4: Hardware Bench Tested (Physical Breadboard Prototype)`
 
-- Physical embedded safety prototype executing non-blocking sensory arbitration across ultrasonic echo timing, 10-bit analog flame detection, and pushbutton arming.
-- Multi-rate cooperative scheduler implementing temporal candidate persistence (250 ms hold) and bi-level distance hysteresis ($30.0\text{ cm} \to 33.0\text{ cm}$).
-- Variable-cadence audible urgency modulation (900 ms idle pulse to 180 ms rapid hazard alarm).
-- Automated GitHub Actions PlatformIO build matrix verifying deterministic AVR compilation (35.6% SRAM, 70.5% Flash).
+<p align="center">
+  <img src="assets/breadboard_prototype.jpg" alt="LumaGuard Physical Breadboard Hardware Prototype" width="85%"/>
+</p>
 
-### 2. [EmbeddedLab-OS](https://github.com/RONALD-REX-7/EmbeddedLab-OS) • [📋 Project Board](https://github.com/users/RONALD-REX-7/projects/4)
+- **Physical Embedded System**: Assembled and bench-tested on an 830-point solderless breadboard with the ATmega328P Nano, 0.96" SSD1306 OLED (I2C `0x3C`), HC-SR04 ultrasonic transducer, optical IR flame sensor, passive piezo buzzer, and control pushbutton.
+- **Sensory Arbitration**: Non-blocking cooperative scheduler executing bi-level distance hysteresis ($30.0\text{ cm} \to 33.0\text{ cm}$ hold), temporal optical flame candidate persistence ($250\text{ ms}$), and proportional audible urgency modulation ($900\text{ ms} \to 180\text{ ms}$).
+- **Fault Detection & Memory**: Detects missing echoes (`NO ECHO` / `ZONE UNKNOWN` after $800\text{ ms}$) and persists hazard counter signatures to internal EEPROM across power cycles.
+- **Deterministic Build**: Automated PlatformIO CI build matrix verifying AVR memory constraints (35.6% SRAM, 70.5% Flash).
+
+---
+
+### 2. [EmbeddedLab-OS](https://github.com/RONALD-REX-7/EmbeddedLab-OS) • [📋 Project Board #4](https://github.com/users/RONALD-REX-7/projects/4)
 > **Deterministic Virtual Microcontroller Laboratory for ECE Education**  
-> *Next.js 16 • TypeScript • Zustand • Vitest (169 Tests) • Supabase • Apache-2.0*  
-> **Live System**: [embeddedlab-os.vercel.app](https://embeddedlab-os.vercel.app)  
-> **Lifecycle Status**: `Stage 3: Software Tested (169 Unit & Integration Tests Passing)`
+> **Stack:** Next.js 16 • TypeScript • Zustand • Vitest (169 Tests) • Supabase • Apache-2.0  
+> **Live System:** [embeddedlab-os.vercel.app](https://embeddedlab-os.vercel.app)  
+> **Maturity Lifecycle:** `Stage 3: Software Tested (Browser-based simulator; 169 unit & integration tests passing)`
 
-- Browser-based educational simulator modeling STM32-style peripheral registers (GPIO electrical states, PWM duty/period timing, ADC quantization equations, and UART frame transmission).
-- 12-challenge automated validation engine verified by 17 test suites (169 unit and integration tests passing in CI).
-- Strict architectural boundaries clearly delineating software behavioral simulation from physical silicon and analog SPICE emulation.
+- **Register Behavioral Simulator**: Models STM32-style microcontroller peripheral registers, including GPIO electrical output states, PWM timer duty/period mathematics, ADC quantization transfer equations, and UART frame transmission.
+- **Automated Validation**: 12-challenge automated student grading engine verified by 17 Vitest test suites (169 unit and integration tests passing in CI).
+- **Engineering Transparency**: Explicitly scoped as an educational browser simulation tool, distinguishing register behavior from physical silicon execution and analog SPICE modeling.
 
-### 3. [sih26025 (MineGuard)](https://github.com/RONALD-REX-7/sih26025) • [📋 Project Board](https://github.com/users/RONALD-REX-7/projects/3)
+---
+
+### 3. [sih26025 (MineGuard)](https://github.com/RONALD-REX-7/sih26025) • [📋 Project Board #3](https://github.com/users/RONALD-REX-7/projects/3)
 > **Industrial Edge AI & LoRa Strata Early-Warning Telemetry System**  
-> *ESP32-S3 Firmware • TinyML • Sub-GHz LoRa (IN865) • Next.js 16 • DGMS CMR 2017*  
-> **Live Deployment**: [mineguard-sih26025.vercel.app](https://mineguard-sih26025.vercel.app)  
-> **Lifecycle Status**: `Stage 2: Implemented in Software (Telemetry & Software Prototype)`
+> **Stack:** ESP32-S3 Firmware (C++) • TinyML • Sub-GHz LoRa (IN865) • Next.js 16 • DGMS CMR 2017  
+> **Live Deployment:** [mineguard-sih26025.vercel.app](https://mineguard-sih26025.vercel.app)  
+> **Maturity Lifecycle:** `Stage 2: Implemented in Software (ESP32-S3 firmware & software prototype; physical hardware integration incomplete)`
 
-- Developed for Smart India Hackathon 2026 (Problem Statement ID: SIH26025) under the Ministry of Coal / Coal India Limited.
-- Architecture designed around ESP32-S3: software-implemented BNO085/MPU6050 and ADS1220 drivers, LoRa link budget modeling, and non-blocking sensor acquisition; physical hardware is not fully integrated.
-- On-device TinyML running MAD/EWMA anomaly scoring with dynamic reporting frequency adaptation; benchmark achieving 93.00% recall on 1,000 synthetic test vectors.
-- Reconciles Moonidih geotechnical baseline thresholds with an interactive 16-node Bhowra-West Colliery demonstration scenario.
+- **SIH 2026 Prototype**: Software telemetry prototype engineered for Smart India Hackathon 2026 (Problem Statement ID: SIH26025) under the Ministry of Coal / Coal India Limited.
+- **Firmware Architecture**: ESP32-S3 driver implementations for BNO085/MPU6050 and ADS1220 24-bit strain gauge ADC, non-blocking FreeRTOS tasks, and theoretical SX1262 LoRa link budget calculations.
+- **Edge Intelligence**: On-device running MAD/EWMA anomaly scoring with adaptive reporting cadences; benchmark achieves 93.00% recall on 1,000 synthetic geomechanical test vectors.
 
-### 4. [QUARTZSENTRY](https://github.com/RONALD-REX-7/QUARTZSENTRY) • [📋 Project Board](https://github.com/users/RONALD-REX-7/projects/2)
+---
+
+### 4. [QUARTZSENTRY](https://github.com/RONALD-REX-7/QUARTZSENTRY) • [📋 Project Board #2](https://github.com/users/RONALD-REX-7/projects/2)
 > **Multi-Modal Early-Warning Software Demonstrator for Li-ion Battery Thermal Runaway**  
-> *Vite • React 19 • TypeScript • Oxlint • WCAG 2.1 AA • Apache-2.0*  
-> **Live Demonstrator**: [quartzsentry-prototype.vercel.app](https://quartzsentry-prototype.vercel.app)  
-> **Lifecycle Status**: `Stage 2: Implemented in Software (Academic Software Demonstrator)`
+> **Stack:** Vite • React 19 • TypeScript • Oxlint • WCAG 2.1 AA • Apache-2.0  
+> **Live Demonstrator:** [quartzsentry-prototype.vercel.app](https://quartzsentry-prototype.vercel.app)  
+> **Maturity Lifecycle:** `Stage 2: Implemented in Software (Academic software demonstrator with synthetic telemetry)`
 
-- Academic engineering software demonstrator modeling early-precursor thermal runaway stages in 16-cell Li-ion battery modules (simulating multimodal sensor fusion and mitigation logic).
-- Multi-spectral sensing simulation: Electrochemical Impedance Spectroscopy (EIS Nyquist drift), ultrasonic acoustic emissions (cavitation), off-gas detection ($H_2$ / VOCs), and thermodynamic telemetry.
-- Accessible interface adhering to WCAG 2.1 AA standards (verified 6.16:1 text contrast) with strict disclaimers distinguishing client-side mathematical models and synthetic telemetry from physical battery hardware.
+- **Academic Simulation Demonstrator**: Software simulation platform modeling early-precursor thermal runaway stages in 16-cell Li-ion battery modules.
+- **Multi-Modal Sensory Modeling**: Mathematical representations of Electrochemical Impedance Spectroscopy (EIS Nyquist drift), ultrasonic acoustic cavitation, off-gas emissions ($H_2$ / VOCs), and thermodynamic runaway boundaries.
+- **Accessibility & Ethics**: WCAG 2.1 AA compliance (6.16:1 text contrast) with prominent disclaimers establishing that telemetry is synthetic with no physical battery pack or certified protection hardware.
 
-### 5. [CLASSY_CS](https://github.com/RONALD-REX-7/CLASSY_CS)
-> **Auditable Academic Evaluation, GPA/CGPA & Admission Cutoff Engine**  
-> *React 19 • TypeScript • Vite 7 • Tailwind CSS v4 • Vitest (31 Tests) • jsPDF • MIT*  
-> **Lifecycle Status**: `Stage 3: Software Tested (31 Unit Tests Passing)`
+---
 
-- Client-side academic planning suite with Anna University 10-point GPA/CGPA credit-weighted calculation engine and high-resolution PDF/CSV export.
-- Deterministic admission cutoff engine implementing official Tamil Nadu Engineering Admissions (TNEA) 200-point reduced scoring formula: $\text{Cutoff} = M + \frac{P}{2} + \frac{C}{2}$.
-- National competitive entrance exam planners for JEE Main (75% board aggregate eligibility), JEE Advanced (category gating), and NEET UG (PCB eligibility and medical competitiveness bands).
-- Automated CI pipeline running ESLint, Vitest (31 unit tests passing), and full production bundling.
-
-### 6. [RUSH_HOUR_2026 (ProblemChain)](https://github.com/RONALD-REX-7/RUSH_HOUR_2026)
+### 5. [RUSH_HOUR_2026 (ProblemChain)](https://github.com/RONALD-REX-7/RUSH_HOUR_2026)
 > **Civic Problem Verification & Startup Opportunity Ecosystem**  
-> *Express.js • React 19 • TypeScript • Tailwind CSS v4 • MongoDB • Apache-2.0*  
-> **Lifecycle Status**: `Stage 2: Implemented in Software (Hackathon Prototype)`
+> **Stack:** Express.js • React 19 • TypeScript • Tailwind CSS v4 • MongoDB • Apache-2.0  
+> **Maturity Lifecycle:** `Stage 2: Implemented in Software (Rush Hour 2026 Hackathon Prototype)`
 
-- Rush Hour 2026 Hackathon prototype bridging verified community civic problems with local entrepreneurship opportunities.
-- Full-stack TypeScript architecture with JWT authentication, bcrypt password hashing, and dual-mode persistence (live MongoDB with resilient in-memory fallback store).
-- Multi-dimensional contribution matrix documenting team subsystem provenance across historical sprint branches, separating Git-verified repo management/hardening from owner-reported hackathon co-development.
-
----
-
-## 🛠️ Desktop & System Utilities
-
-### [todo-rainmeter](https://github.com/RONALD-REX-7/todo-rainmeter)
-> **Minimalist Ergonomic Desktop To-Do Skin for Rainmeter**  
-> *Rainmeter INI • Lua • PowerShell • FontAwesome • GPL-3.0*
-
-- Modern, distraction-free floating desktop widget featuring automatic mathematical proportional scaling across all font sizes.
-- Native Windows RGB ColorDialog integration via PowerShell helper and persistent JSON task storage.
-- Formal open-source asset licensing ([`ASSET_LICENSES.md`](https://github.com/RONALD-REX-7/todo-rainmeter/blob/main/ASSET_LICENSES.md)) and verified package integrity (`SHA256: 8580F5FFCD3283C528EAF2159FD5A9E4D8F0704C99BC6AFA09EFCF9883A520E6`).
+- **Collaborative Hackathon System**: Prototype bridging verified community civic grievances with local entrepreneurial contract opportunities.
+- **Reconciled Contribution Matrix**: Section 2 of repository documentation explicitly separates **Git-Verified Contributions** (scaffold `a3ab592`, branch governance across 8 sprint branches, security scrubbing, CI automation, TypeScript typing, and route auth hardening) from **Owner-Reported Hackathon Work** (civic problem research, pitch deck creation, UI/API co-development, and QA testing).
 
 ---
 
-## 📐 Seven-Stage Engineering Lifecycle
+### 6. [CLASSY_CS](https://github.com/RONALD-REX-7/CLASSY_CS)
+> **Auditable Academic Evaluation, GPA/CGPA & Admissions Planning Platform**  
+> **Stack:** React 19 • TypeScript • Vite • Tailwind CSS v4 • Vitest (31 Tests) • jsPDF • MIT  
+> **Maturity Lifecycle:** `Stage 3: Software Tested (31 unit tests passing)`
 
-All repositories and technical specifications adhere strictly to this maturity classification:
-
-| Stage | Classification | Definition |
-| :---: | :--- | :--- |
-| **1** | `Planned` | Theoretical formulation, pinout mapping, or architecture draft without code. |
-| **2** | `Implemented in software` | Code/firmware written and syntactically valid, but lacks formal execution testing. |
-| **3** | `Software tested` | Validated in automated test runners, host simulators (Wokwi, QEMU), or unit harnesses. |
-| **4** | `Hardware bench tested` | Flashed to isolated physical microcontroller on a test bench; basic I/O and communication verified. |
-| **5** | `Hardware integrated` | Connected to physical peripherals, sensors, and buses (I2C, SPI, UART, LoRa). |
-| **6** | `Integrated prototype tested`| Full multi-subsystem physical prototype evaluated under laboratory conditions. |
-| **7** | `Field validated` | Evaluated under operational, in-situ real-world deployment conditions. |
+- **Deterministic Evaluation Engine**: Computes Anna University 10-point GPA/CGPA credit-weighted evaluations with official Tamil Nadu Engineering Admissions (TNEA) 200-point reduced formulas: $\text{Cutoff} = M + \frac{P}{2} + \frac{C}{2}$.
+- **Export & Type Safety**: High-resolution client-side PDF/CSV transcript generation and national entrance exam eligibility rulesets (JEE Main, JEE Advanced, NEET UG).
 
 ---
 
-## 💻 Technical Competencies
+### Desktop Utilities
+- **[todo-rainmeter](https://github.com/RONALD-REX-7/todo-rainmeter)**: Modern minimalist To-Do widget for Rainmeter with mathematical proportional font auto-scaling, PowerShell native Windows ColorDialog integration, persistent JSON task storage, and verified package integrity (`GPL-3.0`).
 
-| Domain | Core Competencies |
+---
+
+## 3. Embedded Systems & Firmware Architecture
+
+My firmware development adheres to real-time embedded safety standards:
+- **Low-Level Hardware Interfaces**: Register configuration, ADC sampling calibration, volatile qualifiers, bounded timing loops, and hardware watchdog timer (WDT) refresh cycles.
+- **Bus Protocols**: Hardware I2C (address arbitration, clock stretching, bus recovery), SPI (clock phase/polarity modes), UART (frame buffering, ring buffers), and LoRa sub-GHz packet structures.
+- **Noise Mitigation**: Temporal persistence filtering, moving average filters, and bi-level hysteresis thresholds to eliminate contact bounce and sensor chatter.
+
+---
+
+## 4. Edge AI & Industrial IoT Focus
+
+Bridging physical sensor instrumentation with embedded machine learning:
+- **Constrained Anomaly Scoring**: Running Median Absolute Deviation (MAD), Exponentially Weighted Moving Average (EWMA), and Robust Z-score algorithms for low-memory microcontrollers.
+- **Adaptive Telemetry**: Dynamic reporting frequency scaling (reducing radio duty cycle during quiescent conditions; escalating packet rate during rapid sensor drift).
+- **Geotechnical & Battery Research**: Physical link budget formulation, InSAR geospatial alignment, and multi-spectral early fault precursor identification.
+
+---
+
+## 5. AWS Professional Certifications
+
+Verifiable cloud credentials earned through examination (raw validation UUIDs quarantined for privacy; official Credly badge URLs provide verifiable cryptographic proof):
+
+| Certification | Issuing Body | Issue Date | Expiration Date | Credly Verification |
+| :--- | :---: | :---: | :---: | :---: |
+| **AWS Certified Cloud Practitioner** | Amazon Web Services | August 9, 2026 | August 14, 2029 | [Credly Badge](https://www.credly.com/badges/9176f0c6-a291-4072-a332-55abd5c9b6f8) |
+| **AWS Certified AI Practitioner** | Amazon Web Services | August 1, 2026 | August 1, 2029 | [Credly Badge](https://www.credly.com/badges/42dd44ed-6a82-4ee9-8733-e7bc202223b9) |
+| **AWS Certified Developer – Associate** | Amazon Web Services | August 14, 2026 | August 14, 2029 | [Credly Badge](https://www.credly.com/badges/5e338e11-1247-412a-926c-031eb4d5e2a4) |
+
+---
+
+## 6. Technical Competencies
+
+| Domain | Competencies & Toolchains |
 | :--- | :--- |
-| **Microcontrollers & Firmware** | Arduino Nano (ATmega328P), ESP32-S3, STM32 / ARM Cortex-M architecture, PlatformIO, Register modeling, FreeRTOS |
-| **Hardware Protocols & Buses** | UART, SPI, I2C, PWM, GPIO, Sub-GHz LoRa (SX1262 / IN865 band), LoRaWAN |
-| **Sensors & Instrumentation** | BNO085 Inclinometry, ADS1220 24-bit Sigma-Delta ADC, Ultrasonic (HC-SR04), IR Flame (HW-084), EIS Impedance |
-| **Edge AI & Signal Analysis** | Running MAD, EWMA, Robust Z-score rate-of-change, Scikit-learn (Isolation Forest) |
-| **Software & Distributed Systems** | TypeScript, Next.js (App Router), React 19, Express.js, Zustand, Supabase (PostgreSQL, RLS), Convex |
-| **DevSecOps & Testing Quality** | GitHub Actions CI/CD, Vitest, Pytest, Oxlint, ESLint, WCAG 2.1 AA Accessibility |
+| **Microcontrollers & Hardware** | Arduino Nano (ATmega328P), ESP32-S3, STM32 / ARM Cortex-M architecture, Solderless prototyping, Voltage matching |
+| **Firmware & Embedded C/C++** | PlatformIO, Arduino framework, Register manipulation, State machines, Interrupt handlers, Watchdog timers, EEPROM |
+| **Communication Protocols** | I2C (`0x3C`), SPI, UART, PWM timers, Sub-GHz LoRa (SX1262 / IN865 band), LoRaWAN link budgets |
+| **Edge AI & Signal Analysis** | Running MAD, EWMA, Robust Z-score rate-of-change, Sensor fusion, Scikit-learn (Isolation Forest) |
+| **Software & Web Platforms** | TypeScript, React 19, Next.js (App Router), Express.js, Zustand, Supabase (PostgreSQL, RLS) |
+| **DevSecOps & Testing Quality** | GitHub Actions CI/CD, PlatformIO CI matrix, Vitest, Jest, Oxlint, ESLint, WCAG 2.1 AA |
 
 ---
 
-## 🤝 Collaboration & Privacy-Safe Contact
+## 7. Education
 
-Open to collaborative technical work, open-source review, and research inquiries in:
-- Firmware architecture, microcontroller peripheral simulation, and embedded register modeling.
-- Resource-constrained TinyML algorithms and industrial sensor telemetry.
-- Full-stack web platforms and interactive laboratories for engineering education.
+- **Bachelor of Engineering (B.E.) in Electronics and Communication Engineering**  
+  **Institution:** S.A. Engineering College (Affiliated to Anna University), Chennai  
+  **Duration:** 2024 – 2028 (Expected Graduation: **2028**)  
+  **Core Coursework:** Electronic Circuits, Digital Logic Design, Microcontrollers & Microprocessors, Signals & Systems, Linear Integrated Circuits, Communication Engineering, Computer Architecture.
 
-- **GitHub Issues / Discussions**: [@RONALD-REX-7](https://github.com/RONALD-REX-7)
+---
+
+## 8. Public GitHub Project Boards
+
+Live technical roadmaps, issue backlogs, and hardware validation tracking are publicly available across three boards:
+
+1. **[Board 4: EmbeddedLab OS](https://github.com/users/RONALD-REX-7/projects/4)** — Microcontroller firmware architecture, virtual peripheral register modeling, and educational simulator roadmap.
+2. **[Board 3: SIH 2026 · MineGuard](https://github.com/users/RONALD-REX-7/projects/3)** — Mine strata monitoring architecture, LoRa packet telemetry, and Edge AI anomaly detection backlog.
+3. **[Board 2: QUARTZSENTRY](https://github.com/users/RONALD-REX-7/projects/2)** — Battery thermal runaway simulation milestones, WCAG 2.1 AA accessibility, and sensor fusion models.
+
+---
+
+## 9. Verified External Profiles & Contact
+
 - **LinkedIn**: [linkedin.com/in/ron-rex](https://www.linkedin.com/in/ron-rex)
 - **Credly Profile**: [credly.com/users/ronaldrex](https://www.credly.com/users/ronaldrex)
-- **AWS Skills Profile**: [skillsprofile.skillbuilder.aws/user/ron](https://skillsprofile.skillbuilder.aws/user/ron)
-- **SkillRack**: [skillrack.com/profile/540874/](https://www.skillrack.com/profile/540874/)
-- **CoCubes Profile**: [cocubes.com/student/ronaldrexch](https://www.cocubes.com/student/ronaldrexch)
-- **Public Developer Email**: `211186833+RONALD-REX-7@users.noreply.github.com`
-- **Location**: Chennai, Tamil Nadu, India
+- **AWS Skill Builder**: [skillsprofile.skillbuilder.aws/user/ron](https://skillsprofile.skillbuilder.aws/user/ron)
+- **GitHub Discussions / Collaboration**: [@RONALD-REX-7](https://github.com/RONALD-REX-7)
