@@ -277,7 +277,7 @@ AWS credentials earned through proctored examinations. Public verification links
 <td align="center">Amazon Web Services</td>
 <td align="center">August 7, 2026</td>
 <td align="center">August 7, 2029</td>
-<td align="center"><a href="https://www.credly.com/badges/5e338e11-1247-412a-926c-031eb4d5e2a4"><img src="https://img.shields.io/badge/Credly-Verified_Badge-7C3AED?style=flat-square&logo=credly&logoColor=white" alt="Credly Solutions Architect"/></a></td>
+<td align="center"><a href="https://www.credly.com/badges/b662ec17-f239-48bd-b5d9-a7685d13be7a"><img src="https://img.shields.io/badge/Credly-Verified_Badge-7C3AED?style=flat-square&logo=credly&logoColor=white" alt="Credly Solutions Architect"/></a></td>
 </tr>
 </tbody>
 </table>
