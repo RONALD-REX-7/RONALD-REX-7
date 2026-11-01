@@ -10,7 +10,7 @@
 <!-- Dynamic Animated Typing Subtitle -->
 <p align="center">
   <a href="https://github.com/RONALD-REX-7">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=3000&pause=1000&color=6D28D9&center=true&vCenter=true&multiline=false&width=760&height=36&lines=B.E.+Electronics+%26+Communication+Engineering+Undergraduate;Microcontroller+Firmware+%26+Embedded+Systems+Engineer;Sub-GHz+LoRa+%26+Industrial+IoT+Telemetry+Architect;Edge+AI+%26+TinyML+Anomaly+Detection+Researcher;3x+AWS+Certified+Cloud+%26+AI+Practitioner" alt="Dynamic Engineering Subtitle" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=3000&pause=1000&color=6D28D9&center=true&vCenter=true&multiline=false&width=760&height=36&lines=B.E.+Electronics+%26+Communication+Engineering+Undergraduate;Microcontroller+Firmware+%26+Embedded+Systems+Engineer;Sub-GHz+LoRa+%26+Industrial+IoT+Telemetry+Architect;Edge+AI+%26+TinyML+Anomaly+Detection+Researcher;4x+AWS+Certified+%7C+Cloud+%2B+AI+%2B+Developer+%2B+Solutions+Architect" alt="Dynamic Engineering Subtitle" />
   </a>
 </p>
 
@@ -18,7 +18,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/ron-rex"><img src="https://img.shields.io/badge/LinkedIn-ron--rex-7C3AED?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/></a>
   &nbsp;
-  <a href="https://www.credly.com/users/ronaldrex"><img src="https://img.shields.io/badge/Credly-Verified_3x_AWS-8B5CF6?style=flat-square&logo=credly&logoColor=white" alt="Credly Certifications"/></a>
+  <a href="https://www.credly.com/users/ron-rex"><img src="https://img.shields.io/badge/Credly-Verified_4x_AWS-8B5CF6?style=flat-square&logo=credly&logoColor=white" alt="Credly Certifications"/></a>
   &nbsp;
   <a href="https://skillsprofile.skillbuilder.aws/user/ron"><img src="https://img.shields.io/badge/AWS-Skill_Profile-6D28D9?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Skill Profile"/></a>
   &nbsp;
@@ -236,9 +236,9 @@ Bridging physical sensor instrumentation with embedded machine learning:
   <img src="assets/separator-violet.svg" alt="Section Divider" width="100%"/>
 </p>
 
-## 5. AWS Professional Certifications
+## 5. AWS Certifications
 
-Verifiable cloud credentials earned through proctored examinations (raw validation UUIDs quarantined for privacy; official Credly badge URLs provide verifiable cryptographic proof):
+AWS credentials earned through proctored examinations. Public verification links are provided below; raw AWS validation identifiers are intentionally not published in this README.
 
 <table width="100%">
 <thead>
@@ -271,6 +271,13 @@ Verifiable cloud credentials earned through proctored examinations (raw validati
 <td align="center">August 14, 2026</td>
 <td align="center">August 14, 2029</td>
 <td align="center"><a href="https://www.credly.com/badges/5e338e11-1247-412a-926c-031eb4d5e2a4"><img src="https://img.shields.io/badge/Credly-Verified_Badge-7C3AED?style=flat-square&logo=credly&logoColor=white" alt="Credly Developer Associate"/></a></td>
+</tr>
+<tr>
+<td><b>AWS Certified Solutions Architect – Associate</b></td>
+<td align="center">Amazon Web Services</td>
+<td align="center">August 7, 2026</td>
+<td align="center">August 7, 2029</td>
+<td align="center"><a href="https://www.credly.com/users/ron-rex">Credly Profile</a> &nbsp;|&nbsp; <a href="https://aws.amazon.com/verification">AWS Verification Portal</a></td>
 </tr>
 </tbody>
 </table>
@@ -370,7 +377,7 @@ Live technical roadmaps, issue backlogs, and hardware validation tracking:
 | Profile | Channel / Identifier | Status |
 | :--- | :--- | :---: |
 | **LinkedIn** | [linkedin.com/in/ron-rex](https://www.linkedin.com/in/ron-rex) | Verified |
-| **Credly Profile** | [credly.com/users/ronaldrex](https://www.credly.com/users/ronaldrex) | Verified (3 AWS Badges) |
+| **Credly Profile** | [credly.com/users/ronaldrex](https://www.credly.com/users/ronaldrex) | Verified (4 AWS Badges) |
 | **AWS Skill Builder** | [skillsprofile.skillbuilder.aws/user/ron](https://skillsprofile.skillbuilder.aws/user/ron) | Verified |
 | **GitHub Collaboration** | [@RONALD-REX-7](https://github.com/RONALD-REX-7) | Active |
 
