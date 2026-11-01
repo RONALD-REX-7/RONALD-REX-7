@@ -6,7 +6,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-RONALD--REX--7-181717?style=flat&logo=github)](https://github.com/RONALD-REX-7)
 [![Projects Portfolio](https://img.shields.io/badge/GitHub_Projects-3_Public_Boards-238636?style=flat&logo=github)](https://github.com/RONALD-REX-7?tab=projects)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ron--rex-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/ron-rex)
-[![Credly](https://img.shields.io/badge/Credly-ron--rex-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/ron-rex)
+[![Credly](https://img.shields.io/badge/Credly-ronaldrex-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/ronaldrex)
 
 ---
 
@@ -48,7 +48,16 @@ I enjoy working close to the hardware—designing register-level peripheral simu
 - Multi-spectral sensing simulation: Electrochemical Impedance Spectroscopy (EIS Nyquist drift), ultrasonic acoustic emissions (cavitation), off-gas detection ($H_2$ / VOCs), and thermodynamic telemetry.
 - Accessible interface adhering to WCAG 2.1 AA standards with strict disclaimers distinguishing client-side mathematical models from physical battery hardware.
 
-### 4. [RUSH_HOUR_2026 (ProblemChain)](https://github.com/RONALD-REX-7/RUSH_HOUR_2026)
+### 4. [LumaGuard](https://github.com/RONALD-REX-7/LumaGuard)
+> **Context-Aware Micro-Workspace Hazard & Proximity Guard**  
+> *Arduino Nano (ATmega328P) • PlatformIO • SSD1306 OLED • HC-SR04 • IR Flame • MIT*  
+> **Hardware Status**: Stage 4: Hardware Bench Tested (Physical Breadboard Prototype)
+
+- Bench-tested physical embedded safety prototype featuring multi-channel sensory arbitration, temporal candidate persistence (250 ms hold), and bi-level hysteresis.
+- Non-blocking cooperative scheduler executing bounded ultrasonic echo timing, 10-bit analog flame detection, and variable-cadence audible urgency modulation (900 ms to 180 ms).
+- Automated GitHub Actions PlatformIO build workflow verifying deterministic AVR compilation (35.6% RAM, 70.5% Flash).
+
+### 5. [RUSH_HOUR_2026 (ProblemChain)](https://github.com/RONALD-REX-7/RUSH_HOUR_2026)
 > **Civic Problem Verification & Startup Opportunity Ecosystem**  
 > *Express.js • React 19 • TypeScript • Tailwind CSS v4 • MongoDB • Apache-2.0*
 
@@ -69,7 +78,7 @@ I enjoy working close to the hardware—designing register-level peripheral simu
 
 | Domain | Core Competencies |
 | :--- | :--- |
-| **Embedded & Microcontrollers** | ESP32-S3, STM32 / ARM Cortex-M architecture, Register-level simulation, FreeRTOS |
+| **Embedded & Microcontrollers** | Arduino Nano (ATmega328P), ESP32-S3, STM32 / ARM Cortex-M architecture, Register-level simulation, FreeRTOS |
 | **Hardware Protocols & Buses** | UART, SPI, I2C, PWM, GPIO, Sub-GHz LoRa (SX1262 / IN865 band), LoRaWAN |
 | **Sensors & Instrumentation** | BNO085 Inclinometry, ADS1220 24-bit Sigma-Delta ADC, Geophone / Acoustic, EIS Impedance |
 | **Edge AI & Signal Analysis** | Running MAD, EWMA, Robust Z-score rate-of-change, Scikit-learn (Isolation Forest) |
@@ -87,7 +96,7 @@ Open to collaborative technical work, open-source review, and research inquiries
 
 - **GitHub**: [@RONALD-REX-7](https://github.com/RONALD-REX-7)
 - **LinkedIn**: [linkedin.com/in/ron-rex](https://www.linkedin.com/in/ron-rex)
-- **Credly Badges**: [credly.com/users/ron-rex](https://www.credly.com/users/ron-rex)
+- **Credly Badges**: [credly.com/users/ronaldrex](https://www.credly.com/users/ronaldrex)
 - **AWS Skills**: [skillsprofile.skillbuilder.aws/user/ron](https://skillsprofile.skillbuilder.aws/user/ron)
 - **Academic Profile**: [cocubes.com/student/ronaldrexch](https://www.cocubes.com/student/ronaldrexch)
 - **Location**: Chennai, India
