@@ -15,3 +15,4 @@ If you notice an inadvertent exposure of private information, broken verificatio
 3. **Include Details**: Provide a description and specific link to the asset in question.
 
 Reports will be reviewed and addressed promptly.
+

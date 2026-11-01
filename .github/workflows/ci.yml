@@ -35,3 +35,4 @@ jobs:
           assert 'github_pat_' not in content, 'Potential token pattern detected'
           print('Profile README integrity and privacy verification passed successfully.')
           "
+
