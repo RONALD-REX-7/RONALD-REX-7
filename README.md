@@ -41,7 +41,7 @@ Track live milestones, architectural backlogs, and hardware validation stages ac
 > **Lifecycle Status**: `Stage 4: Hardware Bench Tested (Physical Breadboard Prototype)`
 
 - Physical embedded safety prototype executing non-blocking sensory arbitration across ultrasonic echo timing, 10-bit analog flame detection, and pushbutton arming.
-- Multi-rate cooperative scheduler implementing temporal candidate persistence (250 ms hold) and bi-level distance hysteresis ($8.0\text{ cm} \to 12.0\text{ cm}$).
+- Multi-rate cooperative scheduler implementing temporal candidate persistence (250 ms hold) and bi-level distance hysteresis ($30.0\text{ cm} \to 33.0\text{ cm}$).
 - Variable-cadence audible urgency modulation (900 ms idle pulse to 180 ms rapid hazard alarm).
 - Automated GitHub Actions PlatformIO build matrix verifying deterministic AVR compilation (35.6% SRAM, 70.5% Flash).
 
@@ -62,19 +62,19 @@ Track live milestones, architectural backlogs, and hardware validation stages ac
 > **Lifecycle Status**: `Stage 2: Implemented in Software (Telemetry & Software Prototype)`
 
 - Developed for Smart India Hackathon 2026 (Problem Statement ID: SIH26025) under the Ministry of Coal / Coal India Limited.
-- Hardware architecture designed around ESP32-S3: BNO085 2-axis inclinometer ($0.01^\circ$ resolution), ADS1220 24-bit strain gauge ADC, and SX1262 LoRa telemetry.
-- On-device TinyML running MAD/EWMA anomaly scoring with dynamic reporting frequency adaptation; benchmark achieving 93.00% recall on 1,000 test vectors.
+- Architecture designed around ESP32-S3: software-implemented BNO085/MPU6050 and ADS1220 drivers, LoRa link budget modeling, and non-blocking sensor acquisition; physical hardware is not fully integrated.
+- On-device TinyML running MAD/EWMA anomaly scoring with dynamic reporting frequency adaptation; benchmark achieving 93.00% recall on 1,000 synthetic test vectors.
 - Reconciles Moonidih geotechnical baseline thresholds with an interactive 16-node Bhowra-West Colliery demonstration scenario.
 
 ### 4. [QUARTZSENTRY](https://github.com/RONALD-REX-7/QUARTZSENTRY) • [📋 Project Board](https://github.com/users/RONALD-REX-7/projects/2)
-> **Multi-Modal Early-Warning System for Li-ion Battery Thermal Runaway**  
+> **Multi-Modal Early-Warning Software Demonstrator for Li-ion Battery Thermal Runaway**  
 > *Vite • React 19 • TypeScript • Oxlint • WCAG 2.1 AA • Apache-2.0*  
 > **Live Demonstrator**: [quartzsentry-prototype.vercel.app](https://quartzsentry-prototype.vercel.app)  
-> **Lifecycle Status**: `Stage 2: Implemented in Software (Academic Simulation UI)`
+> **Lifecycle Status**: `Stage 2: Implemented in Software (Academic Software Demonstrator)`
 
-- Academic engineering demonstrator modeling early-precursor thermal runaway stages in 16-cell Li-ion battery modules.
+- Academic engineering software demonstrator modeling early-precursor thermal runaway stages in 16-cell Li-ion battery modules (simulating multimodal sensor fusion and mitigation logic).
 - Multi-spectral sensing simulation: Electrochemical Impedance Spectroscopy (EIS Nyquist drift), ultrasonic acoustic emissions (cavitation), off-gas detection ($H_2$ / VOCs), and thermodynamic telemetry.
-- Accessible interface adhering to WCAG 2.1 AA standards (verified 6.16:1 text contrast) with strict disclaimers distinguishing client-side mathematical models from physical battery hardware.
+- Accessible interface adhering to WCAG 2.1 AA standards (verified 6.16:1 text contrast) with strict disclaimers distinguishing client-side mathematical models and synthetic telemetry from physical battery hardware.
 
 ### 5. [CLASSY_CS](https://github.com/RONALD-REX-7/CLASSY_CS)
 > **Auditable Academic Evaluation, GPA/CGPA & Admission Cutoff Engine**  
@@ -93,7 +93,7 @@ Track live milestones, architectural backlogs, and hardware validation stages ac
 
 - Rush Hour 2026 Hackathon prototype bridging verified community civic problems with local entrepreneurship opportunities.
 - Full-stack TypeScript architecture with JWT authentication, bcrypt password hashing, and dual-mode persistence (live MongoDB with resilient in-memory fallback store).
-- Multi-dimensional contribution matrix documenting team subsystem provenance across historical sprint branches.
+- Multi-dimensional contribution matrix documenting team subsystem provenance across historical sprint branches, separating Git-verified repo management/hardening from owner-reported hackathon co-development.
 
 ---
 
