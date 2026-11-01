@@ -1,18 +1,20 @@
 # Ronald Rex C H
 
 **B.E. Electronics & Communication Engineering**  
-*Embedded Systems • Edge AI • TinyML • Sensor Systems • Intelligent Hardware*
+*Embedded Systems • Edge AI • TinyML • Sensor Telemetry • Educational Simulation*
 
 [![GitHub](https://img.shields.io/badge/GitHub-RONALD--REX--7-181717?style=flat&logo=github)](https://github.com/RONALD-REX-7)
-[![Projects Portfolio](https://img.shields.io/badge/GitHub_Projects-3_Public_Projects-238636?style=flat&logo=github)](https://github.com/RONALD-REX-7?tab=projects)
+[![Projects Portfolio](https://img.shields.io/badge/GitHub_Projects-3_Public_Boards-238636?style=flat&logo=github)](https://github.com/RONALD-REX-7?tab=projects)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ron--rex-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/ron-rex)
 [![Credly](https://img.shields.io/badge/Credly-ron--rex-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/ron-rex)
 
 ---
 
-## Engineering Profile
+## About Me
 
-Electronics and Communication Engineering undergraduate focused on embedded systems, edge intelligence, and physical sensor instrumentation. My work emphasizes deterministic peripheral modeling, industrial early-warning telemetry, and lightweight TinyML algorithms designed for resource-constrained microcontrollers with transparent verification boundaries.
+I am an Electronics and Communication Engineering undergraduate at S.A. Engineering College (Anna University), Chennai. My core technical interests lie at the intersection of embedded systems, edge intelligence, and physical sensor telemetry.
+
+I enjoy working close to the hardware—designing register-level peripheral simulators, modeling physical sensor dynamics, and deploying lightweight anomaly-detection algorithms on resource-constrained microcontrollers. Across all my projects, I prioritize deterministic behavior, transparent verification boundaries (clearly distinguishing software behavioral simulation from physical silicon), and reproducible automated testing over hype.
 
 ---
 
@@ -56,6 +58,13 @@ Electronics and Communication Engineering undergraduate focused on embedded syst
 
 ---
 
+## Other Repositories & Explorations
+
+- **[CLASSY_CS](https://github.com/RONALD-REX-7/CLASSY_CS)**: Full-stack web application prototype built with React 19, TypeScript, Vite, Tailwind CSS v4, and Convex serverless architecture.
+- **[todo-rainmeter](https://github.com/RONALD-REX-7/todo-rainmeter)**: Desktop task-tracking skin customized for system-level desktop workflows in Rainmeter.
+
+---
+
 ## Technical Competencies
 
 | Domain | Core Competencies |
@@ -69,10 +78,16 @@ Electronics and Communication Engineering undergraduate focused on embedded syst
 
 ---
 
-## Professional Links & Contact
+## Collaboration & Engineering Contact
+
+Open to collaborative technical work, open-source review, and research inquiries in:
+- Firmware architecture, microcontroller peripheral simulation, and embedded register modeling.
+- Resource-constrained TinyML algorithms and industrial sensor telemetry.
+- Full-stack web platforms and interactive laboratories for engineering education.
 
 - **GitHub**: [@RONALD-REX-7](https://github.com/RONALD-REX-7)
 - **LinkedIn**: [linkedin.com/in/ron-rex](https://www.linkedin.com/in/ron-rex)
-- **Credly**: [credly.com/users/ron-rex](https://www.credly.com/users/ron-rex)
+- **Credly Badges**: [credly.com/users/ron-rex](https://www.credly.com/users/ron-rex)
 - **AWS Skills**: [skillsprofile.skillbuilder.aws/user/ron](https://skillsprofile.skillbuilder.aws/user/ron)
+- **Academic Profile**: [cocubes.com/student/ronaldrexch](https://www.cocubes.com/student/ronaldrexch)
 - **Location**: Chennai, India
