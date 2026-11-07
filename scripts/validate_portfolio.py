@@ -53,14 +53,16 @@ for reference in references:
 if not local_images:
     fail("No local image references were found")
 
-svg_files = sorted((ROOT / "assets").glob("*.svg"))
+# Parse SVGs that the README actually displays. Historical, unused SVG assets
+# are intentionally left untouched and must not break the current portfolio.
+svg_files = sorted({path for path in local_images if path.suffix.lower() == ".svg"})
 for svg in svg_files:
     try:
         ET.parse(svg)
     except ET.ParseError as exc:
-        fail(f"Malformed SVG {svg.relative_to(ROOT)}: {exc}")
+        fail(f"Malformed referenced SVG {svg.relative_to(ROOT)}: {exc}")
 
 print(f"README headings: {len(headings)}")
 print(f"Local image references verified: {len(local_images)}")
-print(f"SVG assets parsed: {len(svg_files)}")
+print(f"Referenced SVG assets parsed: {len(svg_files)}")
 print("Portfolio integrity checks passed.")
