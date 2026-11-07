@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-v3.svg" alt="Ronald Rex C H — ECE undergraduate focused on embedded systems, firmware and connected devices" width="100%">
+<img src="assets/hero-motion-v4.svg" alt="Ronald Rex C H — ECE undergraduate focused on embedded systems, firmware and connected devices" width="100%">
 
 <p>
   <a href="https://www.linkedin.com/in/ron-rex">LinkedIn</a> ·
@@ -9,9 +9,16 @@
   <a href="https://github.com/RONALD-REX-7">GitHub</a>
 </p>
 
+<img src="assets/signal-ribbon-v4.svg" alt="Animated signal trace connecting engineering disciplines" width="100%">
+
 **B.E. Electronics & Communication Engineering · Class of 2028 · Chennai, India**
 
 *From sensors and signals to dependable embedded systems.*
+
+
+## Portfolio index
+
+[01 Engineering direction](#01--the-engineering-direction) · [02 Featured work](#02--featured-engineering-work) · [03 Additional work](#03--additional-work) · [04 Toolkit](#04--tools-and-technologies) · [05 AWS credentials](#05--aws-certifications) · [06 Education](#06--education) · [07 Principles](#07--what-i-value-in-engineering) · [08 Connect](#08--connect)
 
 </div>
 
@@ -23,7 +30,7 @@ I’m an ECE undergraduate at **S.A. Engineering College, Chennai**, focused on 
 
 My primary direction is supported by **Industrial IoT, connected-device security and cloud services**. I’m also exploring **Edge AI and TinyML** where constrained devices can benefit from local intelligence.
 
-<img src="assets/engineering-map-v3.svg" alt="Engineering workflow connecting electronics, firmware, connected devices, edge intelligence and cloud services" width="100%">
+<img src="assets/engineering-constellation-v4.svg" alt="Engineering workflow connecting electronics, firmware, connected devices, edge intelligence and cloud services" width="100%">
 
 ### What I’m building depth in
 
@@ -40,10 +47,10 @@ My primary direction is supported by **Industrial IoT, connected-device security
 
 ## 02 / Featured engineering work
 
-The four projects below represent different points on the hardware–software spectrum. Their maturity labels are deliberate: a browser simulation is not an MCU emulator, synthetic telemetry is not field data, and a working demonstrator is not a certified safety system.
+The four projects below are presented as compact system stories: input, processing, output and evidence. Maturity labels are explicit. A software simulation is not hardware validation, synthetic telemetry is not field data, and a demonstrator is not a certified safety system.
 
 ### 01 — LumaGuard
-<img src="assets/project-lumaguard-v3.svg" alt="LumaGuard — Arduino Nano based proximity and hazard monitoring prototype" width="100%">
+<img src="assets/project-lumaguard-motion-v4.svg" alt="LumaGuard — Arduino Nano based proximity and hazard monitoring prototype" width="100%">
 
 **PHYSICAL PROTOTYPE · HARDWARE BENCH TESTED**
 
@@ -62,7 +69,7 @@ Arduino Nano / ATmega328P · Embedded C/C++ · PlatformIO · HC-SR04 · IR flame
 ---
 
 ### 02 — EmbeddedLab OS
-<img src="assets/project-embeddedlab-v3.svg" alt="EmbeddedLab OS — browser-based virtual embedded systems laboratory" width="100%">
+<img src="assets/project-embeddedlab-motion-v4.svg" alt="EmbeddedLab OS — browser-based virtual embedded systems laboratory" width="100%">
 
 **SOFTWARE TESTED · VIRTUAL LABORATORY**
 
@@ -81,7 +88,7 @@ Next.js · TypeScript · React · Zustand · Vitest · Supabase
 ---
 
 ### 03 — MineGuard / SIH26025
-<img src="assets/project-mineguard-v3.svg" alt="MineGuard — proposed mine subsidence monitoring architecture with LoRa sensor nodes" width="100%">
+<img src="assets/project-mineguard-motion-v4.svg" alt="MineGuard — proposed mine subsidence monitoring architecture with LoRa sensor nodes" width="100%">
 
 **SOFTWARE PROTOTYPE · HARDWARE INTEGRATION INCOMPLETE**
 
@@ -101,7 +108,7 @@ ESP32-S3 firmware concepts · LoRa / IN865 architecture · TinyML methods · Nex
 ---
 
 ### 04 — QUARTZSENTRY
-<img src="assets/project-quartzsentry-v3.svg" alt="QUARTZSENTRY — multimodal battery thermal-runaway software demonstrator" width="100%">
+<img src="assets/project-quartzsentry-motion-v4.svg" alt="QUARTZSENTRY — multimodal battery thermal-runaway software demonstrator" width="100%">
 
 **SOFTWARE DEMONSTRATOR · PHYSICAL SENSOR INTEGRATION INCOMPLETE**
 
@@ -185,7 +192,7 @@ I’m interested in student engineering collaborations and opportunities involvi
 <a href="https://www.credly.com/users/ronaldrex">Credly</a> ·
 <a href="https://skillsprofile.skillbuilder.aws/user/ron">AWS Skill Builder</a>
 
-<img src="assets/footer-v3.svg" alt="Build, measure, debug, verify — an engineering process in motion" width="100%">
+<img src="assets/footer-motion-v4.svg" alt="Build, measure, debug, verify — an engineering process in motion" width="100%">
 
 <sub>Lavender × signal blue · Built close to the hardware · Documented with evidence</sub>
 
