@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="assets/signal-hero.gif" alt="Looping lavender and cyan circuit animation surrounding an embedded processor" width="100%">
+<img src="assets/hero-signal-static.svg" alt="Ronald Rex — embedded systems and connected-device engineering identity with processor and signal paths" width="100%">
+
+<img src="assets/signal-hero.gif" alt="Animated processor core with moving circuit pulses and a signal waveform" width="320">
 
 # RONALD REX C H
 
