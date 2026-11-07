@@ -1,388 +1,240 @@
+<!--
+  RONALD REX C H | Engineering Portfolio
+  Visual system: lavender / indigo / signal cyan
+  Evidence policy: distinguish physical hardware, software tests and synthetic data.
+-->
+
 <div align="center">
 
-# Ronald Rex C H
+<img src="assets/hero-v2.svg" alt="Ronald Rex C H — Embedded Systems, Firmware and Industrial IoT" width="100%">
 
-<!-- Hero Banner -->
-<p align="center">
-  <img src="assets/hero-banner.svg" alt="Ronald Rex C H — Electronics & Communication Engineering Portfolio" width="100%"/>
+<p>
+  <a href="https://www.linkedin.com/in/ron-rex"><img src="https://img.shields.io/badge/LinkedIn-Connect-6D5AE6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.credly.com/users/ronaldrex"><img src="https://img.shields.io/badge/AWS_Certifications-4_Verified-7C3AED?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Four AWS certifications"></a>
+  <a href="https://github.com/users/RONALD-REX-7/projects"><img src="https://img.shields.io/badge/Project_Boards-Explore-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub project boards"></a>
+  <a href="https://github.com/RONALD-REX-7"><img src="https://img.shields.io/badge/GitHub-Follow-4F46A5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile"></a>
 </p>
 
-<!-- Dynamic Animated Typing Subtitle -->
-<p align="center">
-  <a href="https://github.com/RONALD-REX-7">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=3000&pause=1000&color=6D28D9&center=true&vCenter=true&multiline=false&width=760&height=36&lines=B.E.+Electronics+%26+Communication+Engineering+Undergraduate;Microcontroller+Firmware+%26+Embedded+Systems+Engineer;Sub-GHz+LoRa+%26+Industrial+IoT+Telemetry+Architect;Edge+AI+%26+TinyML+Anomaly+Detection+Researcher;4x+AWS+Certified+%7C+Cloud+%2B+AI+%2B+Developer+%2B+Solutions+Architect" alt="Dynamic Engineering Subtitle" />
-  </a>
-</p>
+**ECE Undergraduate · Embedded Systems · Microcontroller Firmware · Industrial IoT**
 
-<!-- Interactive Lavender Navigation Badges -->
-<p align="center">
-  <a href="https://www.linkedin.com/in/ron-rex"><img src="https://img.shields.io/badge/LinkedIn-ron--rex-7C3AED?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/></a>
-  &nbsp;
-  <a href="https://www.credly.com/users/ron-rex"><img src="https://img.shields.io/badge/Credly-Verified_4x_AWS-8B5CF6?style=flat-square&logo=credly&logoColor=white" alt="Credly Certifications"/></a>
-  &nbsp;
-  <a href="https://skillsprofile.skillbuilder.aws/user/ron"><img src="https://img.shields.io/badge/AWS-Skill_Profile-6D28D9?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Skill Profile"/></a>
-  &nbsp;
-  <a href="https://github.com/users/RONALD-REX-7/projects"><img src="https://img.shields.io/badge/GitHub_Projects-3_Public_Boards-5B21B6?style=flat-square&logo=github&logoColor=white" alt="Public Roadmaps"/></a>
-  &nbsp;
-  <a href="https://github.com/RONALD-REX-7"><img src="https://img.shields.io/badge/GitHub-RONALD--REX--7-4C1D95?style=flat-square&logo=github&logoColor=white" alt="GitHub Profile"/></a>
-</p>
-
-<p align="center">
-  <img src="assets/separator-violet.svg" alt="Section Divider" width="100%"/>
-</p>
+*Building practical systems at the intersection of electronics, firmware, connectivity and edge intelligence.*
 
 </div>
 
-## 1. Executive Engineering Profile
+<img src="assets/section-rule.svg" alt="" width="100%">
 
-I am an **Electronics and Communication Engineering (ECE)** undergraduate at **S.A. Engineering College (Anna University), Chennai** (Expected Graduation: **2028**). My engineering focus centers on **Embedded Systems, Microcontroller Firmware, and Industrial IoT**, with secondary focus on **Edge AI and Intelligent Hardware**.
+## 01 / Profile
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I’m an **Electronics and Communication Engineering undergraduate at S.A. Engineering College, Chennai**, graduating in **2028**. My primary direction is **embedded systems and firmware**, supported by **Industrial IoT, cloud-connected systems and security**. I’m also exploring **Edge AI and TinyML** for constrained devices.
 
-### 🔬 Core Technical Focus
-- **Firmware & Low-Level C/C++**: Register configuration, interrupt service routines (ISRs), non-blocking cooperative schedulers, volatile qualifiers, Watchdog Timers (WDT), and EEPROM state persistence.
-- **Microcontrollers & Buses**: ATmega328P (16 MHz AVR), ESP32-S3 (Xtensa dual-core), STM32 (ARM Cortex-M), I2C (`0x3C`), SPI, UART ring buffers, and sub-GHz LoRa (SX1262 / IN865).
-- **Edge AI & TinyML**: On-device running Median Absolute Deviation (MAD), Exponentially Weighted Moving Average (EWMA), and Robust Z-score anomaly detection algorithms.
+I enjoy engineering work that connects software to real hardware: understanding peripheral behaviour, integrating sensors, designing reliable firmware, debugging interfaces and validating what a system actually does.
 
-</td>
-<td width="50%" valign="top">
+### Engineering priorities
 
-### 🛡️ Zero-Fabrication Charter
-- **Hardware Bench Evidence**: Physical silicon execution on hardware test benches is rigorously separated from software behavioral simulations and synthetic telemetry.
-- **Seven-Stage Lifecycle**: All projects are cataloged strictly under verifiable maturity tiers: `Planned` → `Implemented in software` → `Software tested` → `Hardware bench tested` → `Hardware integrated` → `Integrated prototype tested` → `Field validated`.
-- **Reproducible Engineering**: Every benchmark and architectural claim cites verified test harnesses and auditable CI builds.
+| Primary focus | Supporting domains |
+|:--|:--|
+| Embedded C/C++, microcontroller firmware, sensor interfacing | Industrial IoT, LoRa, telemetry and edge connectivity |
+| ATmega328P, ESP32-S3, ARM Cortex-M concepts | Edge AI, TinyML, signal processing |
+| I2C, SPI, UART, PWM, ADC and real-time design fundamentals | Cloud platforms, application security and CI |
 
-</td>
-</tr>
-</table>
+### Evidence-first engineering
 
-<p align="center">
-  <img src="assets/separator-violet.svg" alt="Section Divider" width="100%"/>
-</p>
+I distinguish **what is physically built**, **what is software-tested**, and **what is simulated**. Project maturity labels below are intentional: a working dashboard is not proof of a working sensor node, and synthetic telemetry is not field data.
 
-## 2. Featured Engineering Projects
+<img src="assets/section-rule.svg" alt="" width="100%">
 
-Every featured project represents authentic, auditable engineering work with dedicated visual evidence.
+## 02 / Selected projects
 
----
+The projects below are ordered by relevance to my embedded-systems direction. Each card links to its source repository; the accompanying screenshots are existing project assets.
 
-### 1. [LumaGuard](https://github.com/RONALD-REX-7/LumaGuard)
-> **Context-Aware Micro-Workspace Hazard & Proximity Guard**  
-> **Target:** Arduino Nano (ATmega328P @ 16 MHz, 5V) • PlatformIO • Embedded C/C++  
-> **Maturity Lifecycle:** `Stage 4: Hardware Bench Tested (Physical Breadboard Prototype)`
+### 01 — LumaGuard
 
-<p align="center">
-  <img src="assets/project-lumaguard.jpg" alt="LumaGuard Physical Breadboard Hardware Prototype" width="90%"/>
-</p>
+<p align="center"><img src="assets/project-lumaguard-card.svg" alt="LumaGuard — Arduino Nano embedded hardware project" width="100%"></p>
 
-- **Physical Embedded System**: Assembled and bench-tested on an 830-point solderless breadboard with the ATmega328P Nano, 0.96" SSD1306 OLED (I2C `0x3C`), HC-SR04 ultrasonic transducer, optical IR flame sensor, passive piezo buzzer, and control pushbutton.
-- **Sensory Arbitration**: Non-blocking cooperative scheduler executing bi-level distance hysteresis ($30.0\text{ cm} \to 33.0\text{ cm}$ hold), temporal optical flame candidate persistence ($250\text{ ms}$), and proportional audible urgency modulation ($900\text{ ms} \to 180\text{ ms}$).
-- **Fault Detection & Memory**: Detects missing echoes (`NO ECHO` / `ZONE UNKNOWN` after $800\text{ ms}$) and persists hazard counter signatures to internal EEPROM across power cycles.
-- **Deterministic Build**: Automated PlatformIO CI build matrix verifying AVR memory constraints (35.6% SRAM, 70.5% Flash).
+**Context-aware micro-workspace hazard and proximity guard**
 
-<p align="right">
-  <a href="https://github.com/RONALD-REX-7/LumaGuard"><b>View Repository & Documentation →</b></a>
-</p>
+<sub><strong>PHYSICAL PROTOTYPE · STAGE 4 — HARDWARE BENCH TESTED</strong></sub>
+
+Arduino Nano (ATmega328P) · Embedded C/C++ · PlatformIO · HC-SR04 · IR flame sensor · SSD1306 OLED
+
+- Physical breadboard prototype with ultrasonic proximity sensing, optical flame detection, local display and audible/visual alerts.
+- Firmware includes proximity hysteresis, temporal candidate persistence, non-blocking scheduling and sensor-fault handling.
+- The repository documents the hardware pin map, test evidence and build workflow.
+
+<p align="center"><img src="assets/project-lumaguard.jpg" alt="Photograph of the LumaGuard physical breadboard prototype" width="88%"></p>
+
+<p align="center"><a href="https://github.com/RONALD-REX-7/LumaGuard"><img src="https://img.shields.io/badge/Source_Code-View_Repository-6D5AE6?style=for-the-badge&logo=github&logoColor=white" alt="View LumaGuard repository"></a></p>
 
 ---
 
-### 2. [EmbeddedLab-OS](https://github.com/RONALD-REX-7/EmbeddedLab-OS) • [📋 Project Board #4](https://github.com/users/RONALD-REX-7/projects/4)
-> **Deterministic Virtual Microcontroller Laboratory for ECE Education**  
-> **Stack:** Next.js 16 • TypeScript • Zustand • Vitest (169 Tests) • Supabase • Apache-2.0  
-> **Live System:** [embeddedlab-os.vercel.app](https://embeddedlab-os.vercel.app)  
-> **Maturity Lifecycle:** `Stage 3: Software Tested (Browser-based simulator; 169 unit & integration tests passing)`
+### 02 — EmbeddedLab OS
+
+<p align="center"><img src="assets/project-embeddedlab-card.svg" alt="EmbeddedLab OS — virtual microcontroller laboratory" width="100%"></p>
+
+**Browser-based virtual laboratory for embedded-systems learning**
+
+<sub><strong>SOFTWARE TESTED · STAGE 3</strong></sub>
+
+Next.js · TypeScript · Zustand · Vitest · Supabase
+
+- Interactive software models for GPIO, PWM, ADC and UART peripheral concepts.
+- Challenge-based learning and deterministic validation of simulated microcontroller states.
+- **169 unit and integration tests** are documented by the project; this is a browser-based educational simulator, not physical MCU validation.
+
+<p align="center"><img src="assets/project-embeddedlab-os.png" alt="EmbeddedLab OS application interface" width="88%"></p>
 
 <p align="center">
-  <img src="assets/project-embeddedlab-os.png" alt="EmbeddedLab-OS Virtual Embedded Laboratory Interface" width="90%"/>
-</p>
-
-- **Register Behavioral Simulator**: Models STM32-style microcontroller peripheral registers, including GPIO electrical output states, PWM timer duty/period mathematics, ADC quantization transfer equations, and UART frame transmission.
-- **Automated Validation**: 12-challenge automated student grading engine verified by 17 Vitest test suites (169 unit and integration tests passing in CI).
-- **Engineering Transparency**: Explicitly scoped as an educational browser simulation tool, distinguishing register behavior from physical silicon execution and analog SPICE modeling.
-
-<p align="right">
-  <a href="https://embeddedlab-os.vercel.app"><b>Launch Live Simulator</b></a> &nbsp;|&nbsp; 
-  <a href="https://github.com/RONALD-REX-7/EmbeddedLab-OS"><b>View Repository →</b></a>
+  <a href="https://embeddedlab-os.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Open-6D5AE6?style=for-the-badge&logo=vercel&logoColor=white" alt="Open EmbeddedLab OS"></a>
+  <a href="https://github.com/RONALD-REX-7/EmbeddedLab-OS"><img src="https://img.shields.io/badge/Source_Code-Repository-4F46A5?style=for-the-badge&logo=github&logoColor=white" alt="EmbeddedLab OS repository"></a>
 </p>
 
 ---
 
-### 3. [sih26025 (MineGuard)](https://github.com/RONALD-REX-7/sih26025) • [📋 Project Board #3](https://github.com/users/RONALD-REX-7/projects/3)
-> **Industrial Edge AI & LoRa Strata Early-Warning Telemetry System**  
-> **Stack:** ESP32-S3 Firmware (C++) • TinyML • Sub-GHz LoRa (IN865) • Next.js 16 • DGMS CMR 2017  
-> **Live Deployment:** [mineguard-sih26025.vercel.app](https://mineguard-sih26025.vercel.app)  
-> **Maturity Lifecycle:** `Stage 2: Implemented in Software (ESP32-S3 firmware & software prototype; physical hardware integration incomplete)`
+### 03 — MineGuard / SIH26025
+
+<p align="center"><img src="assets/project-mineguard-card.svg" alt="MineGuard — mine subsidence monitoring architecture" width="100%"></p>
+
+**Edge-intelligence concept for mine subsidence monitoring and early warning**
+
+<sub><strong>SOFTWARE PROTOTYPE · STAGE 2 — HARDWARE INTEGRATION INCOMPLETE</strong></sub>
+
+ESP32-S3 firmware concepts · LoRa (IN865) · TinyML methods · Next.js · Supabase
+
+- SIH 2026 problem statement SIH26025: a proposed multi-node monitoring architecture for geotechnical telemetry.
+- Repository work includes firmware/software components, system architecture and a web telemetry prototype.
+- The reported **93% recall** result is from **1,000 synthetic test vectors**; it is not field performance or validation on deployed mine sensors.
+- Physical sensing-node integration and field validation are not claimed as complete.
+
+<p align="center"><img src="assets/project-mineguard.png" alt="MineGuard software telemetry dashboard" width="88%"></p>
 
 <p align="center">
-  <img src="assets/project-mineguard.png" alt="MineGuard SIH26025 Geotechnical Early-Warning Telemetry Platform" width="90%"/>
-</p>
-
-- **SIH 2026 Prototype**: Software telemetry prototype engineered for Smart India Hackathon 2026 (Problem Statement ID: SIH26025) under the Ministry of Coal / Coal India Limited.
-- **Firmware Architecture**: ESP32-S3 driver implementations for BNO085/MPU6050 and ADS1220 24-bit strain gauge ADC, non-blocking FreeRTOS tasks, and theoretical SX1262 LoRa link budget calculations.
-- **Edge Intelligence**: On-device running MAD/EWMA anomaly scoring with adaptive reporting cadences; benchmark achieves 93.00% recall on 1,000 synthetic geomechanical test vectors.
-
-<p align="right">
-  <a href="https://mineguard-sih26025.vercel.app"><b>Launch Live Platform</b></a> &nbsp;|&nbsp; 
-  <a href="https://github.com/RONALD-REX-7/sih26025"><b>View Repository →</b></a>
+  <a href="https://mineguard-sih26025.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Open-6D5AE6?style=for-the-badge&logo=vercel&logoColor=white" alt="Open MineGuard demo"></a>
+  <a href="https://github.com/RONALD-REX-7/sih26025"><img src="https://img.shields.io/badge/Source_Code-Repository-4F46A5?style=for-the-badge&logo=github&logoColor=white" alt="MineGuard repository"></a>
 </p>
 
 ---
 
-### 4. [QUARTZSENTRY](https://github.com/RONALD-REX-7/QUARTZSENTRY) • [📋 Project Board #2](https://github.com/users/RONALD-REX-7/projects/2)
-> **Multi-Modal Early-Warning Software Demonstrator for Li-ion Battery Thermal Runaway**  
-> **Stack:** Vite • React 19 • TypeScript • Oxlint • WCAG 2.1 AA • Apache-2.0  
-> **Live Demonstrator:** [quartzsentry-prototype.vercel.app](https://quartzsentry-prototype.vercel.app)  
-> **Maturity Lifecycle:** `Stage 2: Implemented in Software (Academic software demonstrator with synthetic telemetry)`
+### 04 — QUARTZSENTRY
+
+<p align="center"><img src="assets/project-quartzsentry-card.svg" alt="QUARTZSENTRY — battery thermal runaway software demonstrator" width="100%"></p>
+
+**Multimodal early-warning software demonstrator for Li-ion battery thermal runaway**
+
+<sub><strong>SOFTWARE DEMONSTRATOR · STAGE 2 — PHYSICAL INTEGRATION INCOMPLETE</strong></sub>
+
+React · Vite · TypeScript · SVG visualisation · WCAG accessibility
+
+- Demonstrates software models for temperature, impedance, acoustic and off-gas precursor signals.
+- Dashboard telemetry and sensor curves are **synthetic and generated in software**.
+- No physical battery pack, integrated sensor front-end or certified battery protection system is claimed.
+
+<p align="center"><img src="assets/project-quartzsentry.png" alt="QUARTZSENTRY software demonstrator interface" width="88%"></p>
 
 <p align="center">
-  <img src="assets/project-quartzsentry.png" alt="QUARTZSENTRY Thermal Runaway Multi-Modal Demonstrator Interface" width="90%"/>
-</p>
-
-- **Academic Simulation Demonstrator**: Software simulation platform modeling early-precursor thermal runaway stages in 16-cell Li-ion battery modules.
-- **Multi-Modal Sensory Modeling**: Mathematical representations of Electrochemical Impedance Spectroscopy (EIS Nyquist drift), ultrasonic acoustic cavitation, off-gas emissions ($H_2$ / VOCs), and thermodynamic runaway boundaries.
-- **Accessibility & Ethics**: WCAG 2.1 AA compliance (6.16:1 text contrast) with prominent disclaimers establishing that telemetry is synthetic with no physical battery pack or certified protection hardware.
-
-<p align="right">
-  <a href="https://quartzsentry-prototype.vercel.app"><b>Launch Live Demonstrator</b></a> &nbsp;|&nbsp; 
-  <a href="https://github.com/RONALD-REX-7/QUARTZSENTRY"><b>View Repository →</b></a>
+  <a href="https://quartzsentry-prototype.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Open-6D5AE6?style=for-the-badge&logo=vercel&logoColor=white" alt="Open QUARTZSENTRY demo"></a>
+  <a href="https://github.com/RONALD-REX-7/QUARTZSENTRY"><img src="https://img.shields.io/badge/Source_Code-Repository-4F46A5?style=for-the-badge&logo=github&logoColor=white" alt="QUARTZSENTRY repository"></a>
 </p>
 
 ---
 
-### 5. [CLASSY_CS](https://github.com/RONALD-REX-7/CLASSY_CS)
-> **Auditable Academic Evaluation, GPA/CGPA & Admissions Planning Platform**  
-> **Stack:** React 19 • TypeScript • Vite • Tailwind CSS v4 • Vitest (31 Tests) • jsPDF • MIT  
-> **Maturity Lifecycle:** `Stage 3: Software Tested (31 unit tests passing)`
+### Other software work
 
-<p align="center">
-  <img src="assets/project-classy-cs.png" alt="CLASSY_CS Academic Evaluation & Admissions Guidance Portal" width="90%"/>
-</p>
+| Project | Focus | Repository |
+|:--|:--|:--|
+| **CLASSY_CS** | Rule-based academic evaluation, GPA/CGPA and admissions planning; project documents 31 tests. | [Source](https://github.com/RONALD-REX-7/CLASSY_CS) |
+| **RUSH_HOUR_2026 / ProblemChain** | Civic problem verification and opportunity platform; contribution scope is documented separately in the repository. | [Source](https://github.com/RONALD-REX-7/RUSH_HOUR_2026) |
+| **todo-rainmeter** | Windows desktop productivity skin using Rainmeter, Lua and PowerShell. | [Source](https://github.com/RONALD-REX-7/todo-rainmeter) |
 
-- **Deterministic Evaluation Engine**: Computes Anna University 10-point GPA/CGPA credit-weighted evaluations with official Tamil Nadu Engineering Admissions (TNEA) 200-point reduced formulas: $\text{Cutoff} = M + \frac{P}{2} + \frac{C}{2}$.
-- **Export & Type Safety**: High-resolution client-side PDF/CSV transcript generation and national entrance exam eligibility rulesets (JEE Main, JEE Advanced, NEET UG) verified by 31 Vitest unit tests.
+<img src="assets/section-rule.svg" alt="" width="100%">
 
-<p align="right">
-  <a href="https://github.com/RONALD-REX-7/CLASSY_CS"><b>View Repository & Tests →</b></a>
-</p>
-
----
-
-### 6. Supporting Software & Utilities
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### [RUSH_HOUR_2026 (ProblemChain)](https://github.com/RONALD-REX-7/RUSH_HOUR_2026)
-*Civic Problem Verification & Startup Opportunity Ecosystem*  
-`Express.js • React 19 • TypeScript • MongoDB • Apache-2.0`
-
-<p align="center">
-  <img src="assets/project-rush-hour.jpg" alt="RUSH_HOUR_2026 ProblemChain Interface" width="100%"/>
-</p>
-
-- **Reconciled Contribution Matrix**: Repository documentation separates **Git-Verified Work** (scaffolding `a3ab592`, 8 sprint branches, security scrubbing, CI automation, route authentication) from **Reported Work** (civic problem research, UI co-development).
-
-<p align="right">
-  <a href="https://github.com/RONALD-REX-7/RUSH_HOUR_2026"><b>Repository →</b></a>
-</p>
-
-</td>
-<td width="50%" valign="top">
-
-#### [todo-rainmeter](https://github.com/RONALD-REX-7/todo-rainmeter)
-*Modern Desktop Task & Productivity Skin*  
-`Rainmeter • Lua • PowerShell • INI • GPL-3.0`
-
-<p align="center">
-  <img src="assets/project-todo-rainmeter.jpg" alt="todo-rainmeter Desktop Skin Preview" width="100%"/>
-</p>
-
-- **Desktop Engineering**: Mathematical proportional font auto-scaling, PowerShell native Windows `ColorDialog` integration, persistent JSON task storage, and verified package integrity.
-
-<p align="right">
-  <a href="https://github.com/RONALD-REX-7/todo-rainmeter"><b>Repository →</b></a>
-</p>
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <img src="assets/separator-violet.svg" alt="Section Divider" width="100%"/>
-</p>
-
-## 3. Embedded Systems & Firmware Architecture
-
-My firmware development adheres to real-time embedded safety and deterministic execution principles:
-- **Low-Level Hardware Interfaces**: Direct register configuration, ADC sampling calibration, volatile qualifiers, bounded timing loops, and hardware watchdog timer (WDT) refresh cycles.
-- **Bus Protocols**: Hardware I2C (address arbitration, clock stretching, bus recovery), SPI (clock phase/polarity modes), UART (frame buffering, ring buffers), and LoRa sub-GHz packet structures.
-- **Noise Mitigation**: Temporal persistence filtering, moving average filters, and bi-level hysteresis thresholds to eliminate contact bounce and sensor chatter.
-
-<p align="center">
-  <img src="assets/separator-violet.svg" alt="Section Divider" width="100%"/>
-</p>
-
-## 4. Edge AI & Industrial IoT Focus
-
-Bridging physical sensor instrumentation with embedded machine learning:
-- **Constrained Anomaly Scoring**: Running Median Absolute Deviation (MAD), Exponentially Weighted Moving Average (EWMA), and Robust Z-score algorithms for low-memory microcontrollers.
-- **Adaptive Telemetry**: Dynamic reporting frequency scaling (reducing radio duty cycle during quiescent conditions; escalating packet rate during rapid sensor drift).
-- **Geotechnical & Battery Research**: Physical link budget formulation, InSAR geospatial alignment, and multi-spectral early fault precursor identification.
-
-<p align="center">
-  <img src="assets/separator-violet.svg" alt="Section Divider" width="100%"/>
-</p>
-
-## 5. AWS Certifications
-
-AWS credentials earned through proctored examinations. Public verification links are provided below; raw AWS validation identifiers are intentionally not published in this README.
-
-<table width="100%">
-<thead>
-<tr bgcolor="#EDE9FE">
-<th align="left">Certification</th>
-<th align="center">Issuing Body</th>
-<th align="center">Issue Date</th>
-<th align="center">Expiration Date</th>
-<th align="center">Verification Proof</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>AWS Certified Cloud Practitioner</b></td>
-<td align="center">Amazon Web Services</td>
-<td align="center">August 9, 2026</td>
-<td align="center">August 14, 2029</td>
-<td align="center"><a href="https://www.credly.com/badges/9176f0c6-a291-4072-a332-55abd5c9b6f8"><img src="https://img.shields.io/badge/Credly-Verified_Badge-7C3AED?style=flat-square&logo=credly&logoColor=white" alt="Credly Cloud Practitioner"/></a></td>
-</tr>
-<tr>
-<td><b>AWS Certified AI Practitioner</b></td>
-<td align="center">Amazon Web Services</td>
-<td align="center">August 1, 2026</td>
-<td align="center">August 1, 2029</td>
-<td align="center"><a href="https://www.credly.com/badges/42dd44ed-6a82-4ee9-8733-e7bc202223b9"><img src="https://img.shields.io/badge/Credly-Verified_Badge-7C3AED?style=flat-square&logo=credly&logoColor=white" alt="Credly AI Practitioner"/></a></td>
-</tr>
-<tr>
-<td><b>AWS Certified Developer – Associate</b></td>
-<td align="center">Amazon Web Services</td>
-<td align="center">August 14, 2026</td>
-<td align="center">August 14, 2029</td>
-<td align="center"><a href="https://www.credly.com/badges/5e338e11-1247-412a-926c-031eb4d5e2a4"><img src="https://img.shields.io/badge/Credly-Verified_Badge-7C3AED?style=flat-square&logo=credly&logoColor=white" alt="Credly Developer Associate"/></a></td>
-</tr>
-<tr>
-<td><b>AWS Certified Solutions Architect – Associate</b></td>
-<td align="center">Amazon Web Services</td>
-<td align="center">August 7, 2026</td>
-<td align="center">August 7, 2029</td>
-<td align="center"><a href="https://www.credly.com/badges/b662ec17-f239-48bd-b5d9-a7685d13be7a"><img src="https://img.shields.io/badge/Credly-Verified_Badge-7C3AED?style=flat-square&logo=credly&logoColor=white" alt="Credly Solutions Architect"/></a></td>
-</tr>
-</tbody>
-</table>
-
-<p align="center">
-  <img src="assets/separator-violet.svg" alt="Section Divider" width="100%"/>
-</p>
-
-## 6. Technical Competencies Matrix
-
-<table width="100%">
-<thead>
-<tr bgcolor="#EDE9FE">
-<th width="28%" align="left">Domain</th>
-<th align="left">Competencies &amp; Verified Toolchains</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>Microcontrollers &amp; Silicon</b></td>
-<td>Arduino Nano (ATmega328P @ 16 MHz), ESP32-S3 (Xtensa dual-core), STM32 / ARM Cortex-M architecture, Solderless breadboard prototyping, Voltage domain matching (3.3V / 5V)</td>
-</tr>
-<tr>
-<td><b>Firmware &amp; Low-Level C/C++</b></td>
-<td>PlatformIO, Arduino framework, Direct register access, State machines, Non-blocking cooperative schedulers, Interrupt handlers (ISRs), Watchdog timers (WDT), EEPROM</td>
-</tr>
-<tr>
-<td><b>Bus Protocols &amp; RF</b></td>
-<td>Hardware I2C (`0x3C`), SPI (CPOL/CPHA), UART ring buffers, PWM timers, Sub-GHz LoRa (SX1262 / IN865 band), LoRaWAN link budgets</td>
-</tr>
-<tr>
-<td><b>Edge AI &amp; Signal Processing</b></td>
-<td>Running Median Absolute Deviation (MAD), Exponentially Weighted Moving Average (EWMA), Robust Z-score rate-of-change, Sensor fusion, Scikit-learn</td>
-</tr>
-<tr>
-<td><b>Software Platforms &amp; Web</b></td>
-<td>TypeScript, React 19, Next.js 16 (App Router), Express.js, Zustand, Supabase (PostgreSQL, Row Level Security)</td>
-</tr>
-<tr>
-<td><b>DevSecOps &amp; Testing Quality</b></td>
-<td>GitHub Actions CI/CD (Node 26 LTS), PlatformIO CI matrix, Vitest, Jest, Oxlint, ESLint, WCAG 2.1 AA accessibility standards</td>
-</tr>
-</tbody>
-</table>
-
-<p align="center">
-  <img src="assets/separator-violet.svg" alt="Section Divider" width="100%"/>
-</p>
-
-## 7. Engineering Quality & Activity Metrics
-
-<p align="center">
-  <img src="assets/engineering-metrics.svg" alt="Engineering Verification & Toolchains Metrics" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=RONALD-REX-7&theme=violet&background=F8F7FF&border=EDE9FE&stroke=7C3AED&ring=A78BFA&fire=7C3AED&currStreakLabel=7C3AED" alt="GitHub Contribution Streak" width="55%"/>
-</p>
-
-<p align="center">
-  <img src="assets/separator-violet.svg" alt="Section Divider" width="100%"/>
-</p>
-
-## 8. Education & Public Project Boards
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎓 Academic Background
-- **Bachelor of Engineering (B.E.) in Electronics and Communication Engineering**  
-  **Institution:** S.A. Engineering College (Affiliated to Anna University), Chennai  
-  **Duration:** 2024 – 2028 (Expected Graduation: **2028**)  
-  **Core Coursework:** Electronic Circuits, Digital Logic Design, Microcontrollers & Microprocessors, Signals & Systems, Linear Integrated Circuits, Communication Engineering, Computer Architecture.
-
-</td>
-<td width="50%" valign="top">
-
-### 📋 Public GitHub Project Boards
-Live technical roadmaps, issue backlogs, and hardware validation tracking:
-1. **[Board #4: EmbeddedLab OS](https://github.com/users/RONALD-REX-7/projects/4)** — Microcontroller firmware architecture and virtual peripheral register modeling.
-2. **[Board #3: SIH 2026 · MineGuard](https://github.com/users/RONALD-REX-7/projects/3)** — Mine strata monitoring, LoRa packet telemetry, and Edge AI anomaly detection.
-3. **[Board #2: QUARTZSENTRY](https://github.com/users/RONALD-REX-7/projects/2)** — Battery thermal runaway simulation milestones, WCAG AA, and sensor fusion models.
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <img src="assets/separator-violet.svg" alt="Section Divider" width="100%"/>
-</p>
-
-## 9. Verified External Profiles & Contact
+## 03 / Technical toolkit
 
 <div align="center">
 
-| Profile | Channel / Identifier | Status |
-| :--- | :--- | :---: |
-| **LinkedIn** | [linkedin.com/in/ron-rex](https://www.linkedin.com/in/ron-rex) | Verified |
-| **Credly Profile** | [credly.com/users/ronaldrex](https://www.credly.com/users/ronaldrex) | Verified (4 AWS Badges) |
-| **AWS Skill Builder** | [skillsprofile.skillbuilder.aws/user/ron](https://skillsprofile.skillbuilder.aws/user/ron) | Verified |
-| **GitHub Collaboration** | [@RONALD-REX-7](https://github.com/RONALD-REX-7) | Active |
+**Embedded & electronics**
 
-<br/>
+<img src="https://skillicons.dev/icons?i=c,cpp,arduino,raspberrypi" alt="C, C++, Arduino and Raspberry Pi" />
 
-<sub>Crafted with engineering precision • Designed with Lavender Cyber-Engineering aesthetic • Zero-Fabrication verified</sub>
+**Software, cloud & engineering tools**
+
+<img src="https://skillicons.dev/icons?i=python,typescript,js,react,nextjs,nodejs,aws,supabase,git,github,docker,linux,vscode" alt="Python, TypeScript, React, Next.js, Node.js, AWS, Supabase, Git, GitHub, Docker, Linux and VS Code" />
+
+</div>
+
+| Area | Tools and concepts |
+|:--|:--|
+| **Microcontrollers** | Arduino Nano / ATmega328P, ESP32-S3; ARM Cortex-M concepts |
+| **Firmware** | Embedded C/C++, PlatformIO, state machines, interrupts, non-blocking scheduling, watchdogs and EEPROM |
+| **Interfaces** | GPIO, ADC, PWM, I2C, SPI, UART; LoRa / IN865 system concepts |
+| **Edge intelligence** | MAD, EWMA, robust Z-score, sensor data analysis and TinyML exploration |
+| **Cloud & application layer** | AWS, TypeScript, React, Next.js, Node.js, Supabase |
+| **Quality & workflow** | Git, GitHub Actions, unit/integration testing, linting and technical documentation |
+
+*This toolkit lists technologies used in projects or actively studied; it is not a claim of equal proficiency across every item.*
+
+<img src="assets/section-rule.svg" alt="" width="100%">
+
+## 04 / AWS certifications
+
+Four AWS certifications, with public credential verification:
+
+<div align="center">
+
+<a href="https://www.credly.com/badges/9176f0c6-a291-4072-a332-55abd5c9b6f8"><img src="https://img.shields.io/badge/AWS_Cloud_Practitioner-Verified-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified Cloud Practitioner"></a>
+
+<a href="https://www.credly.com/badges/42dd44ed-6a82-4ee9-8733-e7bc202223b9"><img src="https://img.shields.io/badge/AWS_AI_Practitioner-Verified-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified AI Practitioner"></a>
+
+<a href="https://www.credly.com/badges/5e338e11-1247-412a-926c-031eb4d5e2a4"><img src="https://img.shields.io/badge/AWS_Developer_Associate-Verified-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified Developer Associate"></a>
+
+<a href="https://www.credly.com/badges/b662ec17-f239-48bd-b5d9-a7685d13be7a"><img src="https://img.shields.io/badge/AWS_Solutions_Architect_Associate-Verified-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified Solutions Architect Associate"></a>
+
+[View all credentials on Credly](https://www.credly.com/users/ronaldrex)
+
+</div>
+
+<img src="assets/section-rule.svg" alt="" width="100%">
+
+## 05 / GitHub activity
+
+These third-party widgets are dynamic and may occasionally be unavailable. They are activity summaries, not measures of engineering skill.
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RONALD-REX-7&show_icons=true&hide_border=true&bg_color=F8F7FF&title_color=5B4BBD&icon_color=7C6CE0&text_color=45415C" alt="GitHub account statistics">
+  <img height="165" src="https://streak-stats.demolab.com?user=RONALD-REX-7&hide_border=true&background=F8F7FF&ring=7C6CE0&fire=8B5CF6&currStreakLabel=5B4BBD&sideLabels=5B4BBD&dates=77718E" alt="GitHub contribution streak">
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RONALD-REX-7&bg_color=F8F7FF&color=51458A&line=7C6CE0&point=8B5CF6&area=true&hide_border=true" alt="GitHub contribution activity graph" width="100%">
+</div>
+
+<img src="assets/section-rule.svg" alt="" width="100%">
+
+## 06 / Education & project boards
+
+**B.E. Electronics and Communication Engineering**  
+S.A. Engineering College · Chennai, Tamil Nadu, India  
+2024–2028 · Expected graduation: **2028**
+
+**Public project boards**
+
+- [EmbeddedLab OS — Board #4](https://github.com/users/RONALD-REX-7/projects/4)
+- [SIH 2026 / MineGuard — Board #3](https://github.com/users/RONALD-REX-7/projects/3)
+- [QUARTZSENTRY — Board #2](https://github.com/users/RONALD-REX-7/projects/2)
+
+<img src="assets/section-rule.svg" alt="" width="100%">
+
+## 07 / Connect
+
+I’m interested in meaningful work and learning opportunities involving **embedded firmware, electronics, IoT systems, edge computing and device security**.
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/ron-rex"><img src="https://img.shields.io/badge/LinkedIn-ron--rex-6D5AE6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://github.com/RONALD-REX-7"><img src="https://img.shields.io/badge/GitHub-RONALD--REX--7-4F46A5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://www.credly.com/users/ronaldrex"><img src="https://img.shields.io/badge/Credly-Credentials-8B5CF6?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
+
+<img src="assets/footer-v2.svg" alt="Built with curiosity, tested with evidence, documented with care." width="100%">
+
+<sub>Designed in lavender and signal violet · Engineering claims are scoped to documented evidence</sub>
 
 </div>
