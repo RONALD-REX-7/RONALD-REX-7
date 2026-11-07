@@ -159,7 +159,21 @@ React · Vite · TypeScript · SVG signal visualisation
 
 <img src="assets/section-rule-v3.svg" alt="" width="100%">
 
-## 06 / Education
+## 06 / GitHub engineering milestones & achievements
+
+| Milestone / Badge | Status & Verifiable Metric | Engineering Scope |
+| :--- | :---: | :--- |
+| **Pull Shark (Bronze Tier)** | 🏆 **34 Merged PRs** | Merged 34 peer-reviewed pull requests across firmware, CI, and test repositories into default branches |
+| **YOLO** | 🏆 **Unlocked** | Zero-friction rapid deployment & review-free merge qualification |
+| **Quickdraw** | 🏆 **Unlocked** | Rapid triage within 5 minutes of issue/PR creation |
+| **Pair Extraordinaire** | ⏳ **10 Co-Authored PRs** | Qualified Bronze Tier via collaborative multi-engine Git trailers merged into production |
+| **Galaxy Brain** | 📝 **4 Active Solutions** | Detailed domain technical answers across GitHub Community and MicroPython discussions |
+| **Releases & Packaging** | 📦 **4 Published Releases** | Formal semantic `v1.0.0` releases on LumaGuard, EmbeddedLab-OS, todo-rainmeter, and QUARTZSENTRY |
+| **GitHub Pro** | 💜 **Active** | Verified active GitHub Pro developer account |
+
+<img src="assets/section-rule-v3.svg" alt="" width="100%">
+
+## 07 / Education
 
 **B.E. Electronics and Communication Engineering**  
 S.A. Engineering College · Chennai, Tamil Nadu, India  
@@ -167,7 +181,7 @@ S.A. Engineering College · Chennai, Tamil Nadu, India
 
 <img src="assets/section-rule-v3.svg" alt="" width="100%">
 
-## 07 / What I value in engineering
+## 08 / What I value in engineering
 
 - **Understand before abstracting.** Know what the sensor, peripheral or interface is doing before hiding it behind layers.
 - **Verify the boundary.** Separate a successful build, a passing software test, a bench-tested circuit and a field-validated system.
@@ -176,7 +190,7 @@ S.A. Engineering College · Chennai, Tamil Nadu, India
 
 I’m interested in student engineering collaborations and opportunities involving **embedded firmware, electronics, IoT, edge computing and device security**.
 
-## 08 / Connect
+## 09 / Connect
 
 <div align="center">
 
