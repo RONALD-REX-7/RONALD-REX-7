@@ -1,9 +1,9 @@
 name: Profile Markdown CI
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
+    branches: [ main ]
+  push:
     branches: [ main ]
 
 concurrency:
@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   validate:
-    name: Validate Profile Markdown & Integrity
+    name: Validate Portfolio & Visual Assets
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -27,16 +27,5 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Verify Markdown Integrity & Privacy
-        run: |
-          python -c "
-          import re, sys
-          content = open('README.md', 'r', encoding='utf-8').read()
-          headings = re.findall(r'^#+\s+(.+)$', content, re.MULTILINE)
-          print(f'Found {len(headings)} section headings.')
-          assert len(headings) >= 5, 'Too few headings found.'
-          assert 'AIza' not in content, 'Potential secret pattern detected'
-          assert 'ghp_' not in content, 'Potential token pattern detected'
-          assert 'github_pat_' not in content, 'Potential token pattern detected'
-          print('Profile README integrity and privacy verification passed successfully.')
-          "
+      - name: Validate README, local assets, SVG and privacy
+        run: python scripts/validate_portfolio.py
