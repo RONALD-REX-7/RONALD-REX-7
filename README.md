@@ -1,87 +1,82 @@
 <div align="center">
 
-<img src="assets/hero-v3.svg" alt="Ronald Rex C H — ECE undergraduate focused on embedded systems, firmware and connected devices" width="100%">
+<img src="assets/signal-hero.gif" alt="Looping lavender and cyan circuit animation surrounding an embedded processor" width="100%">
 
-<p>
-  <a href="https://www.linkedin.com/in/ron-rex">LinkedIn</a> ·
-  <a href="https://www.credly.com/users/ronaldrex">AWS credentials</a> ·
-  <a href="https://skillsprofile.skillbuilder.aws/user/ron">AWS Skill Builder</a> ·
-  <a href="https://github.com/RONALD-REX-7">GitHub</a>
-</p>
+# RONALD REX C H
 
-**B.E. Electronics & Communication Engineering · Class of 2028 · Chennai, India**
+**Electronics & Communication Engineering · Chennai, India · Class of 2028**
 
-*From sensors and signals to dependable embedded systems.*
+*Embedded firmware • Connected devices • Edge intelligence*
+
+[LinkedIn](https://www.linkedin.com/in/ron-rex) · [GitHub](https://github.com/RONALD-REX-7) · [Credly](https://www.credly.com/users/ronaldrex) · [AWS Skill Builder](https://skillsprofile.skillbuilder.aws/user/ron)
+
+<img src="assets/signal-ticker.svg" alt="Sense, process, connect, verify — engineering signal path" width="100%">
 
 </div>
 
-<img src="assets/section-rule-v3.svg" alt="" width="100%">
+---
 
-## 01 / The engineering direction
+## 01 / Engineering identity
 
-I’m an ECE undergraduate at **S.A. Engineering College, Chennai**, focused on **embedded systems and microcontroller firmware**. My work and learning sit close to the hardware: sensing, peripheral interfaces, firmware behaviour, debugging and verification.
+I’m an ECE undergraduate at **S.A. Engineering College, Chennai**, building depth in **embedded systems, microcontroller firmware and electronics**. I work close to the hardware: sensing, peripheral interfaces, firmware behaviour, debugging and verification.
 
-My primary direction is supported by **Industrial IoT, connected-device security and cloud services**. I’m also exploring **Edge AI and TinyML** where constrained devices can benefit from local intelligence.
+My supporting interests are **Industrial IoT, connected-device security, cloud services and Edge AI/TinyML**—especially where local intelligence has a clear purpose on constrained devices.
 
-<img src="assets/engineering-map-v3.svg" alt="Engineering workflow connecting electronics, firmware, connected devices, edge intelligence and cloud services" width="100%">
+<img src="assets/engineering-signal-map.svg" alt="Engineering workflow connecting electronics, firmware, connected devices, edge intelligence and cloud services" width="100%">
 
-### What I’m building depth in
+> **Engineering principle:** make system behaviour observable, make faults explicit, and make every performance claim traceable to evidence.
 
-| Core engineering | Connected and intelligent systems |
+### Current technical focus
+
+| Hardware & firmware | Connected & intelligent systems |
 |:--|:--|
-| Embedded C/C++, MCU fundamentals and firmware structure | Industrial IoT, telemetry and device connectivity |
+| Embedded C/C++, MCU fundamentals, firmware structure | Industrial IoT, telemetry and device connectivity |
 | ATmega328P, ESP32-S3 and ARM Cortex-M concepts | Edge AI, TinyML and signal processing |
-| GPIO, ADC, PWM, I2C, SPI, UART and timing | Cloud platforms, application security and CI |
+| GPIO, ADC, PWM, I2C, SPI, UART and timing | Cloud platforms, device security and CI |
 | State machines, fault handling, testing and debugging | System architecture and technical documentation |
 
-**My engineering rule:** make system behaviour observable, make faults explicit, and make every performance claim traceable to evidence.
+---
 
-<img src="assets/section-rule-v3.svg" alt="" width="100%">
+## 02 / Selected engineering work
 
-## 02 / Featured engineering work
-
-The four projects below represent different points on the hardware–software spectrum. Their maturity labels are deliberate: a browser simulation is not an MCU emulator, synthetic telemetry is not field data, and a working demonstrator is not a certified safety system.
+Four projects, four different engineering problems. Their maturity labels are intentional: a physical prototype, a browser simulation, synthetic telemetry and a software demonstrator are not interchangeable forms of validation.
 
 ### 01 — LumaGuard
-<img src="assets/project-lumaguard-v3.svg" alt="LumaGuard — Arduino Nano based proximity and hazard monitoring prototype" width="100%">
+<img src="assets/lumaguard-signal.svg" alt="LumaGuard architecture: ultrasonic and flame sensors feed an Arduino Nano, which drives an OLED and audible or visual alerts; nine bench scenarios documented" width="100%">
 
-**PHYSICAL PROTOTYPE · HARDWARE BENCH TESTED**
+**PHYSICAL BREADBOARD PROTOTYPE · HARDWARE BENCH TESTED**
 
 **Context-aware micro-workspace proximity and hazard guard**
 
 Arduino Nano / ATmega328P · Embedded C/C++ · PlatformIO · HC-SR04 · IR flame module · SSD1306 OLED
 
-- Physical breadboard prototype integrating ultrasonic proximity sensing, optical flame detection, local display and audible/visual alerts.
+- Integrates ultrasonic proximity sensing, optical flame detection, local display and audible/visual alerts.
 - Firmware implements proximity hysteresis, temporal flame-candidate persistence, non-blocking scheduling, echo-fault handling and EEPROM event counting.
 - The project report documents **nine end-to-end bench integration scenarios**, including intrusion, flame confirmation, alert silence, arm/disarm, hysteresis clearing, echo timeout and persistence.
 
-<p align="center"><img src="assets/project-lumaguard.jpg" alt="Photograph of the LumaGuard physical breadboard prototype" width="86%"></p>
+<p align="center"><img src="assets/breadboard_prototype.jpg" alt="Photograph of the LumaGuard physical breadboard prototype" width="78%"></p>
 
 [Source code, pin mapping and test report](https://github.com/RONALD-REX-7/LumaGuard)
 
----
-
 ### 02 — EmbeddedLab OS
-<img src="assets/project-embeddedlab-v3.svg" alt="EmbeddedLab OS — browser-based virtual embedded systems laboratory" width="100%">
+<img src="assets/embeddedlab-signal.svg" alt="EmbeddedLab OS virtual lab flow showing GPIO, PWM and ADC, UART, deterministic software models and 169 Vitest tests" width="100%">
 
-**SOFTWARE TESTED · VIRTUAL LABORATORY**
+**SOFTWARE TESTED · BROWSER-BASED VIRTUAL LABORATORY**
 
-**A browser-based laboratory for learning embedded fundamentals**
+**A laboratory for learning embedded fundamentals**
 
 Next.js · TypeScript · React · Zustand · Vitest · Supabase
 
 - Interactive software models for GPIO, PWM, ADC and UART peripheral concepts.
 - Guided laboratories, challenge-based learning and deterministic validation of simulated microcontroller states.
-- **169 documented Vitest tests.** The platform is an educational software simulation—not a physical MCU, CPU-core emulator or hardware-validation environment.
+- **169 documented Vitest tests.** This is an educational software simulation—not a physical MCU, CPU-core emulator or hardware-validation environment.
 
-<p align="center"><img src="assets/project-embeddedlab-os.png" alt="EmbeddedLab OS application interface" width="86%"></p>
+<p align="center"><img src="assets/project-embeddedlab-os.png" alt="EmbeddedLab OS application interface" width="78%"></p>
 
 [Open the live laboratory](https://embeddedlab-os.vercel.app) · [Source repository](https://github.com/RONALD-REX-7/EmbeddedLab-OS)
 
----
-
 ### 03 — MineGuard / SIH26025
-<img src="assets/project-mineguard-v3.svg" alt="MineGuard — proposed mine subsidence monitoring architecture with LoRa sensor nodes" width="100%">
+<img src="assets/mineguard-signal.svg" alt="MineGuard concept showing underground LoRa sensor nodes and edge monitoring; reported recall is based on synthetic vectors" width="100%">
 
 **SOFTWARE PROTOTYPE · HARDWARE INTEGRATION INCOMPLETE**
 
@@ -91,17 +86,15 @@ ESP32-S3 firmware concepts · LoRa / IN865 architecture · TinyML methods · Nex
 
 - Proposed multi-node monitoring architecture developed around Smart India Hackathon problem statement **SIH26025**.
 - Repository work includes system architecture, software components, firmware build work and a web telemetry demonstrator.
-- The reported **93% recall** is a reproducible result on **1,000 synthetic geotechnical test vectors**. It is not field performance or validation on deployed mine sensors.
-- Some hardware bench work is documented, but full multi-sensor integration and field validation are not complete.
+- Reported **93% recall** on **1,000 synthetic geotechnical test vectors**. This is not field performance or validation on deployed mine sensors.
+- Some hardware bench work is documented; full multi-sensor integration and field validation remain incomplete.
 
-<p align="center"><img src="assets/project-mineguard.png" alt="MineGuard software telemetry dashboard" width="86%"></p>
+<p align="center"><img src="assets/project-mineguard.png" alt="MineGuard software telemetry dashboard" width="78%"></p>
 
 [Explore the demonstrator](https://mineguard-sih26025.vercel.app) · [Source repository](https://github.com/RONALD-REX-7/sih26025)
 
----
-
 ### 04 — QUARTZSENTRY
-<img src="assets/project-quartzsentry-v3.svg" alt="QUARTZSENTRY — multimodal battery thermal-runaway software demonstrator" width="100%">
+<img src="assets/quartzsentry-signals.svg" alt="Four synthetic QUARTZSENTRY signal channels: temperature, impedance, acoustic activity and off-gas" width="100%">
 
 **SOFTWARE DEMONSTRATOR · PHYSICAL SENSOR INTEGRATION INCOMPLETE**
 
@@ -113,42 +106,40 @@ React · Vite · TypeScript · SVG signal visualisation
 - Dashboard telemetry, Nyquist curves, acoustic values and gas readings are **synthetic signals generated in software**.
 - Physical transducers and analogue front-end integration remain incomplete. This is not a certified battery-management or protection system.
 
-<p align="center"><img src="assets/project-quartzsentry.png" alt="QUARTZSENTRY software demonstrator interface" width="86%"></p>
+<p align="center"><img src="assets/project-quartzsentry.png" alt="QUARTZSENTRY software demonstrator interface" width="78%"></p>
 
 [Open the demonstrator](https://quartzsentry-prototype.vercel.app) · [Source repository](https://github.com/RONALD-REX-7/QUARTZSENTRY)
 
-<img src="assets/section-rule-v3.svg" alt="" width="100%">
+---
 
-## 03 / Additional work
+## 03 / More work
 
-| Project | Engineering scope | Evidence and repository |
+| Project | Scope | Evidence |
 |:--|:--|:--|
-| **CLASSY_CS** | Academic evaluation, GPA/CGPA calculation and admissions-planning engines. | 31 documented test assertions · [Repository](https://github.com/RONALD-REX-7/CLASSY_CS) |
-| **ProblemChain / RUSH_HOUR_2026** | Collaborative civic-tech hackathon prototype. My documented repository work includes initial scaffolding, security remediation, CI, TypeScript fixes and backend hardening; team contributions are separately attributed. | [Contribution record and source](https://github.com/RONALD-REX-7/RUSH_HOUR_2026) |
-| **todo-rainmeter** | Windows desktop productivity skin using Rainmeter, Lua and PowerShell, with configurable UI and animation behaviour. | [Repository and release](https://github.com/RONALD-REX-7/todo-rainmeter) |
+| **CLASSY_CS** | Academic evaluation, GPA/CGPA calculation and admissions-planning engines | 31 documented test assertions · [Repository](https://github.com/RONALD-REX-7/CLASSY_CS) |
+| **ProblemChain / RUSH_HOUR_2026** | Collaborative civic-tech hackathon prototype; my documented work includes initial scaffolding, security remediation, CI, TypeScript fixes and backend hardening | [Contribution record](https://github.com/RONALD-REX-7/RUSH_HOUR_2026) |
+| **todo-rainmeter** | Windows desktop productivity skin using Rainmeter, Lua and PowerShell | [Repository](https://github.com/RONALD-REX-7/todo-rainmeter) |
 
-<img src="assets/section-rule-v3.svg" alt="" width="100%">
+---
 
-## 04 / Tools and technologies
+## 04 / Technical toolkit
 
-| Area | Current toolkit |
+| Domain | Technologies and concepts |
 |:--|:--|
 | **Microcontrollers** | Arduino Nano / ATmega328P, ESP32-S3; ARM Cortex-M concepts |
 | **Firmware** | Embedded C/C++, PlatformIO, state machines, non-blocking scheduling, interrupts, EEPROM |
 | **Interfaces** | GPIO, ADC, PWM, I2C, SPI, UART; LoRa / IN865 system concepts |
 | **Edge intelligence** | Python, sensor-data analysis, MAD, EWMA, robust Z-score and TinyML exploration |
-| **Cloud and application layer** | AWS, TypeScript, React, Next.js, Node.js, Supabase |
+| **Cloud & application layer** | AWS, TypeScript, React, Next.js, Node.js, Supabase |
 | **Engineering workflow** | Git, GitHub Actions, testing, linting, Linux, Docker and technical documentation |
 
 <img src="https://skillicons.dev/icons?i=c,cpp,arduino,python,typescript,react,nextjs,nodejs,aws,supabase,git,github,docker,linux,vscode" alt="Selected engineering technologies" width="100%">
 
 *This is a practical toolkit, not a claim of equal proficiency in every technology. Some are used in projects; others are active learning areas.*
 
-<img src="assets/section-rule-v3.svg" alt="" width="100%">
+---
 
 ## 05 / AWS certifications
-
-<img src="assets/credentials-v3.svg" alt="Four AWS certifications across foundational, AI, developer and solutions architect tracks" width="100%">
 
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/9176f0c6-a291-4072-a332-55abd5c9b6f8)
 - [AWS Certified AI Practitioner](https://www.credly.com/badges/42dd44ed-6a82-4ee9-8733-e7bc202223b9)
@@ -157,21 +148,16 @@ React · Vite · TypeScript · SVG signal visualisation
 
 [View the public credential portfolio](https://www.credly.com/users/ronaldrex)
 
-<img src="assets/section-rule-v3.svg" alt="" width="100%">
+---
 
-## 06 / GitHub engineering milestones & achievements
+## 06 / GitHub achievements
 
-| Milestone / Badge | Status & Verifiable Metric | Engineering Scope |
-| :--- | :---: | :--- |
-| **Pull Shark (Bronze Tier)** | 🏆 **34 Merged PRs** | Merged 34 peer-reviewed pull requests across firmware, CI, and test repositories into default branches |
-| **YOLO** | 🏆 **Unlocked** | Zero-friction rapid deployment & review-free merge qualification |
-| **Quickdraw** | 🏆 **Unlocked** | Rapid triage within 5 minutes of issue/PR creation |
-| **Pair Extraordinaire** | ⏳ **10 Co-Authored PRs** | Qualified Bronze Tier via collaborative multi-engine Git trailers merged into production |
-| **Galaxy Brain** | 📝 **4 Active Solutions** | Detailed domain technical answers across GitHub Community and MicroPython discussions |
-| **Releases & Packaging** | 📦 **4 Published Releases** | Formal semantic `v1.0.0` releases on LumaGuard, EmbeddedLab-OS, todo-rainmeter, and QUARTZSENTRY |
-| **GitHub Pro** | 💜 **Active** | Verified active GitHub Pro developer account |
+- **Pull Shark** — unlocked
+- **Quickdraw** — unlocked
 
-<img src="assets/section-rule-v3.svg" alt="" width="100%">
+[View my GitHub profile](https://github.com/RONALD-REX-7)
+
+---
 
 ## 07 / Education
 
@@ -179,9 +165,9 @@ React · Vite · TypeScript · SVG signal visualisation
 S.A. Engineering College · Chennai, Tamil Nadu, India  
 2024–2028 · Expected graduation: **May 2028**
 
-<img src="assets/section-rule-v3.svg" alt="" width="100%">
+---
 
-## 08 / What I value in engineering
+## 08 / Engineering values
 
 - **Understand before abstracting.** Know what the sensor, peripheral or interface is doing before hiding it behind layers.
 - **Verify the boundary.** Separate a successful build, a passing software test, a bench-tested circuit and a field-validated system.
@@ -190,16 +176,11 @@ S.A. Engineering College · Chennai, Tamil Nadu, India
 
 I’m interested in student engineering collaborations and opportunities involving **embedded firmware, electronics, IoT, edge computing and device security**.
 
-## 09 / Connect
-
 <div align="center">
 
-<a href="https://www.linkedin.com/in/ron-rex">LinkedIn</a> ·
-<a href="https://github.com/RONALD-REX-7">GitHub</a> ·
-<a href="https://www.credly.com/users/ronaldrex">Credly</a> ·
-<a href="https://skillsprofile.skillbuilder.aws/user/ron">AWS Skill Builder</a>
+<img src="assets/signal-ticker.svg" alt="Sense, process, connect, verify — engineering signal path" width="100%">
 
-<img src="assets/footer-v3.svg" alt="Build, measure, debug, verify — an engineering process in motion" width="100%">
+[LinkedIn](https://www.linkedin.com/in/ron-rex) · [GitHub](https://github.com/RONALD-REX-7) · [Credly](https://www.credly.com/users/ronaldrex) · [AWS Skill Builder](https://skillsprofile.skillbuilder.aws/user/ron)
 
 <sub>Lavender × signal blue · Built close to the hardware · Documented with evidence</sub>
 
