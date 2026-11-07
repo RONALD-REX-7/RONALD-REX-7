@@ -27,3 +27,7 @@ This is a concise audit index for the projects featured on the profile. Source r
 - **Synthetic benchmark** describes a result evaluated on generated test vectors, not measurements from a deployed system.
 
 For reproducibility, use the test reports, CI workflows, build commands and evidence classifications in each source repository.
+
+## Attribution & Engineering System Governance
+
+This portfolio, verification harness, and evidence classification matrix are maintained by **Ronald Rex** ([@RONALD-REX-7](https://github.com/RONALD-REX-7)) with continuous integration and pair engineering support.
