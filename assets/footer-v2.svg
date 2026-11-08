@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Built with curiosity, tested with evidence, documented with care">
-<defs><linearGradient id="f"><stop stop-color="#171b3b"/><stop offset=".5" stop-color="#2a2455"/><stop offset="1" stop-color="#132b4b"/></linearGradient><linearGradient id="s"><stop stop-color="#b5a7ff"/><stop offset="1" stop-color="#6bdcff"/></linearGradient></defs>
-<rect width="1200" height="150" rx="22" fill="url(#f)"/><path d="M0 118C180 62 320 165 520 105S860 45 1200 105" fill="none" stroke="url(#s)" stroke-opacity=".35" stroke-width="2"/>
-<path d="M0 34H1200" stroke="#c3bdff" stroke-opacity=".12"/>
-<g fill="#b5a7ff"><circle cx="80" cy="118" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="1120" cy="105" r="3"><animate attributeName="opacity" values="1;.2;1" dur="3s" repeatCount="indefinite"/></circle></g>
-<g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle"><text x="600" y="67" fill="#fff" font-size="24" font-weight="700">BUILT WITH CURIOSITY. TESTED WITH EVIDENCE.</text><text x="600" y="96" fill="#c9c8ed" font-size="15">Documented with care · Designed in lavender and signal blue</text></g></svg>
