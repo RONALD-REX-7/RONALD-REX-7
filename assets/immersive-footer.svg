@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190">
+<defs><linearGradient id="f" x2="1"><stop stop-color="#29245D"/><stop offset=".5" stop-color="#163E60"/><stop offset="1" stop-color="#30265F"/></linearGradient></defs>
+<rect width="1200" height="190" rx="24" fill="url(#f)"/>
+<g fill="none" stroke="#A8A5FF" stroke-width="2" opacity=".7"><path d="M80 94h170l40-40h140M1120 94H950l-40 40H770"/><circle cx="250" cy="94" r="7" fill="#73E9FF"/><circle cx="950" cy="94" r="7" fill="#73E9FF"/></g>
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle"><text x="600" y="78" fill="#C7C4FF" font-size="14" letter-spacing="6">THE ENGINEERING LOOP</text><text x="600" y="125" fill="#FFF" font-size="28" font-weight="700">SENSE  →  COMPUTE  →  CONNECT  →  VERIFY</text><text x="600" y="157" fill="#C5D8F5" font-size="12" letter-spacing="3">BUILD CLOSE TO THE HARDWARE</text></g>
+</svg>
