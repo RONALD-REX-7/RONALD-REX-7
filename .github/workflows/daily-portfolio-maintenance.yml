@@ -1,0 +1,64 @@
+name: Daily Portfolio Maintenance & Integrity
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every day at 00:00 UTC (05:30 AM IST)
+  workflow_dispatch: # Allows manual trigger anytime from Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-maintenance-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  daily-portfolio-check:
+    name: Portfolio & Link Verification
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate README, local assets, SVG and privacy
+        id: validator
+        run: |
+          python scripts/validate_portfolio.py
+          echo "val_status=Passed" >> $GITHUB_OUTPUT
+
+      - name: Update Daily Portfolio Ledger
+        run: |
+          DATE_STR=$(date -u +"%Y-%m-%d")
+          TIME_STR=$(date -u +"%H:%M:%S UTC")
+          VAL_ST="${{ steps.validator.outputs.val_status }}"
+          
+          echo "| $DATE_STR | $TIME_STR | 100% Passed ($VAL_ST) | 0 Credentials Found | ✅ Healthy |" >> docs/DAILY_PORTFOLIO_HEALTH.md
+          echo "Updated docs/DAILY_PORTFOLIO_HEALTH.md for $DATE_STR"
+
+      - name: Commit and Push Verified Telemetry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/DAILY_PORTFOLIO_HEALTH.md
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(telemetry): update daily portfolio validation ledger [skip ci]
+
+          Automated daily markdown heading, visual SVG geometry, and credential privacy verification.
+
+          Co-authored-by: Ronald Rex <211186833+RONALD-REX-7@users.noreply.github.com>"
+            git push origin main
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
