@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220" fill="none">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8F7FF"/>
+    </linearGradient>
+
+    <linearGradient id="barC" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <linearGradient id="barTS" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+
+    <linearGradient id="barPy" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+
+    <linearGradient id="barLora" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#7C3AED" flood-opacity="0.06"/>
+    </filter>
+
+    <style>
+      .title-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; font-weight: 700; fill: #4C1D95; }
+      .label-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: 600; fill: #374151; }
+      .val-text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; font-weight: 700; fill: #6D28D9; }
+      .meta-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; fill: #6B7280; }
+    </style>
+  </defs>
+
+  <!-- Left Card: Repository Engineering Gates -->
+  <g transform="translate(10, 10)">
+    <rect width="425" height="200" rx="16" fill="url(#cardBg)" stroke="#DDD6FE" stroke-width="1.5" filter="url(#shadow)"/>
+    
+    <!-- Header -->
+    <circle cx="28" cy="30" r="10" fill="#EDE9FE"/>
+    <path d="M 24 30 L 27 33 L 33 27" stroke="#7C3AED" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="46" y="35" class="title-text">Engineering Verification &amp; CI Gates</text>
+
+    <!-- Metrics List -->
+    <g transform="translate(24, 60)">
+      <!-- Metric 1 -->
+      <text x="0" y="16" class="label-text">Public Portfolio Repositories</text>
+      <text x="375" y="16" text-anchor="end" class="val-text">8 Repos</text>
+      <rect x="0" y="24" width="375" height="4" rx="2" fill="#EDE9FE"/>
+      <rect x="0" y="24" width="375" height="4" rx="2" fill="url(#barC)"/>
+
+      <!-- Metric 2 -->
+      <text x="0" y="52" class="label-text">Automated CI/CD Workflow Quality Pass</text>
+      <text x="375" y="52" text-anchor="end" class="val-text">100% (8/8)</text>
+      <rect x="0" y="60" width="375" height="4" rx="2" fill="#EDE9FE"/>
+      <rect x="0" y="60" width="375" height="4" rx="2" fill="#10B981"/>
+
+      <!-- Metric 3 -->
+      <text x="0" y="88" class="label-text">Public GitHub Projects V2 Boards</text>
+      <text x="375" y="88" text-anchor="end" class="val-text">3 Boards</text>
+      <rect x="0" y="96" width="375" height="4" rx="2" fill="#EDE9FE"/>
+      <rect x="0" y="96" width="280" height="4" rx="2" fill="url(#barTS)"/>
+
+      <!-- Metric 4 -->
+      <text x="0" y="124" class="label-text">Zero Fabrication Guarantee Level</text>
+      <text x="375" y="124" text-anchor="end" class="val-text">Audited</text>
+    </g>
+  </g>
+
+  <!-- Right Card: Core Technology Focus -->
+  <g transform="translate(465, 10)">
+    <rect width="425" height="200" rx="16" fill="url(#cardBg)" stroke="#DDD6FE" stroke-width="1.5" filter="url(#shadow)"/>
+    
+    <!-- Header -->
+    <circle cx="28" cy="30" r="10" fill="#EDE9FE"/>
+    <circle cx="28" cy="30" r="4" fill="#7C3AED"/>
+    <text x="46" y="35" class="title-text">Core Engineering Toolchains</text>
+
+    <!-- Metrics List -->
+    <g transform="translate(24, 60)">
+      <!-- Item 1 -->
+      <text x="0" y="16" class="label-text">Embedded C/C++ (PlatformIO • AVR • ESP32)</text>
+      <text x="375" y="16" text-anchor="end" class="val-text">Primary</text>
+      <rect x="0" y="24" width="375" height="4" rx="2" fill="#EDE9FE"/>
+      <rect x="0" y="24" width="340" height="4" rx="2" fill="url(#barC)"/>
+
+      <!-- Item 2 -->
+      <text x="0" y="52" class="label-text">TypeScript &amp; React (Next.js • Simulators)</text>
+      <text x="375" y="52" text-anchor="end" class="val-text">Secondary</text>
+      <rect x="0" y="60" width="375" height="4" rx="2" fill="#EDE9FE"/>
+      <rect x="0" y="60" width="285" height="4" rx="2" fill="url(#barTS)"/>
+
+      <!-- Item 3 -->
+      <text x="0" y="88" class="label-text">Python (Signal Processing • TinyML Harness)</text>
+      <text x="375" y="88" text-anchor="end" class="val-text">Analysis</text>
+      <rect x="0" y="96" width="375" height="4" rx="2" fill="#EDE9FE"/>
+      <rect x="0" y="96" width="220" height="4" rx="2" fill="url(#barPy)"/>
+
+      <!-- Item 4 -->
+      <text x="0" y="124" class="label-text">AWS Cloud &amp; AI (Cloud • AI • Developer)</text>
+      <text x="375" y="124" text-anchor="end" class="val-text">3x Certified</text>
+    </g>
+  </g>
+</svg>
+
