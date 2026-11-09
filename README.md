@@ -73,7 +73,7 @@ Next.js · TypeScript · React · Zustand · Vitest · Supabase
 
 - Interactive software models for GPIO, PWM, ADC and UART concepts.
 - Guided laboratories, challenge-based learning and deterministic validation of simulated peripheral states.
-- **169 documented Vitest tests.** This is an educational software simulation—not a physical MCU or CPU-core emulator.
+- **192 documented Vitest tests.** Includes Successive Approximation Register (SAR) ADC quantizer simulation, ADMUX reference scaling and DNL/INL metrics. This is an educational software simulation—not a physical MCU or CPU-core emulator.
 
 <p align="center"><img src="assets/project-embeddedlab-os.png" width="82%" alt="EmbeddedLab OS application interface"></p>
 
@@ -130,7 +130,14 @@ React · Vite · TypeScript · SVG signal visualisation
 |:--|:--|:--|
 | **CLASSY_CS** | Academic evaluation, GPA/CGPA calculation and admissions-planning engines | 31 documented test assertions · [Repo](https://github.com/RONALD-REX-7/CLASSY_CS) |
 | **ProblemChain / RUSH_HOUR_2026** | Collaborative civic-tech hackathon prototype; my documented work includes scaffolding, security remediation, CI, TypeScript fixes and backend hardening | [Contribution record](https://github.com/RONALD-REX-7/RUSH_HOUR_2026) |
+| **gesture-controlled-robotic-arm** | Wireless teleoperation using ATmega328P, MPU6050 6-DOF IMU, nRF24L01+ RF transceiver and PCA9685 16-channel PWM servo controller | Automated Arduino CLI compile CI · [Repo](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm) |
 | **todo-rainmeter** | Windows productivity skin using Rainmeter, Lua and PowerShell | [Repo](https://github.com/RONALD-REX-7/todo-rainmeter) |
+
+### ◈ BARE-METAL REFERENCE DRIVERS & PUBLIC GISTS
+
+| DRIVER / REGISTER SNIPPET | TARGET SILICON | IMPLEMENTATION & SPECIFICATIONS | ACCESS |
+|:--|:--|:--|:--|
+| **ATmega328P 16-Bit Timer1 Fast PWM** | ATmega328P (16 MHz) | Mode 14 (`ICR1` TOP), non-inverting `OC1A` (Pin 9), 25 kHz PC fan & 20 kHz silent motor drive, cycle-accurate bare-metal C | [Public Gist ↗](https://gist.github.com/RONALD-REX-7/4abadd74f1de361fbb809ec717ff5d09) |
 
 ---
 
@@ -177,6 +184,7 @@ React · Vite · TypeScript · SVG signal visualisation
 | Pull Shark — Bronze | 34 merged PRs |
 | Pair Extraordinaire | 10 co-authored PRs |
 | Galaxy Brain | 4 active solutions |
+| Public Gists | 1 published bare-metal driver |
 | YOLO · Quickdraw | Unlocked |
 | Releases & packaging | 4 published releases |
 | GitHub Pro | Active |
