@@ -1,109 +1,98 @@
 <div align="center">
 
-<img src="assets/hero-signal-atlas.svg" width="100%" alt="Ronald Rex — embedded systems and electronics engineering field notes">
+<img src="assets/hero-signal-atlas.svg" width="100%" alt="Project Universe — animated multicolour engineering project archive">
 
 <p>
-  <a href="https://www.linkedin.com/in/ron-rex">LINKEDIN</a> &nbsp;·&nbsp;
-  <a href="https://www.credly.com/users/ronaldrex">CREDLY</a> &nbsp;·&nbsp;
-  <a href="https://skillsprofile.skillbuilder.aws/user/ron">AWS SKILL BUILDER</a> &nbsp;·&nbsp;
-  <a href="mailto:ronaldrexch@gmail.com">EMAIL</a>
+  <img src="https://img.shields.io/badge/PROJECTS-09-8B5CF6?style=for-the-badge&labelColor=171A35" alt="Nine projects">
+  <img src="https://img.shields.io/badge/HARDWARE-ROBOTICS-06B6D4?style=for-the-badge&labelColor=171A35" alt="Hardware and robotics">
+  <img src="https://img.shields.io/badge/FIRMWARE-IOT-10B981?style=for-the-badge&labelColor=171A35" alt="Firmware and IoT">
+  <img src="https://img.shields.io/badge/SOFTWARE-TOOLS-F97316?style=for-the-badge&labelColor=171A35" alt="Software tools">
 </p>
 
 </div>
 
-# Ronald Rex C H
+# PROJECT ARCHIVE
 
-**Electronics & Communication Engineering · Chennai, India · Class of 2028**
-
-I work at the intersection of **electronics, embedded firmware and connected systems**. I’m building the fundamentals to design, bring up, debug and validate systems that interact with the physical world — from sensors and peripheral buses to edge processing and cloud telemetry.
-
-[Portfolio](https://ronald-rex-7.github.io) · [GitHub](https://github.com/RONALD-REX-7) · [LinkedIn](https://www.linkedin.com/in/ron-rex)
+A visual index of selected builds, prototypes, simulations and engineering tools. Each entry links to its source repository or live demonstrator. Implementation status is stated explicitly.
 
 ---
 
-## Engineering focus
+## 01 / Featured builds
 
-| Area | Current focus |
-|:--|:--|
-| **Embedded systems** | Embedded C/C++, Arduino / ATmega328P, ESP32-S3, MCU fundamentals |
-| **Electronics & interfaces** | GPIO, ADC, PWM, I2C, SPI, UART, sensor integration, debugging |
-| **Connected devices** | IoT architecture, wireless telemetry, device-side validation |
-| **Edge intelligence** | Sensor-data analysis, anomaly detection concepts, TinyML exploration |
-| **Cloud & security** | AWS, telemetry pipelines, containerisation, secure software practices |
+<img src="assets/project-robotic-arm.svg" width="100%" alt="Animated robotic arm project graphic">
 
-My preferred engineering workflow: **understand the hardware → establish the signal path → implement firmware → test failure cases → document evidence.**
+### Gesture-Controlled Robotic Arm
+
+<sub><strong>PHYSICAL ROBOTICS SYSTEM</strong> · Arduino · MPU6050 · nRF24L01 · PCA9685</sub>
+
+A wearable IMU glove wirelessly controls a physical multi-joint robotic arm.
+
+- Arduino Nano transmitter and Arduino Uno receiver.
+- MPU6050 orientation estimation with complementary filter and dead zone.
+- nRF24L01 wireless link, PCA9685 PWM driver and SG90 / MG996R servos.
+- Bounded joint targets, smoothed actuation and a 1-second radio watchdog with configured failsafe park coordinates.
+- Two-link planar inverse-kinematics helper with workspace rejection.
+
+[<img src="https://img.shields.io/badge/OPEN_SOURCE-7C3AED?style=flat-square&logo=github&logoColor=white" alt="Source repository">](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm) [<img src="https://img.shields.io/badge/PHYSICAL_DEMO-EC4899?style=flat-square&logo=youtube&logoColor=white" alt="Physical demonstration">](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm/blob/main/docs/media/physical_actuation_evidence.mp4) [Wiring & evidence](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm/tree/main/docs)
+
+<p align="center"><img src="https://raw.githubusercontent.com/RONALD-REX-7/gesture-controlled-robotic-arm/main/docs/images/arm-and-glove.png" width="86%" alt="Physical robotic arm and wearable gesture glove"></p>
 
 ---
 
-## Selected engineering work
+<img src="assets/project-lumaguard-signal.svg" width="100%" alt="Animated LumaGuard project graphic">
 
-The projects below are presented with their actual implementation maturity. A physical prototype, a software simulator and an early-stage demonstrator are not interchangeable.
+### LumaGuard
 
-### 01 — Gesture-Controlled Robotic Arm
+<sub><strong>PHYSICAL PROTOTYPE · BENCH TESTED</strong> · Arduino Nano · ATmega328P · HC-SR04 · Flame sensor · SSD1306</sub>
 
-**PHYSICAL ROBOTICS SYSTEM · EMBEDDED WIRELESS CONTROL**
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/RONALD-REX-7/gesture-controlled-robotic-arm/main/docs/images/arm-and-glove.png" width="82%" alt="Physical gesture-controlled robotic arm and wearable IMU glove">
-</p>
-
-A wearable gesture controller drives a physical multi-joint arm through a wireless embedded control path.
-
-- **Hardware:** Arduino Nano transmitter, MPU6050 6-axis IMU, nRF24L01 radio, Arduino Uno receiver, PCA9685 PWM controller and SG90 / MG996R servos.
-- **Firmware:** complementary-filter orientation estimate, dead zone, bounded joint targets, per-joint motion limits and smoothed actuation.
-- **Fault handling:** a 1-second radio watchdog moves the arm toward configured failsafe park coordinates.
-- **Kinematics:** two-link planar inverse-kinematics helper rejects targets outside the configured workspace.
-
-[Source code](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm) · [Hardware and wiring evidence](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm/tree/main/docs) · [Physical demonstration video](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm/blob/main/docs/media/physical_actuation_evidence.mp4)
-
-### 02 — LumaGuard
-
-**PHYSICAL PROTOTYPE · HARDWARE BENCH TESTED**
-
-<p align="center">
-  <img src="assets/project-lumaguard.jpg" width="76%" alt="LumaGuard Arduino Nano breadboard prototype">
-</p>
-
-A context-aware proximity and flame-hazard demonstrator built around an Arduino Nano / ATmega328P.
+A proximity and flame-hazard demonstrator with local sensing, state handling and alerts.
 
 - HC-SR04 proximity sensing and optical flame detection feed a local hazard-state machine.
 - SSD1306 OLED, LEDs and buzzer provide local status and annunciation.
 - Firmware includes proximity hysteresis, flame-candidate persistence, non-blocking scheduling, stale-echo handling and EEPROM event counting.
-- The project report documents **nine end-to-end bench integration scenarios**.
+- Project report documents **nine end-to-end bench integration scenarios**.
 
-[Source, wiring and test report](https://github.com/RONALD-REX-7/LumaGuard)
+[Source code, wiring and test report](https://github.com/RONALD-REX-7/LumaGuard)
 
-<sub>Educational bench demonstrator only — not a certified fire alarm or life-safety instrument. The DHT22 was excluded from the final hardware baseline.</sub>
+<p align="center"><img src="assets/project-lumaguard.jpg" width="78%" alt="LumaGuard Arduino Nano breadboard prototype"></p>
 
-### 03 — EmbeddedLab OS
+<sub>Educational bench demonstrator only — not a certified fire alarm or life-safety instrument. DHT22 was excluded from the final hardware baseline.</sub>
 
-**SOFTWARE TESTED · VIRTUAL EMBEDDED LABORATORY**
+---
 
-<p align="center">
-  <img src="assets/project-embeddedlab-os.png" width="82%" alt="EmbeddedLab OS virtual embedded laboratory interface">
-</p>
+<img src="assets/project-embeddedlab-signal.svg" width="100%" alt="Animated EmbeddedLab OS project graphic">
 
-A browser-based learning environment for exploring microcontroller peripheral behaviour without requiring physical hardware.
+### EmbeddedLab OS
 
-- Interactive software models for **GPIO, PWM, ADC and UART**, with guided laboratories and challenge validation.
+<sub><strong>SOFTWARE SIMULATOR</strong> · GPIO · PWM · ADC · UART · React · Vitest</sub>
+
+A browser-based virtual embedded laboratory for exploring microcontroller peripheral behaviour without physical hardware.
+
+- Interactive software models for GPIO, PWM, ADC and UART, with guided labs and challenge validation.
 - Deterministic peripheral-state and timing models, including ADC quantization and reference scaling.
-- Includes a scoped AI learning assistant with request validation, rate limits and deterministic offline fallback.
+- Scoped AI learning assistant with request validation, rate limits and deterministic offline fallback.
 - Automated Vitest coverage spans simulator mathematics, challenge validators, state stores, AI route security and release invariants.
 
-[Launch the virtual laboratory](https://embeddedlab-os.vercel.app) · [Source and architecture](https://github.com/RONALD-REX-7/EmbeddedLab-OS)
+[<img src="https://img.shields.io/badge/LAUNCH_LAB-06B6D4?style=flat-square" alt="Launch lab">](https://embeddedlab-os.vercel.app) [Source & architecture](https://github.com/RONALD-REX-7/EmbeddedLab-OS)
+
+<p align="center"><img src="assets/project-embeddedlab-os.png" width="86%" alt="EmbeddedLab OS virtual embedded laboratory interface"></p>
 
 <sub>Educational software simulation — not a physical MCU, CPU-core emulator, transistor-level circuit simulator or hardware-validation tool.</sub>
 
-### 04 — Edge Payload Guard
+---
 
-**PUBLISHED SOFTWARE PACKAGE · PYTHON CLI / API · OCI CONTAINER**
+<img src="assets/project-edge-payload.svg" width="100%" alt="Animated Edge Payload Guard project graphic">
+
+### Edge Payload Guard
+
+<sub><strong>PUBLISHED SOFTWARE PACKAGE</strong> · Python · JSON Schema · CLI / API · Docker · GHCR</sub>
 
 An offline-first JSON Schema validator for embedded and IoT telemetry payloads.
 
-- Python API and command-line interface for validating JSON objects and arrays against trusted schemas.
-- Supports file input and standard input, text or machine-readable JSON output, deterministic issue paths and stable exit codes.
-- Rejects external schema references to keep validation offline.
-- Runs as a non-root container and publishes **Linux amd64 and arm64** images to GitHub Container Registry.
+- Python API and CLI for validating JSON objects and arrays against trusted schemas.
+- File and standard-input support, text or JSON output, deterministic issue paths and stable exit codes.
+- External schema references are rejected to keep validation offline.
+- Non-root container images published for Linux amd64 and arm64.
 - CI covers Python 3.10–3.13, unit tests, CLI checks and container smoke tests.
 
 ```bash
@@ -112,123 +101,83 @@ docker pull ghcr.io/ronald-rex-7/edge-payload-guard:1.0.0
 
 [Source repository](https://github.com/RONALD-REX-7/edge-payload-guard) · [Published container package](https://github.com/RONALD-REX-7/edge-payload-guard/pkgs/container/edge-payload-guard)
 
-<sub>Validates message structure and constraints; it does not prove sensor accuracy, freshness, authenticity or safety.</sub>
+---
 
-### 05 — MineGuard · SIH26025
+<img src="assets/project-mineguard-signal.svg" width="100%" alt="Animated MineGuard project graphic">
 
-**SOFTWARE PROTOTYPE · PARTIAL HARDWARE BENCH WORK · FIELD INTEGRATION INCOMPLETE**
+### MineGuard · SIH26025
 
-<p align="center">
-  <img src="assets/project-mineguard.png" width="82%" alt="MineGuard mine-subsidence monitoring software demonstrator">
-</p>
+<sub><strong>SOFTWARE PROTOTYPE · PARTIAL HARDWARE BENCH WORK · FIELD INTEGRATION INCOMPLETE</strong> · ESP32-S3 · LoRa / IN865 · Edge analytics</sub>
 
-An edge-intelligence concept for mine-subsidence monitoring, developed around Smart India Hackathon problem statement **SIH26025**.
+An edge-intelligence concept for mine-subsidence monitoring, developed around Smart India Hackathon problem statement SIH26025.
 
 - ESP32-S3 firmware and a multi-node sensing / telemetry architecture, with LoRa IN865 communication concepts.
 - Software demonstrator models deformation, tilt, strain and acoustic telemetry with a risk-analysis workflow.
-- The repository reports **93% recall on 1,000 synthetic geotechnical test vectors**. This is a generated-data benchmark, not field performance.
+- Repository reports **93% recall on 1,000 synthetic geotechnical test vectors** — a generated-data benchmark, not field performance.
 - Partial bench work and firmware build evidence are documented; full multi-sensor integration and underground / field validation remain incomplete.
 
-[Interactive demonstrator](https://mineguard-sih26025.vercel.app) · [Source, architecture and evidence](https://github.com/RONALD-REX-7/sih26025)
+[<img src="https://img.shields.io/badge/OPEN_DEMO-F59E0B?style=flat-square" alt="Open demo">](https://mineguard-sih26025.vercel.app) [Source, architecture & evidence](https://github.com/RONALD-REX-7/sih26025)
+
+<p align="center"><img src="assets/project-mineguard.png" width="86%" alt="MineGuard mine-subsidence monitoring software demonstrator"></p>
 
 ---
 
-## Additional work
+## 02 / More builds
 
-| Project | Scope |
-|:--|:--|
-| [QUARTZSENTRY](https://github.com/RONALD-REX-7/QUARTZSENTRY) | Software demonstrator for lithium-ion battery early warning. Displayed telemetry is synthetic; physical transducer and analogue-front-end integration is incomplete. |
-| [CLASSY_CS](https://github.com/RONALD-REX-7/CLASSY_CS) | GPA / CGPA, academic evaluation and admissions-planning engines with documented automated tests. |
-| [ProblemChain / RUSH_HOUR_2026](https://github.com/RONALD-REX-7/RUSH_HOUR_2026) | Collaborative civic-tech hackathon prototype. My documented work includes scaffolding, security remediation, CI, TypeScript fixes and backend hardening. |
-| [todo-rainmeter](https://github.com/RONALD-REX-7/todo-rainmeter) | Windows productivity skin using Rainmeter, Lua and PowerShell. |
+<img src="assets/project-quartzsentry-v3.svg" width="100%" alt="Animated QUARTZSENTRY project graphic">
 
-### Bare-metal reference
+### QUARTZSENTRY
 
-**ATmega328P Timer1 Fast PWM** — 16-bit Timer1, Mode 14 (ICR1 TOP), non-inverting OC1A output and cycle-aware C examples for 25 kHz PC fan / 20 kHz motor-drive use cases.
+<sub><strong>SOFTWARE DEMONSTRATOR · BATTERY EARLY WARNING</strong></sub>
 
-[Read the public Gist](https://gist.github.com/RONALD-REX-7/4abadd74f1de361fbb809ec717ff5d09)
+A lithium-ion battery early-warning demonstrator modelling temperature, electrochemical impedance, acoustic activity and off-gas precursor channels. Displayed telemetry is synthetic; physical transducer and analogue-front-end integration is incomplete.
 
----
+[Source repository](https://github.com/RONALD-REX-7/QUARTZSENTRY)
 
-## Technical toolkit
-
-<p>
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino">
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-</p>
-
-| Domain | Tools and concepts |
-|:--|:--|
-| **Microcontrollers & electronics** | Arduino Nano / ATmega328P, ESP32-S3, ARM Cortex-M concepts, sensors, breadboard prototyping |
-| **Embedded firmware** | C, C++, PlatformIO, Arduino CLI, state machines, non-blocking scheduling, interrupts, EEPROM, watchdogs |
-| **Peripheral interfaces** | GPIO, ADC, PWM, I2C, SPI, UART, nRF24L01, LoRa / IN865 concepts |
-| **Edge intelligence** | Python, sensor-data analysis, statistical anomaly methods, TinyML exploration |
-| **Cloud & application** | AWS, TypeScript, React, Next.js, Node.js, Supabase |
-| **Engineering workflow** | Git, GitHub Actions, Linux, Docker, unit testing, CI, technical documentation |
-
-<sub>Technologies are not all at the same proficiency level. Some are active learning and project-development areas; project descriptions identify implemented scope.</sub>
+<p align="center"><img src="assets/project-quartzsentry.png" width="82%" alt="QUARTZSENTRY software demonstrator interface"></p>
 
 ---
 
-## AWS certifications
+<img src="assets/project-classy.svg" width="100%" alt="Animated CLASSY CS project graphic">
 
-- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/9176f0c6-a291-4072-a332-55abd5c9b6f8)
-- [AWS Certified AI Practitioner](https://www.credly.com/badges/42dd44ed-6a82-4ee9-8733-e7bc202223b9)
-- [AWS Certified Developer – Associate](https://www.credly.com/badges/5e338e11-1247-412a-926c-031eb4d5e2a4)
-- [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/b662ec17-f239-48bd-b5d9-a7685d13be7a)
+### CLASSY_CS
 
-**NPTEL Cloud Computing** · Elite + Silver · **85%**
+<sub><strong>SOFTWARE TOOLING · ACADEMIC COMPUTATION</strong></sub>
 
-[Credly credentials](https://www.credly.com/users/ronaldrex) · [AWS Skill Builder profile](https://skillsprofile.skillbuilder.aws/user/ron)
+GPA / CGPA, academic evaluation and admissions-planning engines with documented automated tests.
 
----
-
-## GitHub activity & recognition
-
-- **Achievements:** Pull Shark · Pair Extraordinaire · Galaxy Brain · Quickdraw.
-- Public repositories across embedded firmware, physical robotics, IoT validation tooling, software simulation and cloud-connected prototypes.
-- Published GitHub Container Registry package and public bare-metal driver Gist.
-- Contributions include collaborative hackathon work, CI automation, documentation, security remediation and project maintenance.
+[Source repository](https://github.com/RONALD-REX-7/CLASSY_CS)
 
 ---
 
-## Education
+<img src="assets/project-rush-hour.svg" width="100%" alt="Animated RUSH HOUR 2026 project graphic">
 
-**B.E. Electronics and Communication Engineering**  
-S.A. Engineering College · Chennai, Tamil Nadu, India  
-2024–2028 · Expected graduation: **May 2028**
+### ProblemChain / RUSH_HOUR_2026
 
----
+<sub><strong>COLLABORATIVE CIVIC-TECH HACKATHON PROTOTYPE</strong></sub>
 
-## Engineering principles
+Collaborative project work includes scaffolding, security remediation, CI, TypeScript fixes and backend hardening.
 
-- **Understand before abstracting.** Know what the sensor, peripheral or interface is doing.
-- **Verify the boundary.** Separate a successful build, passing software test, bench-tested circuit and field-validated system.
-- **Design for failure.** Timeouts, stale data, invalid states and recovery paths deserve explicit treatment.
-- **Document for the next engineer.** Reproducible steps and honest limitations are part of the system.
+[Source repository & contribution record](https://github.com/RONALD-REX-7/RUSH_HOUR_2026)
 
-Interested in collaborations involving **embedded firmware, electronics, robotics, IoT, edge computing and device security**.
+<p align="center"><img src="assets/project-rush-hour.jpg" width="82%" alt="RUSH HOUR 2026 project interface"></p>
 
 ---
 
-## Connect
+<img src="assets/project-todo-rainmeter.svg" width="100%" alt="Animated Todo Rainmeter project graphic">
 
-**RONALD REX C H** · Chennai, India
+### todo-rainmeter
 
-- [LinkedIn](https://www.linkedin.com/in/ron-rex)
-- [GitHub](https://github.com/RONALD-REX-7)
-- [Credly](https://www.credly.com/users/ronaldrex)
-- [AWS Skill Builder](https://skillsprofile.skillbuilder.aws/user/ron)
-- **Email:** [ronaldrexch@gmail.com](mailto:ronaldrexch@gmail.com)
+<sub><strong>WINDOWS DESKTOP TOOL · RAINMETER · LUA · POWERSHELL</strong></sub>
 
-<sub>ENGINEERING FIELD NOTES · BUILT CLOSE TO THE HARDWARE</sub>
+A configurable desktop productivity skin for managing tasks and presenting a compact Windows widget interface.
+
+[Source repository](https://github.com/RONALD-REX-7/todo-rainmeter)
+
+<p align="center"><img src="assets/project-todo-rainmeter.jpg" width="82%" alt="Todo Rainmeter desktop widget"></p>
+
+---
+
+<div align="center">
+  <sub>END OF PROJECT ARCHIVE · SOURCE LINKS LEAD TO THE IMPLEMENTATIONS</sub>
+</div>
