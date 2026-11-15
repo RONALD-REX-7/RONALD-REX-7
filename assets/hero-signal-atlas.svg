@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="t d">
-<title id="t">PROJECT UNIVERSE</title><desc id="d">A CURATED INDEX OF HARDWARE, FIRMWARE & CONNECTED SYSTEMS</desc>
+<title id="t">PROJECT UNIVERSE</title><desc id="d">A CURATED INDEX OF HARDWARE, FIRMWARE &amp; CONNECTED SYSTEMS</desc>
 <defs>
  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10152D"/><stop offset=".55" stop-color="#20204A"/><stop offset="1" stop-color="#101D35"/></linearGradient>
  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
@@ -16,7 +16,7 @@
 </g>
 <path d="M40 38h38" stroke="#22D3EE" stroke-width="5" stroke-linecap="round"/>
 <text x="40" y="100" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800">PROJECT UNIVERSE</text>
-<text x="42" y="137" fill="#C6D3F4" font-family="monospace" font-size="16" letter-spacing="1.5">A CURATED INDEX OF HARDWARE, FIRMWARE & CONNECTED SYSTEMS</text>
+<text x="42" y="137" fill="#C6D3F4" font-family="monospace" font-size="16" letter-spacing="1.5">A CURATED INDEX OF HARDWARE, FIRMWARE &amp; CONNECTED SYSTEMS</text>
 <text x="42" y="190" fill="#F472B6" font-family="monospace" font-size="12" letter-spacing="2">PROJECT ARCHIVE / ENGINEERING BUILD</text>
 <circle r="4" fill="#F472B6"><animateMotion dur="5s" repeatCount="indefinite" path="M800 25 C900 10 1100 15 1140 80 S1100 200 990 195"/></circle>
 <path d="M790 28 C900 8 1090 12 1140 80 S1100 200 990 195" fill="none" stroke="#22D3EE" stroke-opacity=".18" stroke-width="2" stroke-dasharray="5 10"><animate attributeName="stroke-dashoffset" from="0" to="-60" dur="3s" repeatCount="indefinite"/></path>
