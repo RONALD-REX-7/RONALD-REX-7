@@ -1,17 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="230" viewBox="0 0 1100 230" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="t d">
+<title id="t">EMBEDDEDLAB OS</title><desc id="d">VIRTUAL GPIO / PWM / ADC / UART LABS</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1024"/><stop offset="1" stop-color="#18264B"/></linearGradient>
- <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#BFAEFF"/><stop offset=".55" stop-color="#8798FF"/><stop offset="1" stop-color="#52DDF2"/></linearGradient>
- <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1A2A50"/><stop offset="1" stop-color="#101A35"/></linearGradient>
- <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10152D"/><stop offset=".55" stop-color="#20204A"/><stop offset="1" stop-color="#101D35"/></linearGradient>
+ <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#8DA1D0" stroke-opacity=".15"/></pattern>
+ <filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
 </defs>
-
-<rect width="1100" height="230" rx="18" fill="url(#bg)"/>
-<text x="34" y="34" fill="#BFAEFF" font-family="monospace" font-size="12" letter-spacing="2">VIRTUAL LAB / DETERMINISTIC SOFTWARE MODEL</text>
-<rect x="34" y="58" width="235" height="135" rx="12" fill="url(#panel)" stroke="#8798FF"/>
-<text x="151" y="91" text-anchor="middle" fill="#F4F3FF" font-size="19" font-weight="700" font-family="Arial">LAB CONTROLLER</text>
-<text x="151" y="119" text-anchor="middle" fill="#AAB5D1" font-family="monospace" font-size="12">SIMULATED MCU STATE</text>
-<text x="151" y="155" text-anchor="middle" fill="#52DDF2" font-family="monospace" font-size="12">VITEST / 169 TESTS</text>
-<rect x="305" y="58" width="166" height="135" rx="11" fill="url(#panel)" stroke="#526AA4"/><text x="388" y="91" text-anchor="middle" fill="#BFAEFF" font-size="17" font-weight="700" font-family="Arial">GPIO</text><text x="388" y="116" text-anchor="middle" fill="#AAB5D1" font-family="monospace" font-size="10">HIGH / LOW</text><circle cx="388" cy="151" r="8" fill="#52DDF2"/><rect x="495" y="58" width="166" height="135" rx="11" fill="url(#panel)" stroke="#526AA4"/><text x="578" y="91" text-anchor="middle" fill="#BFAEFF" font-size="17" font-weight="700" font-family="Arial">PWM</text><text x="578" y="116" text-anchor="middle" fill="#AAB5D1" font-family="monospace" font-size="10">DUTY CYCLE</text><path d="M330 157h15v-20h25v20h25v-20h25v20h15" stroke="#52DDF2" stroke-width="2" fill="none"/><rect x="685" y="58" width="166" height="135" rx="11" fill="url(#panel)" stroke="#526AA4"/><text x="768" y="91" text-anchor="middle" fill="#BFAEFF" font-size="17" font-weight="700" font-family="Arial">ADC</text><text x="768" y="116" text-anchor="middle" fill="#AAB5D1" font-family="monospace" font-size="10">SAMPLE VALUE</text><path d="M710 166l15-30 15 12 15-25 15 18 15-10 15 20" stroke="#52DDF2" stroke-width="2" fill="none"/><rect x="875" y="58" width="166" height="135" rx="11" fill="url(#panel)" stroke="#526AA4"/><text x="958" y="91" text-anchor="middle" fill="#BFAEFF" font-size="17" font-weight="700" font-family="Arial">UART</text><text x="958" y="116" text-anchor="middle" fill="#AAB5D1" font-family="monospace" font-size="10">SERIAL FRAME</text><path d="M900 151h18v-17h18v17h18v-17h18v17h18" stroke="#52DDF2" stroke-width="2" fill="none"/>
-<text x="34" y="216" fill="#AAB5D1" font-size="11" font-family="monospace">BROWSER-BASED LEARNING ENVIRONMENT · NOT A PHYSICAL MCU OR CPU-CORE EMULATOR</text>
+<rect width="1200" height="230" rx="22" fill="url(#bg)"/><rect width="1200" height="230" rx="22" fill="url(#grid)"/>
+<circle cx="1010" cy="120" r="125" fill="#22D3EE" opacity=".18" filter="url(#blur)"/>
+<circle cx="1080" cy="42" r="95" fill="#A78BFA" opacity=".13" filter="url(#blur)"/>
+<path d="M0 190 C220 150 300 235 520 176 S850 120 1200 170" fill="none" stroke="url(#glow)" stroke-width="2" opacity=".45"/>
+<path d="M0 202 C220 162 300 247 520 188 S850 132 1200 182" fill="none" stroke="url(#glow)" stroke-width="1" opacity=".25"/>
+<g fill="none" stroke="url(#glow)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+ <rect x="850" y="48" width="270" height="130" rx="12"/><path d="M875 82h65m-65 24h105m-105 24h45"/><path d="M1000 145l25-40 20 22 30-52 30 28" />
+</g>
+<path d="M40 38h38" stroke="#22D3EE" stroke-width="5" stroke-linecap="round"/>
+<text x="40" y="100" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800">EMBEDDEDLAB OS</text>
+<text x="42" y="137" fill="#C6D3F4" font-family="monospace" font-size="16" letter-spacing="1.5">VIRTUAL GPIO / PWM / ADC / UART LABS</text>
+<text x="42" y="190" fill="#A78BFA" font-family="monospace" font-size="12" letter-spacing="2">PROJECT ARCHIVE / ENGINEERING BUILD</text>
+<circle r="4" fill="#A78BFA"><animateMotion dur="5s" repeatCount="indefinite" path="M800 25 C900 10 1100 15 1140 80 S1100 200 990 195"/></circle>
+<path d="M790 28 C900 8 1090 12 1140 80 S1100 200 990 195" fill="none" stroke="#22D3EE" stroke-opacity=".18" stroke-width="2" stroke-dasharray="5 10"><animate attributeName="stroke-dashoffset" from="0" to="-60" dur="3s" repeatCount="indefinite"/></path>
 </svg>
