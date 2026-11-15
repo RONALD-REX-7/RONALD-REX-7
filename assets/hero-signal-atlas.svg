@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="500" viewBox="0 0 1440 500" role="img" aria-labelledby="title desc">
+<title id="title">Ronald Rex — Signal Atlas engineering portfolio</title><desc id="desc">Pearl white and lavender isometric electronics board with microcontroller, sensors, signal traces and telemetry arcs.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBFCFF"/><stop offset=".55" stop-color="#F0EEFF"/><stop offset="1" stop-color="#E7F3FF"/></linearGradient>
+ <linearGradient id="board" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D8D5FA"/><stop offset=".55" stop-color="#A9B8E9"/><stop offset="1" stop-color="#829ACB"/></linearGradient>
+ <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".45" stop-color="#BFC4F5"/><stop offset="1" stop-color="#7786C8"/></linearGradient>
+ <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8B7FE8"/><stop offset=".5" stop-color="#4D9FC9"/><stop offset="1" stop-color="#8B7FE8"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="14"/><feOffset dy="16"/><feComponentTransfer><feFuncA type="linear" slope=".18"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8797C9" stroke-opacity=".13"/></pattern>
+</defs>
+<rect width="1440" height="500" rx="28" fill="url(#bg)"/><rect width="1440" height="500" rx="28" fill="url(#grid)"/>
+<circle cx="1110" cy="250" r="210" fill="#B9B4F3" opacity=".13"/><circle cx="1110" cy="250" r="160" fill="none" stroke="#A5A0E6" stroke-opacity=".35" stroke-dasharray="4 10"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#28345C">
+ <text x="76" y="94" font-size="17" font-weight="700" letter-spacing="6" fill="#7770C6">SIGNAL ATLAS / ENGINEERING PORTFOLIO</text>
+ <text x="72" y="168" font-size="56" font-weight="750">RONALD REX C H</text>
+ <text x="76" y="210" font-size="21" font-weight="600" letter-spacing="2" fill="#586A9B">EMBEDDED SYSTEMS  ·  IoT  ·  EDGE INTELLIGENCE</text>
+ <text x="76" y="260" font-size="20" fill="#4B587D">Electronics &amp; Communication Engineering</text>
+ <text x="76" y="291" font-size="18" fill="#66739A">S.A. Engineering College · Chennai · Class of 2028</text>
+ <g font-size="13" font-weight="700" letter-spacing="1.5">
+  <rect x="76" y="336" width="142" height="36" rx="18" fill="#FFFFFF" stroke="#C8C6F0"/><text x="147" y="359" text-anchor="middle">FIRMWARE</text>
+  <rect x="230" y="336" width="116" height="36" rx="18" fill="#FFFFFF" stroke="#C8C6F0"/><text x="288" y="359" text-anchor="middle">SENSING</text>
+  <rect x="358" y="336" width="116" height="36" rx="18" fill="#FFFFFF" stroke="#C8C6F0"/><text x="416" y="359" text-anchor="middle">CONNECT</text>
+  <rect x="486" y="336" width="116" height="36" rx="18" fill="#FFFFFF" stroke="#C8C6F0"/><text x="544" y="359" text-anchor="middle">VERIFY</text>
+ </g>
+</g>
+<g transform="translate(1040 248)" filter="url(#shadow)">
+ <path d="M-260 20 0-130 260 20 0 172Z" fill="#AAB5E1" opacity=".35" transform="translate(0 25)"/>
+ <path d="M-260 0 0-150 260 0 0 150Z" fill="url(#board)" stroke="#7786C7" stroke-width="2"/>
+ <path d="M-260 0V28L0 178V150Z" fill="#8E9BCB"/><path d="M260 0V28L0 178V150Z" fill="#7889B9"/>
+ <g fill="none" stroke="#F9FBFF" stroke-width="3" opacity=".9"><path d="M-210 2 -130 48 -130 95"/><path d="M-180-58 -95-9 -95 48"/><path d="M210 0 135 43 135 96"/><path d="M175-70 95-24 95 30"/><path d="M0-120V-58"/></g>
+ <g fill="none" stroke="#6B70C4" stroke-width="2.5"><path d="M-235-22h64l28 16h40"/><path d="M210-35h-55l-28 16h-40"/><path d="M-25 105v-35l25-14 25 14v35"/></g>
+ <path d="M-92-38 -5-88 92-38 5 12Z" fill="#586AAE" stroke="#F8FAFF" stroke-width="3"/>
+ <path d="M-92-38V16L5 72V12Z" fill="#7D8DCA" stroke="#E8ECFF" stroke-width="2"/><path d="M92-38V16L5 72V12Z" fill="#6578B9" stroke="#E8ECFF" stroke-width="2"/>
+ <path d="M-68-39 -5-75 68-39 5-3Z" fill="url(#chip)" stroke="#FFFFFF" stroke-width="2"/>
+ <g stroke="#F8FAFF" stroke-width="5"><path d="M-106-30 -127-42M-106-7 -127-19M-106 16 -127 4M106-30 127-42M106-7 127-19M106 16 127 4"/></g>
+ <g fill="#FFF"><rect x="-215" y="-28" width="36" height="20" rx="4"/><rect x="165" y="-55" width="30" height="18" rx="4"/><circle cx="0" cy="-126" r="8"/></g>
+</g>
+<g fill="none" stroke="url(#trace)" stroke-width="3" stroke-linecap="round">
+ <path d="M640 380h105l42-42h64" stroke-dasharray="9 9"><animate attributeName="stroke-dashoffset" values="0;-72" dur="4s" repeatCount="indefinite"/></path>
+ <path d="M1295 92h-85l-35 35h-70" stroke-dasharray="8 10"><animate attributeName="stroke-dashoffset" values="0;72" dur="3.4s" repeatCount="indefinite"/></path>
+ <path d="M1270 415h-80l-34-34h-48" stroke-dasharray="7 9"><animate attributeName="stroke-dashoffset" values="0;-64" dur="4.5s" repeatCount="indefinite"/></path>
+</g>
+<g fill="#7C75D9"><circle cx="850" cy="338" r="6"><animate attributeName="r" values="4;8;4" dur="2.2s" repeatCount="indefinite"/></circle><circle cx="1105" cy="127" r="6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/></circle><circle cx="1138" cy="381" r="6"><animate attributeName="r" values="4;8;4" dur="2.8s" repeatCount="indefinite"/></circle></g>
+<g font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2" fill="#6875A4"><text x="1280" y="475" text-anchor="end">SENSE / COMPUTE / CONNECT / VERIFY</text></g>
+</svg>
