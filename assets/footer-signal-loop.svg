@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t d">
-<title id="t">Engineering principles</title><desc id="d">Sense, compute, connect, verify — a continuous engineering feedback loop.</desc>
-<defs><linearGradient id="f" x1="0" x2="1"><stop stop-color="#E9E7FF"/><stop offset=".5" stop-color="#E3F2FB"/><stop offset="1" stop-color="#EEE9FC"/></linearGradient></defs>
-<rect width="1200" height="150" rx="22" fill="url(#f)" stroke="#D8DDF0"/><path d="M75 76h180l35-30h120m635 0h-120l-35 30H770" stroke="#8E87D5" stroke-width="2.5" fill="none"/><circle cx="255" cy="76" r="6" fill="#6D9FC2"/><circle cx="945" cy="76" r="6" fill="#6D9FC2"/>
-<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle"><text x="600" y="58" fill="#6D70A9" font-size="13" letter-spacing="5">ENGINEERING IS A FEEDBACK LOOP</text><text x="600" y="94" fill="#344568" font-size="27" font-weight="700">SENSE  →  COMPUTE  →  CONNECT  →  VERIFY</text><text x="600" y="120" fill="#7280A3" font-size="11" letter-spacing="3">MEASURE WHAT EXISTS · DOCUMENT WHAT REMAINS</text></g>
-</svg>
