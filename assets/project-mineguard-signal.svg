@@ -1,21 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="230" viewBox="0 0 1100 230" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="t d">
+<title id="t">MINEGUARD · SIH26025</title><desc id="d">SENSOR TELEMETRY / EDGE RISK ANALYSIS</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1024"/><stop offset="1" stop-color="#18264B"/></linearGradient>
- <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#BFAEFF"/><stop offset=".55" stop-color="#8798FF"/><stop offset="1" stop-color="#52DDF2"/></linearGradient>
- <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1A2A50"/><stop offset="1" stop-color="#101A35"/></linearGradient>
- <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10152D"/><stop offset=".55" stop-color="#20204A"/><stop offset="1" stop-color="#101D35"/></linearGradient>
+ <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FBBF24"/><stop offset="1" stop-color="#FB7185"/></linearGradient>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#8DA1D0" stroke-opacity=".15"/></pattern>
+ <filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
 </defs>
-
-<rect width="1100" height="230" rx="18" fill="url(#bg)"/>
-<text x="34" y="32" fill="#BFAEFF" font-family="monospace" font-size="12" letter-spacing="2">MINEGUARD / SIH26025 · PROPOSED MONITORING ARCHITECTURE</text>
-<path d="M34 155L110 90L205 126L290 75L380 133L470 92L560 150L650 88L740 135L830 80L920 142L1060 86" fill="none" stroke="#4B5D8D" stroke-width="2"/>
-<circle cx="120" cy="125" r="12" fill="#111D3A" stroke="#52DDF2" stroke-width="2"/><path d="M120 113v-35" stroke="#8798FF" stroke-width="2"/><path d="M112 85q8 -14 16 0" fill="none" stroke="#52DDF2" stroke-width="2"/><circle cx="310" cy="147" r="12" fill="#111D3A" stroke="#52DDF2" stroke-width="2"/><path d="M310 135v-35" stroke="#8798FF" stroke-width="2"/><path d="M302 107q8 -14 16 0" fill="none" stroke="#52DDF2" stroke-width="2"/><circle cx="500" cy="125" r="12" fill="#111D3A" stroke="#52DDF2" stroke-width="2"/><path d="M500 113v-35" stroke="#8798FF" stroke-width="2"/><path d="M492 85q8 -14 16 0" fill="none" stroke="#52DDF2" stroke-width="2"/><circle cx="690" cy="147" r="12" fill="#111D3A" stroke="#52DDF2" stroke-width="2"/><path d="M690 135v-35" stroke="#8798FF" stroke-width="2"/><path d="M682 107q8 -14 16 0" fill="none" stroke="#52DDF2" stroke-width="2"/><circle cx="880" cy="125" r="12" fill="#111D3A" stroke="#52DDF2" stroke-width="2"/><path d="M880 113v-35" stroke="#8798FF" stroke-width="2"/><path d="M872 85q8 -14 16 0" fill="none" stroke="#52DDF2" stroke-width="2"/>
-<rect x="35" y="174" width="205" height="36" rx="7" fill="#18264B" stroke="#8798FF"/><text x="137" y="197" text-anchor="middle" fill="#F4F3FF" font-family="monospace" font-size="11">SENSOR NODES</text>
-<path d="M240 192H350" stroke="#52DDF2" stroke-width="2"/><path d="M336 185l14 7-14 7" stroke="#52DDF2" fill="none" stroke-width="2"/>
-<rect x="350" y="174" width="205" height="36" rx="7" fill="#18264B" stroke="#8798FF"/><text x="452" y="197" text-anchor="middle" fill="#F4F3FF" font-family="monospace" font-size="11">LORA / IN865</text>
-<path d="M555 192H665" stroke="#52DDF2" stroke-width="2"/><path d="M651 185l14 7-14 7" stroke="#52DDF2" fill="none" stroke-width="2"/>
-<rect x="665" y="174" width="205" height="36" rx="7" fill="#18264B" stroke="#8798FF"/><text x="767" y="197" text-anchor="middle" fill="#F4F3FF" font-family="monospace" font-size="11">EDGE ANALYSIS</text>
-<path d="M870 192H980" stroke="#52DDF2" stroke-width="2"/><path d="M966 185l14 7-14 7" stroke="#52DDF2" fill="none" stroke-width="2"/>
-<rect x="980" y="174" width="90" height="36" rx="7" fill="#18264B" stroke="#8798FF"/><text x="1025" y="197" text-anchor="middle" fill="#F4F3FF" font-family="monospace" font-size="11">ALERT</text>
-<text x="34" y="57" fill="#FFBC72" font-family="monospace" font-size="11">93% RECALL · 1,000 SYNTHETIC TEST VECTORS ONLY</text>
+<rect width="1200" height="230" rx="22" fill="url(#bg)"/><rect width="1200" height="230" rx="22" fill="url(#grid)"/>
+<circle cx="1010" cy="120" r="125" fill="#FBBF24" opacity=".18" filter="url(#blur)"/>
+<circle cx="1080" cy="42" r="95" fill="#FB7185" opacity=".13" filter="url(#blur)"/>
+<path d="M0 190 C220 150 300 235 520 176 S850 120 1200 170" fill="none" stroke="url(#glow)" stroke-width="2" opacity=".45"/>
+<path d="M0 202 C220 162 300 247 520 188 S850 132 1200 182" fill="none" stroke="url(#glow)" stroke-width="1" opacity=".25"/>
+<g fill="none" stroke="url(#glow)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M850 170l45-95 42 70 44-96 48 121h80"/><path d="M850 180h260"/><circle cx="940" cy="112" r="8" fill="#FBBF24"/><circle cx="1026" cy="130" r="8" fill="#FB7185"/>
+</g>
+<path d="M40 38h38" stroke="#FBBF24" stroke-width="5" stroke-linecap="round"/>
+<text x="40" y="100" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800">MINEGUARD · SIH26025</text>
+<text x="42" y="137" fill="#C6D3F4" font-family="monospace" font-size="16" letter-spacing="1.5">SENSOR TELEMETRY / EDGE RISK ANALYSIS</text>
+<text x="42" y="190" fill="#FB7185" font-family="monospace" font-size="12" letter-spacing="2">PROJECT ARCHIVE / ENGINEERING BUILD</text>
+<circle r="4" fill="#FB7185"><animateMotion dur="5s" repeatCount="indefinite" path="M800 25 C900 10 1100 15 1140 80 S1100 200 990 195"/></circle>
+<path d="M790 28 C900 8 1090 12 1140 80 S1100 200 990 195" fill="none" stroke="#FBBF24" stroke-opacity=".18" stroke-width="2" stroke-dasharray="5 10"><animate attributeName="stroke-dashoffset" from="0" to="-60" dur="3s" repeatCount="indefinite"/></path>
 </svg>
