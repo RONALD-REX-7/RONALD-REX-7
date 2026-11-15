@@ -1,45 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="390" viewBox="0 0 1440 390" role="img" aria-labelledby="title desc">
-<title id="title">Ronald Rex — engineering field notes</title>
-<desc id="desc">A static industrial engineering identity panel with a dark graphite drafting grid, orange signal traces, a microcontroller schematic and the words built close to the hardware.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="t d">
+<title id="t">PROJECT UNIVERSE</title><desc id="d">A CURATED INDEX OF HARDWARE, FIRMWARE & CONNECTED SYSTEMS</desc>
 <defs>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-    <path d="M32 0H0V32" fill="none" stroke="#34404A" stroke-width="1"/>
-    <circle cx="0" cy="0" r="1.4" fill="#59646D"/>
-  </pattern>
-  <pattern id="fine" width="8" height="8" patternUnits="userSpaceOnUse">
-    <path d="M8 0H0V8" fill="none" stroke="#27323B" stroke-width=".6"/>
-  </pattern>
-  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#18232B"/>
-    <stop offset="1" stop-color="#0D141A"/>
-  </linearGradient>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10152D"/><stop offset=".55" stop-color="#20204A"/><stop offset="1" stop-color="#101D35"/></linearGradient>
+ <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#8DA1D0" stroke-opacity=".15"/></pattern>
+ <filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
 </defs>
-<rect width="1440" height="390" rx="18" fill="url(#panel)"/>
-<rect x="1" y="1" width="1438" height="388" rx="17" fill="url(#grid)" stroke="#53616A" stroke-width="1.5"/>
-<rect x="18" y="18" width="1404" height="354" rx="10" fill="url(#fine)" opacity=".65"/>
-<path d="M0 310H1440" stroke="#34434C" stroke-width="1"/>
-<path d="M54 64H390l22 22h140" fill="none" stroke="#F26B38" stroke-width="3"/>
-<path d="M54 80H300l18 18h85" fill="none" stroke="#F26B38" stroke-width="1.4" opacity=".55"/>
-<circle cx="390" cy="64" r="5" fill="#F26B38"/>
-<circle cx="403" cy="98" r="4" fill="#F26B38"/>
-<text x="58" y="48" fill="#A9B4BB" font-family="monospace" font-size="13" letter-spacing="3">ENGINEERING NOTEBOOK / 001</text>
-<text x="58" y="164" fill="#F4F1E8" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="800" letter-spacing="-2">RONALD REX</text>
-<text x="61" y="207" fill="#F26B38" font-family="monospace" font-size="20" font-weight="700" letter-spacing="3">ELECTRONICS × EMBEDDED SYSTEMS</text>
-<text x="61" y="252" fill="#C6D0D5" font-family="Arial,Helvetica,sans-serif" font-size="19">Sensing. Firmware. Interfaces. Connected devices.</text>
-<text x="61" y="286" fill="#89969E" font-family="monospace" font-size="13" letter-spacing="1.5">CHENNAI, INDIA  /  ECE '28  /  BUILT CLOSE TO THE HARDWARE</text>
-<g transform="translate(1080 185)">
-  <rect x="-116" y="-116" width="232" height="232" rx="8" fill="#121C23" stroke="#60717A" stroke-width="2"/>
-  <rect x="-88" y="-88" width="176" height="176" rx="5" fill="#202D35" stroke="#F26B38" stroke-width="2"/>
-  <rect x="-52" y="-52" width="104" height="104" rx="3" fill="#10181E" stroke="#8C9AA2" stroke-width="1.5"/>
-  <path d="M-70-88v-24m28 24v-24m28 24v-24m28 24v-24m28 24v-24M-70 88v24m28-24v24m28-24v24m28-24v24m28-24v24M-88-70h-24m24-28h-24m24 56h-24m24 28h-24m24 28h-24M88-70h24m-24-28h24m-24 56h24m-24 28h24m-24 28h24" stroke="#B8C2C7" stroke-width="3" stroke-linecap="square"/>
-  <g fill="#F26B38"><circle cx="-70" cy="-70" r="4"/><circle cx="70" cy="-70" r="4"/><circle cx="-70" cy="70" r="4"/><circle cx="70" cy="70" r="4"/></g>
-  <path d="M-34-22h68M-34-5h68M-34 12h68M-18-34v68M0-34v68M18-34v68" stroke="#52636D" stroke-width="1"/>
-  <text x="0" y="7" text-anchor="middle" fill="#F4F1E8" font-family="monospace" font-size="18" font-weight="700">MCU</text>
-  <text x="0" y="145" text-anchor="middle" fill="#A9B4BB" font-family="monospace" font-size="12" letter-spacing="2">SIGNAL / CONTROL / VERIFY</text>
+<rect width="1200" height="230" rx="22" fill="url(#bg)"/><rect width="1200" height="230" rx="22" fill="url(#grid)"/>
+<circle cx="1010" cy="120" r="125" fill="#22D3EE" opacity=".18" filter="url(#blur)"/>
+<circle cx="1080" cy="42" r="95" fill="#F472B6" opacity=".13" filter="url(#blur)"/>
+<path d="M0 190 C220 150 300 235 520 176 S850 120 1200 170" fill="none" stroke="url(#glow)" stroke-width="2" opacity=".45"/>
+<path d="M0 202 C220 162 300 247 520 188 S850 132 1200 182" fill="none" stroke="url(#glow)" stroke-width="1" opacity=".25"/>
+<g fill="none" stroke="url(#glow)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+ <rect x="850" y="48" width="270" height="130" rx="12"/><path d="M875 82h65m-65 24h105m-105 24h45"/><path d="M1000 145l25-40 20 22 30-52 30 28" />
 </g>
-<path d="M1214 78h120v40h48" fill="none" stroke="#F26B38" stroke-width="2"/>
-<path d="M1214 292h88v-34h80" fill="none" stroke="#F26B38" stroke-width="2"/>
-<circle cx="1334" cy="78" r="4" fill="#F26B38"/>
-<circle cx="1382" cy="258" r="4" fill="#F26B38"/>
-<text x="1366" y="352" text-anchor="end" fill="#73818A" font-family="monospace" font-size="11" letter-spacing="2">STATIC ARTWORK / NO MOTION</text>
+<path d="M40 38h38" stroke="#22D3EE" stroke-width="5" stroke-linecap="round"/>
+<text x="40" y="100" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800">PROJECT UNIVERSE</text>
+<text x="42" y="137" fill="#C6D3F4" font-family="monospace" font-size="16" letter-spacing="1.5">A CURATED INDEX OF HARDWARE, FIRMWARE & CONNECTED SYSTEMS</text>
+<text x="42" y="190" fill="#F472B6" font-family="monospace" font-size="12" letter-spacing="2">PROJECT ARCHIVE / ENGINEERING BUILD</text>
+<circle r="4" fill="#F472B6"><animateMotion dur="5s" repeatCount="indefinite" path="M800 25 C900 10 1100 15 1140 80 S1100 200 990 195"/></circle>
+<path d="M790 28 C900 8 1090 12 1140 80 S1100 200 990 195" fill="none" stroke="#22D3EE" stroke-opacity=".18" stroke-width="2" stroke-dasharray="5 10"><animate attributeName="stroke-dashoffset" from="0" to="-60" dur="3s" repeatCount="indefinite"/></path>
 </svg>
