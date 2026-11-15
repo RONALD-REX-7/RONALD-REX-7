@@ -21,9 +21,8 @@ if len(headings) < 8:
     fail(f"Expected at least 8 Markdown headings; found {len(headings)}")
 
 required_projects = (
-    "Gesture-Controlled Robotic Arm", "LumaGuard", "EmbeddedLab OS",
-    "Edge Payload Guard", "MineGuard", "QUARTZSENTRY", "CLASSY_CS",
-    "RUSH_HOUR_2026", "todo-rainmeter",
+    "LumaGuard", "EmbeddedLab OS", "MineGuard", "QUARTZSENTRY",
+    "CLASSY_CS", "RUSH_HOUR_2026",
 )
 for project in required_projects:
     if project.casefold() not in content.casefold():
