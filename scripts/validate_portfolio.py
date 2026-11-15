@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate local visual assets and basic integrity of the GitHub profile README."""
+"""Validate the project-only GitHub profile README and its visual assets."""
 from __future__ import annotations
 import re, sys
 import xml.etree.ElementTree as ET
@@ -19,9 +19,24 @@ content = README.read_text(encoding="utf-8")
 headings = re.findall(r"^#{1,6}\s+(.+)$", content, re.MULTILINE)
 if len(headings) < 8:
     fail(f"Expected at least 8 Markdown headings; found {len(headings)}")
-for section in ("LumaGuard", "EmbeddedLab OS", "MineGuard", "QUARTZSENTRY", "AWS certifications", "Education", "Connect"):
-    if section.casefold() not in content.casefold():
-        fail(f"README is missing required content: {section}")
+
+required_projects = (
+    "LumaGuard", "EmbeddedLab OS", "MineGuard", "QUARTZSENTRY",
+    "CLASSY_CS", "RUSH_HOUR_2026",
+)
+for project in required_projects:
+    if project.casefold() not in content.casefold():
+        fail(f"README is missing project: {project}")
+
+forbidden_headings = (
+    "Engineering focus", "Technical toolkit", "AWS certifications",
+    "Education", "Connect", "GitHub activity", "Engineering principles",
+)
+for section in forbidden_headings:
+    if re.search(rf"^#+\s+{re.escape(section)}\s*$", content, re.IGNORECASE | re.MULTILINE):
+        fail(f"Non-project section must not appear: {section}")
+if re.search(r"\.gif(?:[?#)\s]|$)", content, re.IGNORECASE):
+    fail("GIF references are not permitted in the project README")
 
 credential_patterns = (
     re.compile(r"\bghp_[A-Za-z0-9]{20,}\b"),
@@ -53,8 +68,6 @@ for reference in references:
 if not local_images:
     fail("No local image references were found")
 
-# Parse SVGs that the README actually displays. Historical, unused SVG assets
-# are intentionally left untouched and must not break the current portfolio.
 svg_files = sorted({path for path in local_images if path.suffix.lower() == ".svg"})
 for svg in svg_files:
     try:
@@ -63,6 +76,7 @@ for svg in svg_files:
         fail(f"Malformed referenced SVG {svg.relative_to(ROOT)}: {exc}")
 
 print(f"README headings: {len(headings)}")
+print(f"Project names verified: {len(required_projects)}")
 print(f"Local image references verified: {len(local_images)}")
 print(f"Referenced SVG assets parsed: {len(svg_files)}")
-print("Portfolio integrity checks passed.")
+print("Project-only README integrity checks passed.")
