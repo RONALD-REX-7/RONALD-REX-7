@@ -1,108 +1,102 @@
 <div align="center">
 
-<img src="assets/hero-signal-atlas.svg" width="100%" alt="Signal Atlas — pearl-white isometric electronics board, microcontroller and animated signal traces">
+<img src="assets/hero-signal-atlas.svg" width="100%" alt="Ronald Rex — embedded systems and electronics engineering field notes">
 
 <p>
-  <a href="https://www.linkedin.com/in/ron-rex">LINKEDIN</a> ·
-  <a href="https://www.credly.com/users/ronaldrex">CREDLY</a> ·
-  <a href="https://skillsprofile.skillbuilder.aws/user/ron">AWS SKILL BUILDER</a> ·
-  <a href="mailto:ronaldrexch@gmail.com">EMAIL</a> ·
-  <a href="https://github.com/RONALD-REX-7">GITHUB</a>
+  <a href="https://www.linkedin.com/in/ron-rex">LINKEDIN</a> &nbsp;·&nbsp;
+  <a href="https://www.credly.com/users/ronaldrex">CREDLY</a> &nbsp;·&nbsp;
+  <a href="https://skillsprofile.skillbuilder.aws/user/ron">AWS SKILL BUILDER</a> &nbsp;·&nbsp;
+  <a href="mailto:ronaldrexch@gmail.com">EMAIL</a>
 </p>
 
 </div>
 
----
+# Ronald Rex C H
 
-## ◈ THE ENGINEERING PROFILE
+**Electronics & Communication Engineering · Chennai, India · Class of 2028**
 
-I am a **B.E. Electronics and Communication Engineering** undergraduate at **S.A. Engineering College, Chennai**, graduating in **May 2028**.
+I work at the intersection of **electronics, embedded firmware and connected systems**. I’m building the fundamentals to design, bring up, debug and validate systems that interact with the physical world — from sensors and peripheral buses to edge processing and cloud telemetry.
 
-My engineering direction is **embedded systems, firmware and connected devices**. I am interested in the complete path from physical sensing and peripheral interfaces to reliable firmware, edge processing, telemetry and cloud-connected systems.
-
-**Primary focus** · Embedded C/C++ · Microcontrollers · Firmware fundamentals · Electronics integration  
-**Connected systems** · IoT · Device-side validation · Edge intelligence / TinyML · Cloud telemetry  
-**Engineering approach** · Understand the signal. Control the state. Test the boundary. Document the evidence.
-
-<img src="assets/stack-signal-flow.svg" width="100%" alt="Engineering signal path: electronics, firmware, edge intelligence, connected systems, cloud and telemetry">
+[Portfolio](https://ronald-rex-7.github.io) · [GitHub](https://github.com/RONALD-REX-7) · [LinkedIn](https://www.linkedin.com/in/ron-rex)
 
 ---
 
-## ◈ SELECTED ENGINEERING BUILDS
+## Engineering focus
 
-The projects below are ranked by implementation evidence, engineering relevance and the strength of reproducible artefacts. Maturity labels distinguish physical hardware from software simulation and architecture work.
+| Area | Current focus |
+|:--|:--|
+| **Embedded systems** | Embedded C/C++, Arduino / ATmega328P, ESP32-S3, MCU fundamentals |
+| **Electronics & interfaces** | GPIO, ADC, PWM, I2C, SPI, UART, sensor integration, debugging |
+| **Connected devices** | IoT architecture, wireless telemetry, device-side validation |
+| **Edge intelligence** | Sensor-data analysis, anomaly detection concepts, TinyML exploration |
+| **Cloud & security** | AWS, telemetry pipelines, containerisation, secure software practices |
 
-### 01 / Gesture-Controlled Robotic Arm
+My preferred engineering workflow: **understand the hardware → establish the signal path → implement firmware → test failure cases → document evidence.**
 
-**PHYSICAL ROBOTICS SYSTEM · ACTUATION VIDEO AND BENCH EVIDENCE**
+---
 
-<img src="assets/project-robotic-arm.svg" width="100%" alt="Isometric illustration of a wearable IMU glove wirelessly controlling a multi-joint robotic arm">
+## Selected engineering work
 
-A wearable gesture controller drives a physical multi-joint arm through an embedded wireless control path.
+The projects below are presented with their actual implementation maturity. A physical prototype, a software simulator and an early-stage demonstrator are not interchangeable.
 
-- **Hardware path:** Arduino Nano transmitter, MPU6050 6-axis IMU, nRF24L01 radio, Arduino Uno receiver, PCA9685 PWM controller and SG90 / MG996R servos.
-- **Firmware controls:** complementary-filter orientation estimate, dead zone, bounded joint targets, per-joint motion limits and smoothed actuation.
-- **Fault response:** a 1-second radio watchdog moves the arm toward configured failsafe park coordinates.
-- **Kinematics:** two-link planar inverse-kinematics helper rejects targets outside the configured workspace.
-- **Evidence:** physical actuation GIF, continuous 22-second demonstration video, bench photographs and firmware motion-engine tests are committed in the repository.
+### 01 — Gesture-Controlled Robotic Arm
+
+**PHYSICAL ROBOTICS SYSTEM · EMBEDDED WIRELESS CONTROL**
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/RONALD-REX-7/gesture-controlled-robotic-arm/main/docs/media/gesture_arm_demo.gif"><img src="https://raw.githubusercontent.com/RONALD-REX-7/gesture-controlled-robotic-arm/main/docs/media/gesture_arm_demo.gif" width="78%" alt="Gesture glove driving the physical robotic arm"></a>
+  <img src="https://raw.githubusercontent.com/RONALD-REX-7/gesture-controlled-robotic-arm/main/docs/images/arm-and-glove.png" width="82%" alt="Physical gesture-controlled robotic arm and wearable IMU glove">
 </p>
 
-[Source repository](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm) · [Continuous physical demonstration](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm/blob/main/docs/media/physical_actuation_evidence.mp4) · [Wiring and evidence](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm/tree/main/docs)
+A wearable gesture controller drives a physical multi-joint arm through a wireless embedded control path.
 
-<sub>End-to-end latency, packet-loss rate, repeatability, payload capacity and formal safety certification have not been measured or claimed.</sub>
+- **Hardware:** Arduino Nano transmitter, MPU6050 6-axis IMU, nRF24L01 radio, Arduino Uno receiver, PCA9685 PWM controller and SG90 / MG996R servos.
+- **Firmware:** complementary-filter orientation estimate, dead zone, bounded joint targets, per-joint motion limits and smoothed actuation.
+- **Fault handling:** a 1-second radio watchdog moves the arm toward configured failsafe park coordinates.
+- **Kinematics:** two-link planar inverse-kinematics helper rejects targets outside the configured workspace.
 
----
+[Source code](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm) · [Hardware and wiring evidence](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm/tree/main/docs) · [Physical demonstration video](https://github.com/RONALD-REX-7/gesture-controlled-robotic-arm/blob/main/docs/media/physical_actuation_evidence.mp4)
 
-### 02 / LumaGuard
+### 02 — LumaGuard
 
 **PHYSICAL PROTOTYPE · HARDWARE BENCH TESTED**
 
-<img src="assets/project-lumaguard-signal.svg" width="100%" alt="LumaGuard proximity and flame hazard guard system illustration">
+<p align="center">
+  <img src="assets/project-lumaguard.jpg" width="76%" alt="LumaGuard Arduino Nano breadboard prototype">
+</p>
 
-**Context-aware proximity and flame-hazard guard** built around an Arduino Nano / ATmega328P.
+A context-aware proximity and flame-hazard demonstrator built around an Arduino Nano / ATmega328P.
 
 - HC-SR04 proximity sensing and optical flame detection feed a local hazard-state machine.
 - SSD1306 OLED, LEDs and buzzer provide local status and annunciation.
 - Firmware includes proximity hysteresis, flame-candidate persistence, non-blocking scheduling, stale-echo handling and EEPROM event counting.
-- The project test report documents **nine end-to-end bench integration scenarios** covering nominal operation, intrusion, flame detection, concurrent hazards, alert silence, recovery, echo loss and persistent event logging.
-
-<p align="center"><img src="assets/project-lumaguard.jpg" width="76%" alt="LumaGuard physical breadboard prototype"></p>
+- The project report documents **nine end-to-end bench integration scenarios**.
 
 [Source, wiring and test report](https://github.com/RONALD-REX-7/LumaGuard)
 
 <sub>Educational bench demonstrator only — not a certified fire alarm or life-safety instrument. The DHT22 was excluded from the final hardware baseline.</sub>
 
----
-
-### 03 / EmbeddedLab OS
+### 03 — EmbeddedLab OS
 
 **SOFTWARE TESTED · VIRTUAL EMBEDDED LABORATORY**
 
-<img src="assets/project-embeddedlab-signal.svg" width="100%" alt="EmbeddedLab OS virtual laboratory illustration">
+<p align="center">
+  <img src="assets/project-embeddedlab-os.png" width="82%" alt="EmbeddedLab OS virtual embedded laboratory interface">
+</p>
 
 A browser-based learning environment for exploring microcontroller peripheral behaviour without requiring physical hardware.
 
 - Interactive software models for **GPIO, PWM, ADC and UART**, with guided laboratories and challenge validation.
-- Deterministic peripheral-state and timing models, including ADC quantization, reference scaling and register-oriented exercises.
+- Deterministic peripheral-state and timing models, including ADC quantization and reference scaling.
 - Includes a scoped AI learning assistant with request validation, rate limits and deterministic offline fallback.
-- The repository documents automated Vitest coverage for simulator mathematics, challenge validators, state stores, AI route security and release invariants.
-
-<p align="center"><img src="assets/project-embeddedlab-os.png" width="76%" alt="EmbeddedLab OS application interface"></p>
+- Automated Vitest coverage spans simulator mathematics, challenge validators, state stores, AI route security and release invariants.
 
 [Launch the virtual laboratory](https://embeddedlab-os.vercel.app) · [Source and architecture](https://github.com/RONALD-REX-7/EmbeddedLab-OS)
 
 <sub>Educational software simulation — not a physical MCU, CPU-core emulator, transistor-level circuit simulator or hardware-validation tool.</sub>
 
----
-
-### 04 / Edge Payload Guard
+### 04 — Edge Payload Guard
 
 **PUBLISHED SOFTWARE PACKAGE · PYTHON CLI / API · OCI CONTAINER**
-
-<img src="assets/project-edge-payload.svg" width="100%" alt="Edge Payload Guard validating embedded telemetry through an offline JSON Schema gate">
 
 An offline-first JSON Schema validator for embedded and IoT telemetry payloads.
 
@@ -112,21 +106,21 @@ An offline-first JSON Schema validator for embedded and IoT telemetry payloads.
 - Runs as a non-root container and publishes **Linux amd64 and arm64** images to GitHub Container Registry.
 - CI covers Python 3.10–3.13, unit tests, CLI checks and container smoke tests.
 
-~~~bash
+```bash
 docker pull ghcr.io/ronald-rex-7/edge-payload-guard:1.0.0
-~~~
+```
 
 [Source repository](https://github.com/RONALD-REX-7/edge-payload-guard) · [Published container package](https://github.com/RONALD-REX-7/edge-payload-guard/pkgs/container/edge-payload-guard)
 
 <sub>Validates message structure and constraints; it does not prove sensor accuracy, freshness, authenticity or safety.</sub>
 
----
-
-### 05 / MineGuard · SIH26025
+### 05 — MineGuard · SIH26025
 
 **SOFTWARE PROTOTYPE · PARTIAL HARDWARE BENCH WORK · FIELD INTEGRATION INCOMPLETE**
 
-<img src="assets/project-mineguard-signal.svg" width="100%" alt="MineGuard mine subsidence sensing and telemetry architecture">
+<p align="center">
+  <img src="assets/project-mineguard.png" width="82%" alt="MineGuard mine-subsidence monitoring software demonstrator">
+</p>
 
 An edge-intelligence concept for mine-subsidence monitoring, developed around Smart India Hackathon problem statement **SIH26025**.
 
@@ -135,32 +129,45 @@ An edge-intelligence concept for mine-subsidence monitoring, developed around Sm
 - The repository reports **93% recall on 1,000 synthetic geotechnical test vectors**. This is a generated-data benchmark, not field performance.
 - Partial bench work and firmware build evidence are documented; full multi-sensor integration and underground / field validation remain incomplete.
 
-<p align="center"><img src="assets/project-mineguard.png" width="76%" alt="MineGuard software telemetry dashboard"></p>
-
 [Interactive demonstrator](https://mineguard-sih26025.vercel.app) · [Source, architecture and evidence](https://github.com/RONALD-REX-7/sih26025)
 
 ---
 
-## ◈ ADDITIONAL WORK
+## Additional work
 
-| PROJECT | ENGINEERING SCOPE |
+| Project | Scope |
 |:--|:--|
-| **QUARTZSENTRY** | Software demonstrator modelling temperature, electrochemical impedance, acoustic activity and off-gas precursor channels for lithium-ion battery early warning. Displayed signals are synthetic; physical transducer and analogue-front-end integration is incomplete. [Source](https://github.com/RONALD-REX-7/QUARTZSENTRY) |
-| **CLASSY_CS** | Deterministic GPA / CGPA, academic evaluation and admissions-planning engines with documented automated tests. [Source](https://github.com/RONALD-REX-7/CLASSY_CS) |
-| **ProblemChain / RUSH_HOUR_2026** | Collaborative civic-tech hackathon prototype. My documented repository contributions include scaffolding, security remediation, CI, TypeScript fixes and backend hardening. [Contribution record](https://github.com/RONALD-REX-7/RUSH_HOUR_2026) |
-| **todo-rainmeter** | Windows productivity skin using Rainmeter, Lua and PowerShell, with configurable task management and UI behaviour. [Source](https://github.com/RONALD-REX-7/todo-rainmeter) |
+| [QUARTZSENTRY](https://github.com/RONALD-REX-7/QUARTZSENTRY) | Software demonstrator for lithium-ion battery early warning. Displayed telemetry is synthetic; physical transducer and analogue-front-end integration is incomplete. |
+| [CLASSY_CS](https://github.com/RONALD-REX-7/CLASSY_CS) | GPA / CGPA, academic evaluation and admissions-planning engines with documented automated tests. |
+| [ProblemChain / RUSH_HOUR_2026](https://github.com/RONALD-REX-7/RUSH_HOUR_2026) | Collaborative civic-tech hackathon prototype. My documented work includes scaffolding, security remediation, CI, TypeScript fixes and backend hardening. |
+| [todo-rainmeter](https://github.com/RONALD-REX-7/todo-rainmeter) | Windows productivity skin using Rainmeter, Lua and PowerShell. |
 
-### Bare-metal reference driver
+### Bare-metal reference
 
-**ATmega328P Timer1 Fast PWM** — 16-bit Timer1, Mode 14 (ICR1 TOP), non-inverting OC1A output and cycle-aware C implementation for 25 kHz PC fan / 20 kHz motor-drive examples.
+**ATmega328P Timer1 Fast PWM** — 16-bit Timer1, Mode 14 (ICR1 TOP), non-inverting OC1A output and cycle-aware C examples for 25 kHz PC fan / 20 kHz motor-drive use cases.
 
 [Read the public Gist](https://gist.github.com/RONALD-REX-7/4abadd74f1de361fbb809ec717ff5d09)
 
 ---
 
-## ◈ TECHNICAL TOOLKIT
+## Technical toolkit
 
-| DOMAIN | TOOLS / CONCEPTS |
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C">
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino">
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+</p>
+
+| Domain | Tools and concepts |
 |:--|:--|
 | **Microcontrollers & electronics** | Arduino Nano / ATmega328P, ESP32-S3, ARM Cortex-M concepts, sensors, breadboard prototyping |
 | **Embedded firmware** | C, C++, PlatformIO, Arduino CLI, state machines, non-blocking scheduling, interrupts, EEPROM, watchdogs |
@@ -169,17 +176,11 @@ An edge-intelligence concept for mine-subsidence monitoring, developed around Sm
 | **Cloud & application** | AWS, TypeScript, React, Next.js, Node.js, Supabase |
 | **Engineering workflow** | Git, GitHub Actions, Linux, Docker, unit testing, CI, technical documentation |
 
-<img src="https://skillicons.dev/icons?i=c,cpp,arduino,python,typescript,react,nextjs,nodejs,aws,supabase,git,github,docker,linux,vscode" width="100%" alt="Selected engineering tools and technologies">
-
-<sub>These technologies are not all at the same proficiency level. Some are active learning and project-development areas; project descriptions above identify the implemented scope.</sub>
+<sub>Technologies are not all at the same proficiency level. Some are active learning and project-development areas; project descriptions identify implemented scope.</sub>
 
 ---
 
-## ◈ AWS CERTIFICATIONS
-
-<div align="center">
-<img src="assets/credentials-v3.svg" width="100%" alt="AWS certification portfolio">
-</div>
+## AWS certifications
 
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/9176f0c6-a291-4072-a332-55abd5c9b6f8)
 - [AWS Certified AI Practitioner](https://www.credly.com/badges/42dd44ed-6a82-4ee9-8733-e7bc202223b9)
@@ -188,24 +189,28 @@ An edge-intelligence concept for mine-subsidence monitoring, developed around Sm
 
 **NPTEL Cloud Computing** · Elite + Silver · **85%**
 
-[View AWS credentials on Credly](https://www.credly.com/users/ronaldrex) · [AWS Skill Builder profile](https://skillsprofile.skillbuilder.aws/user/ron)
+[Credly credentials](https://www.credly.com/users/ronaldrex) · [AWS Skill Builder profile](https://skillsprofile.skillbuilder.aws/user/ron)
 
 ---
 
-## ◈ GITHUB SIGNAL
+## GitHub activity & recognition
 
-- **Pull Shark** · **Pair Extraordinaire** · **Galaxy Brain** · **Quickdraw** — GitHub achievement milestones.
-- Public repositories spanning embedded firmware, physical robotics, IoT validation tooling, software simulation and cloud-connected prototypes.
+- **Achievements:** Pull Shark · Pair Extraordinaire · Galaxy Brain · Quickdraw.
+- Public repositories across embedded firmware, physical robotics, IoT validation tooling, software simulation and cloud-connected prototypes.
 - Published GitHub Container Registry package and public bare-metal driver Gist.
 - Contributions include collaborative hackathon work, CI automation, documentation, security remediation and project maintenance.
 
 ---
 
-## ◈ EDUCATION & ENGINEERING PRINCIPLES
+## Education
 
 **B.E. Electronics and Communication Engineering**  
 S.A. Engineering College · Chennai, Tamil Nadu, India  
 2024–2028 · Expected graduation: **May 2028**
+
+---
+
+## Engineering principles
 
 - **Understand before abstracting.** Know what the sensor, peripheral or interface is doing.
 - **Verify the boundary.** Separate a successful build, passing software test, bench-tested circuit and field-validated system.
@@ -216,21 +221,14 @@ Interested in collaborations involving **embedded firmware, electronics, robotic
 
 ---
 
-## ◈ CONNECT
-
-<div align="center">
-
-<img src="assets/footer-signal-loop.svg" width="100%" alt="Engineering feedback loop: sense, compute, connect, verify">
+## Connect
 
 **RONALD REX C H** · Chennai, India
 
-[LinkedIn](https://www.linkedin.com/in/ron-rex) ·
-[GitHub](https://github.com/RONALD-REX-7) ·
-[Credly](https://www.credly.com/users/ronaldrex) ·
-[AWS Skill Builder](https://skillsprofile.skillbuilder.aws/user/ron)
+- [LinkedIn](https://www.linkedin.com/in/ron-rex)
+- [GitHub](https://github.com/RONALD-REX-7)
+- [Credly](https://www.credly.com/users/ronaldrex)
+- [AWS Skill Builder](https://skillsprofile.skillbuilder.aws/user/ron)
+- **Email:** [ronaldrexch@gmail.com](mailto:ronaldrexch@gmail.com)
 
-**Email:** [ronaldrexch@gmail.com](mailto:ronaldrexch@gmail.com)
-
-<sub>PEARL WHITE × LAVENDER × SIGNAL BLUE · BUILT CLOSE TO THE HARDWARE</sub>
-
-</div>
+<sub>ENGINEERING FIELD NOTES · BUILT CLOSE TO THE HARDWARE</sub>
